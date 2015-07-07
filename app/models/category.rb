@@ -3,5 +3,5 @@ class Category
 
   property :name
 
-  has_many :in, :included_assets, origin: :categories, model_class: :Asset
+  has_many :in, :assets, origin: :categories
 end
