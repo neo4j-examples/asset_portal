@@ -1,5 +1,7 @@
 == README
 
-This is repo to go along with the `neo4j` gem screencast series by Brian Underwood.  
+This Ruby on Rails app is currently in progress, but it will eventually be a fully functional asset management portal app using Neo4j.
+
+This app also goes along with the `neo4j` gem screencast series by Brian Underwood.
 
 Each episode has a git tag to refer to the final code result so that you can check out and play with the code.
