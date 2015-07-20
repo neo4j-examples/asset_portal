@@ -32,14 +32,18 @@ class Asset
 
   def secret_sauce_recommendations
     query_as(:source)
-      .match('source-[:HAS_CATEGORY]->(category:Category)<-[:HAS_CATEGORY]-(asset:Asset)').break
-      .optional_match('source<-[:CREATED]-(creator:User)-[:CREATED]->asset').break
+      .match('source-[:HAS_CATEGORY]->(category:Category)<-[:HAS_CATEGORY]-(asset:Asset)')
+      .break
+      .optional_match('source<-[:CREATED]-(creator:User)-[:CREATED]->asset')
+      .break
       .optional_match('source<-[:VIEWED]-(viewer:User)-[:VIEWED]->asset')
       .limit(5)
       .order('score DESC')
       .pluck(
         :asset,
-        '(count(category) * 2) + (count(creator) * 4) + (count(viewer) * 0.1) AS score').map do |other_asset, score|
+        '(count(category) * 2) +
+         (count(creator) * 4) +
+         (count(viewer) * 0.1) AS score').map do |other_asset, score|
       SecretSauceRecommendation.new(other_asset, score)
     end
   end

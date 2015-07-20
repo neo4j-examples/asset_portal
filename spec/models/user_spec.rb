@@ -50,7 +50,7 @@ describe 'User' do
 
           it { should_not include(asset) }
 
-          context 'asset is implicitly assigned parent group via the subgroup' do
+          context 'asset is implicitly assigned via the subgroup' do
             before { asset.allowed_groups << sub_group }
 
             it { should include(asset) }
@@ -70,7 +70,6 @@ describe 'User' do
           end
         end
       end
-
     end
   end
 end
