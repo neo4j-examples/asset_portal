@@ -1,3 +1,10 @@
-<% @assets.each do |asset| %>
-  <%= asset.title %>
-<% end %>
+<table>
+  <tr>
+    <th>Name</th>
+  </tr>
+  <% @assets.each do |asset| %>
+    <tr>
+      <td><%= link_to asset.title, asset %></td>
+    </tr>
+  <% end %>
+</table>

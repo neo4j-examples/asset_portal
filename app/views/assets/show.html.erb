@@ -1,0 +1,47 @@
+<h1>Details</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <td><%= @asset.title %></td>
+  </tr>
+
+  <tr>
+    <th>Last created</th>
+    <td><%= @asset.created_at %></td>
+  </tr>
+
+  <tr>
+    <th>Last updated</th>
+    <td><%= @asset.updated_at %></td>
+  </tr>
+
+  <tr>
+    <th>Categories</th>
+    <td>
+      <ul>
+      <% @asset.categories.each do |category| %>
+        <li><%= link_to category.name, category %></li>
+      <% end %>
+      </ul>
+    </td>
+  </tr>
+
+</table>
+
+<h1>Categories</h1>
+
+<h1>Recommendations</h2>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Score</th>
+  </tr>
+<% @asset.secret_sauce_recommendations.each do |recommendation| %>
+  <tr>
+    <td><%= link_to recommendation.asset.title, recommendation.asset %></td>
+    <td><%= recommendation.score %></td>
+  </tr>
+<% end %>
+</table>

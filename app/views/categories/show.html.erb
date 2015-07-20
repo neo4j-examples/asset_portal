@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Assets</h1>
+
+<ul>
+  <% @category.assets.each do |asset| %>
+    <li><%= link_to asset.title, asset %></li>
+  <% end %>
+</ul>
