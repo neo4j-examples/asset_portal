@@ -1,4 +1,8 @@
 
+# Couldn't find a good way to tighten Asset#secret_sauce_recommendations
+Metrics/LineLength:
+  Max: 91
+
 #---------------------------
 # Style configuration
 #---------------------------
