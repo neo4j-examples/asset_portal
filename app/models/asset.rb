@@ -48,7 +48,7 @@ class Asset
     end
   end
 
-  def visible_to(user)
+  def self.visible_to(user)
     query_as(:asset)
       .match_nodes(user: user)
       .where("

@@ -1,11 +1,11 @@
 require 'rails_helper'
 
 describe 'User' do
-  describe '#accessible_assets' do
+  describe '#viewable_assets' do
     before { delete_db }
 
     let(:user) { User.create }
-    subject { user.accessible_assets }
+    subject { user.viewable_assets }
 
     context 'a public asset' do
       let(:asset) { Asset.create(public: true) }
