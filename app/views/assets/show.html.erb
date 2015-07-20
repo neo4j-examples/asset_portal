@@ -1,0 +1,46 @@
+<h1>Details</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <td><%= @asset.title %></td>
+  </tr>
+
+  <tr>
+    <th>Last created</th>
+    <td><%= @asset.created_at %></td>
+  </tr>
+
+  <tr>
+    <th>Last updated</th>
+    <td><%= @asset.updated_at %></td>
+  </tr>
+
+  <tr>
+    <th>Keywords</th>
+    <td><%= @asset.keywords.map(&:name).to_sentence %></td>
+  </tr>
+
+  <tr>
+    <th>Use cases</th>
+    <td><%= @asset.use_cases.map(&:name).to_sentence %></td>
+  </tr>
+</table>
+
+<h1>Recommendations by category</h2>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Categories in Common</th>
+    <th>Score</th>
+  </tr>
+<%# @asset.asset_recommendations_by_category.each do |recommendation| %>
+<% @asset.secret_sauce_recommendations.each do |recommendation| %>
+  <tr>
+    <td><%= link_to recommendation.asset.title, recommendation.asset %></td>
+    <td><%= recommendation.categories.map(&:name).to_sentence if recommendation.categories %></td>
+    <td><%= recommendation.score %></td>
+  </tr>
+<% end %>
+</table>
