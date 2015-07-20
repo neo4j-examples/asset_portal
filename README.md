@@ -10,10 +10,11 @@ This `sitepoint` branch of the repository has been left for you to examine as a 
 
  1. Clone this repository
  2. Checkout this branch: `git checkout sitepoint`
- 3. Install Neo4j: `rake neo4j:install[community-latest]
- 4. Start Neo4j: `rake neo4j:start`
- 5. Load the sample data: `rake load_sample_data`
- 6. Visit [http://localhost:3000/assets](http://localhost:3000/assets)
- 7. Load a rails console with `rails c` to try out making your own queries
- 8. Visit the Neo4j web console if you want to browse the data with Cypher [http://localhost:7474](http://localhost:7474)
+ 3. Run `bundle install`
+ 4. Install Neo4j: `rake neo4j:install[community-latest]`
+ 5. Start Neo4j: `rake neo4j:start`
+ 6. Load the sample data: `rake load_sample_data`
+ 7. Run a server with `rails server` and visit [http://localhost:3000/assets](http://localhost:3000/assets)
+ 8. Load a rails console with `rails console` to try out making your own queries
+ 9. Visit the Neo4j web console if you want to browse the data with Cypher [http://localhost:7474](http://localhost:7474)
 
