@@ -7,4 +7,11 @@ class Category
   property :updated_at
 
   has_many :in, :assets, origin: :categories
+
+  scope :ordered, -> { order(:name) }
+
+  def self.most_recently_updated
+    all.order(:updated_at).last
+  end
+
 end
