@@ -1,6 +1,6 @@
 class AssetsController < ApplicationController
   def index
-    @assets = Asset.all
+    @assets = Asset.all.with_associations(:categories)
   end
 
   def show

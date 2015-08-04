@@ -1,9 +1,7 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Assets</h1>
+<%= link_to 'Return to asset list', assets_path %>
 
-<ul>
-  <% @category.assets.each do |asset| %>
-    <li><%= link_to asset.title, asset %></li>
-  <% end %>
-</ul>
+<h1>Assets for category: <%= @category.name %></h1>
+
+<%= render partial: 'assets/table', locals: {assets: @category.assets} %>

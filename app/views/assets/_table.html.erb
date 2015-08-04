@@ -1,0 +1,24 @@
+<table class="ui celled table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Public?</th>
+      <th>Categories</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% assets.each do |asset| %>
+      <tr>
+        <td><%= link_to asset.title, asset %></td>
+        <td><i class="<%= asset.public ? 'checkmark green' : 'remove red' %> icon"></i></td>
+        <td>
+          <ul class="ui relaxed divided list">
+            <% asset.categories.each do |category| %>
+              <li class="item"><%= link_to category.name, category %></li>
+            <% end %>
+          </ul>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
