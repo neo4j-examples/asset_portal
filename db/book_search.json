@@ -1,0 +1,7217 @@
+{
+ "start": 0,
+ "num_found": 331,
+ "numFound": 331,
+ "docs": [
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL21385120M",
+    "OL5687805M",
+    "OL18789030M",
+    "OL7407411M"
+   ],
+   "cover_i": 134772,
+   "isbn": [
+    "9780201410334",
+    "0201410338"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL21385120M",
+    "OL5687805M",
+    "OL18789030M",
+    "OL7407411M",
+    "9780201410334",
+    "0201410338",
+    "Frank Harary",
+    "OL1697074A",
+    "Graph theory",
+    "Frank Harary.",
+    "Graph theory",
+    "/works/OL6420949W",
+    "Westview Press",
+    "Addison-Wesley Pub. Co.",
+    "Addison-Wesley",
+    "Graph Theory",
+    "Graph theory.",
+    "69019989",
+    "It is no coincidence that graph theory has been independently discovered many times, since it may quite properly be regarded as an area of applied mathematics"
+   ],
+   "author_name": [
+    "Frank Harary"
+   ],
+   "seed": [
+    "/books/OL21385120M",
+    "/books/OL5687805M",
+    "/books/OL18789030M",
+    "/books/OL7407411M",
+    "/works/OL6420949W",
+    "/subjects/graph_theory",
+    "/authors/OL1697074A"
+   ],
+   "author_key": [
+    "OL1697074A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "1969",
+    "November 1, 1994",
+    "1972"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Reading, Mass",
+    "Reading, Massachusetts"
+   ],
+   "edition_count": 4,
+   "key": "/works/OL6420949W",
+   "id_goodreads": [
+    "1211193"
+   ],
+   "publisher": [
+    "Westview Press",
+    "Addison-Wesley Pub. Co.",
+    "Addison-Wesley"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "69019989"
+   ],
+   "last_modified_i": 1291432609,
+   "id_librarything": [
+    "198678"
+   ],
+   "cover_edition_key": "OL7407411M",
+   "first_sentence": [
+    "It is no coincidence that graph theory has been independently discovered many times, since it may quite properly be regarded as an area of applied mathematics"
+   ],
+   "publish_year": [
+    1972,
+    1969,
+    1994
+   ],
+   "first_publish_year": 1969
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL3170064M",
+    "OL2575982M",
+    "OL7754326M"
+   ],
+   "cover_i": 355837,
+   "isbn": [
+    "9780521794893",
+    "0201135205",
+    "0521302412",
+    "9780521302418",
+    "0521794897",
+    "9780201135206"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL3170064M",
+    "OL2575982M",
+    "OL7754326M",
+    "9780521794893",
+    "0201135205",
+    "0521302412",
+    "9780521302418",
+    "0521794897",
+    "9780201135206",
+    "W. T. Tutte",
+    "Crispin St. J. A. Nash-Williams (Foreword)",
+    "OL295041A",
+    "Graph theory",
+    "W.T. Tutte ; foreword by Crispin St. J.A. Nash-Williams.",
+    "Graph theory",
+    "/works/OL2264664W",
+    "Addison-Wesley Pub. Co., Advanced Book Program",
+    "Cambridge University Press",
+    "Graph Theory",
+    "83012210",
+    "85121616",
+    "In this section we give a formal definition of a graph and introduce some of the basic terminology of graph theory."
+   ],
+   "author_name": [
+    "W. T. Tutte"
+   ],
+   "seed": [
+    "/books/OL3170064M",
+    "/books/OL2575982M",
+    "/books/OL7754326M",
+    "/works/OL2264664W",
+    "/subjects/graph_theory",
+    "/authors/OL295041A"
+   ],
+   "contributor": [
+    "Crispin St. J. A. Nash-Williams (Foreword)"
+   ],
+   "author_key": [
+    "OL295041A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "1984",
+    "March 1, 2001"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York, NY, USA",
+    "Menlo Park, Calif",
+    "Cambridge [Cambridgeshire]"
+   ],
+   "edition_count": 3,
+   "key": "/works/OL2264664W",
+   "id_goodreads": [
+    "4752270",
+    "2107312",
+    "2356607"
+   ],
+   "publisher": [
+    "Addison-Wesley Pub. Co., Advanced Book Program",
+    "Cambridge University Press"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "83012210",
+    "85121616"
+   ],
+   "last_modified_i": 1281074147,
+   "id_librarything": [
+    "1583242"
+   ],
+   "cover_edition_key": "OL7754326M",
+   "first_sentence": [
+    "In this section we give a formal definition of a graph and introduce some of the basic terminology of graph theory."
+   ],
+   "publish_year": [
+    1984,
+    2001
+   ],
+   "first_publish_year": 1984
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL4407527M",
+    "OL16828654M"
+   ],
+   "isbn": [
+    "0387903992",
+    "9780387903996"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL4407527M",
+    "OL16828654M",
+    "0387903992",
+    "9780387903996",
+    "B\u00e9la Bollob\u00e1s",
+    "OL19415A",
+    "an introductory course",
+    "Graph theory",
+    "B\u00e9la Bollob\u00e1s.",
+    "Graph theory",
+    "/works/OL38353W",
+    "Springer Verlag",
+    "79010720"
+   ],
+   "author_name": [
+    "B\u00e9la Bollob\u00e1s"
+   ],
+   "seed": [
+    "/books/OL4407527M",
+    "/books/OL16828654M",
+    "/works/OL38353W",
+    "/subjects/graph_theory",
+    "/authors/OL19415A"
+   ],
+   "author_key": [
+    "OL19415A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "1979"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York"
+   ],
+   "edition_count": 2,
+   "key": "/works/OL38353W",
+   "id_goodreads": [
+    "1390267"
+   ],
+   "publisher": [
+    "Springer Verlag"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "79010720"
+   ],
+   "last_modified_i": 1291395489,
+   "id_librarything": [
+    "939121"
+   ],
+   "publish_year": [
+    1979
+   ],
+   "first_publish_year": 1979
+  },
+  {
+   "title_suggest": "Introduction to graph theory",
+   "edition_key": [
+    "OL5321811M",
+    "OL5302749M",
+    "OL13586390M",
+    "OL4426356M",
+    "OL2860566M",
+    "OL2722570M",
+    "OL22603026M",
+    "OL15611624M",
+    "OL7880016M"
+   ],
+   "cover_i": 381120,
+   "isbn": [
+    "9780127578521",
+    "9780582249936",
+    "0850025341",
+    "9780470206164",
+    "0470206160",
+    "0582446856",
+    "0582249937",
+    "0127578528",
+    "0127578501",
+    "0582443970",
+    "9780582446854",
+    "9780582443976",
+    "9780127578507"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL5321811M",
+    "OL5302749M",
+    "OL13586390M",
+    "OL4426356M",
+    "OL2860566M",
+    "OL2722570M",
+    "OL22603026M",
+    "OL15611624M",
+    "OL7880016M",
+    "9780127578521",
+    "9780582249936",
+    "0850025341",
+    "9780470206164",
+    "0470206160",
+    "0582446856",
+    "0582249937",
+    "0127578528",
+    "0127578501",
+    "0582443970",
+    "9780582446854",
+    "9780582443976",
+    "9780127578507",
+    "Robin J. Wilson",
+    "34514237",
+    "introductiontogr00wils",
+    "introductiontogr00wils_382",
+    "OL1009477A",
+    "Graphes, Th\u00e9orie des",
+    "Graphentheorie",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "Introduction to graph theory",
+    "/works/OL4797133W",
+    "[by] Robin J. Wilson.",
+    "Robin J. Wilson.",
+    "Wilson Robin J.",
+    "Longman",
+    "Longman Scientific & Technical",
+    "Wiley",
+    "Addison Wesley",
+    "Academic Press",
+    "Oliver and Boyd",
+    "Introduction to Graph Theory (4th Edition)",
+    "Introduction To Graph Theory",
+    "86016113",
+    "84023354",
+    "72172320",
+    "72084885",
+    "79050042"
+   ],
+   "author_name": [
+    "Robin J. Wilson"
+   ],
+   "ia_loaded_id": [
+    "introductiontogr00wils"
+   ],
+   "seed": [
+    "/books/OL5321811M",
+    "/books/OL5302749M",
+    "/books/OL13586390M",
+    "/books/OL4426356M",
+    "/books/OL2860566M",
+    "/books/OL2722570M",
+    "/books/OL22603026M",
+    "/books/OL15611624M",
+    "/books/OL7880016M",
+    "/works/OL4797133W",
+    "/subjects/graph_theory",
+    "/subjects/graphes_th\u00e9orie_des",
+    "/subjects/graphentheorie",
+    "/subjects/protected_daisy",
+    "/subjects/accessible_book",
+    "/authors/OL1009477A"
+   ],
+   "oclc": [
+    "34514237"
+   ],
+   "ia": [
+    "introductiontogr00wils",
+    "introductiontogr00wils_382"
+   ],
+   "author_key": [
+    "OL1009477A"
+   ],
+   "subject": [
+    "Graphes, Th\u00e9orie des",
+    "Graphentheorie",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY"
+   ],
+   "title": "Introduction to graph theory",
+   "lending_identifier_s": "introductiontogr00wils",
+   "ia_collection_s": "printdisabled;china;internetarchivebooks;librarygenesis;browserlending;inlibrary",
+   "printdisabled_s": "OL7880016M;OL5302749M",
+   "type": "work",
+   "ebook_count_i": 2,
+   "publish_place": [
+    "Edinburgh",
+    "Burnt Mill, Harlow, Essex, England",
+    "Harlow, Essex, England",
+    "New York",
+    "London",
+    "Harlow"
+   ],
+   "ia_box_id": [
+    "IA118720"
+   ],
+   "edition_count": 9,
+   "first_publish_year": 1972,
+   "key": "/works/OL4797133W",
+   "id_goodreads": [
+    "1902004",
+    "4922053",
+    "1501174",
+    "746771"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "Longman",
+    "Longman Scientific & Technical",
+    "Wiley",
+    "Addison Wesley",
+    "Academic Press",
+    "Oliver and Boyd"
+   ],
+   "language": [
+    "und",
+    "eng"
+   ],
+   "lccn": [
+    "86016113",
+    "84023354",
+    "72172320",
+    "72084885",
+    "79050042"
+   ],
+   "last_modified_i": 1406807207,
+   "lending_edition_s": "OL5302749M",
+   "id_librarything": [
+    "705606"
+   ],
+   "cover_edition_key": "OL7880016M",
+   "publish_year": [
+    1985,
+    1972,
+    1979,
+    1996
+   ],
+   "publish_date": [
+    "May 2, 1996",
+    "1985",
+    "1972",
+    "1979",
+    "1996"
+   ]
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL16993984M"
+   ],
+   "isbn": [
+    "0471389250",
+    "9780471389255"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL16993984M",
+    "0471389250",
+    "9780471389255",
+    "Russell Merris",
+    "OL92203A",
+    "Graph theory",
+    "Russell Merris",
+    "Graph theory",
+    "/works/OL993671W",
+    "John Wiley",
+    "00036785"
+   ],
+   "author_name": [
+    "Russell Merris"
+   ],
+   "seed": [
+    "/books/OL16993984M",
+    "/works/OL993671W",
+    "/subjects/graph_theory",
+    "/authors/OL92203A"
+   ],
+   "author_key": [
+    "OL92203A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "2001"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL993671W",
+   "id_goodreads": [
+    "5784800"
+   ],
+   "publisher": [
+    "John Wiley"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "00036785"
+   ],
+   "last_modified_i": 1291396673,
+   "publish_year": [
+    2001
+   ],
+   "first_publish_year": 2001
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL5045504M"
+   ],
+   "cover_i": 4467185,
+   "isbn": [
+    "9780121743505",
+    "0121743500"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL5045504M",
+    "9780121743505",
+    "0121743500",
+    "Nicos Christofides",
+    "OL1958880A",
+    "an algorithmic approach",
+    "Graph theory",
+    "Nicos Christofides.",
+    "Graph theory",
+    "Data processing",
+    "/works/OL7003477W",
+    "Academic Press",
+    "74005664"
+   ],
+   "author_name": [
+    "Nicos Christofides"
+   ],
+   "seed": [
+    "/books/OL5045504M",
+    "/works/OL7003477W",
+    "/subjects/data_processing",
+    "/subjects/graph_theory",
+    "/authors/OL1958880A"
+   ],
+   "author_key": [
+    "OL1958880A"
+   ],
+   "subject": [
+    "Graph theory",
+    "Data processing"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "1975"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL7003477W",
+   "id_goodreads": [
+    "4634541"
+   ],
+   "publisher": [
+    "Academic Press"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "74005664"
+   ],
+   "last_modified_i": 1291541567,
+   "id_librarything": [
+    "1294002"
+   ],
+   "cover_edition_key": "OL5045504M",
+   "publish_year": [
+    1975
+   ],
+   "first_publish_year": 1975
+  },
+  {
+   "title_suggest": "Graph Theory",
+   "edition_key": [
+    "OL7448140M"
+   ],
+   "isbn": [
+    "0387903992",
+    "9780387903996"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL7448140M",
+    "0387903992",
+    "9780387903996",
+    "Bela Bollobas",
+    "graphtheoryintro00boll",
+    "OL2646740A",
+    "An Introductory Course (Graduate Texts in Mathematics)",
+    "Graph Theory",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "/works/OL7938886W",
+    "Springer"
+   ],
+   "author_name": [
+    "Bela Bollobas"
+   ],
+   "seed": [
+    "/books/OL7448140M",
+    "/works/OL7938886W",
+    "/subjects/graph_theory",
+    "/authors/OL2646740A"
+   ],
+   "ia": [
+    "graphtheoryintro00boll"
+   ],
+   "author_key": [
+    "OL2646740A"
+   ],
+   "subject": [
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY"
+   ],
+   "title": "Graph Theory",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "first_publish_year": 1990,
+   "type": "work",
+   "ebook_count_i": 1,
+   "printdisabled_s": "OL7448140M",
+   "edition_count": 1,
+   "key": "/works/OL7938886W",
+   "id_goodreads": [
+    "1390267"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "Springer"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1406564366,
+   "id_librarything": [
+    "939121"
+   ],
+   "publish_year": [
+    1990
+   ],
+   "publish_date": [
+    "March 21, 1990"
+   ]
+  },
+  {
+   "title_suggest": "Graph Theory",
+   "publisher": [
+    "John Wiley & Sons Inc"
+   ],
+   "isbn": [
+    "0471579505",
+    "9780471579502"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "edition_key": [
+    "OL7619101M"
+   ],
+   "last_modified_i": 1272118860,
+   "title": "Graph Theory",
+   "author_name": [
+    "Wataru Mayeda"
+   ],
+   "seed": [
+    "/books/OL7619101M",
+    "/works/OL7953951W",
+    "/authors/OL2654092A"
+   ],
+   "first_publish_year": 1972,
+   "publish_year": [
+    1972
+   ],
+   "key": "/works/OL7953951W",
+   "text": [
+    "OL7619101M",
+    "0471579505",
+    "9780471579502",
+    "Wataru Mayeda",
+    "OL2654092A",
+    "Graph Theory",
+    "/works/OL7953951W",
+    "John Wiley & Sons Inc"
+   ],
+   "id_goodreads": [
+    "1311034"
+   ],
+   "publish_date": [
+    "August 2, 1972"
+   ],
+   "author_key": [
+    "OL2654092A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Graph Theory",
+   "publisher": [
+    "Mathematical Association"
+   ],
+   "isbn": [
+    "9780906588130",
+    "0906588138"
+   ],
+   "has_fulltext": false,
+   "edition_count": 1,
+   "edition_key": [
+    "OL9888636M"
+   ],
+   "last_modified_i": 1260837640,
+   "title": "Graph Theory",
+   "author_name": [
+    "Derek Holton"
+   ],
+   "seed": [
+    "/books/OL9888636M",
+    "/works/OL8058794W",
+    "/authors/OL2683469A"
+   ],
+   "first_publish_year": 1990,
+   "publish_year": [
+    1990
+   ],
+   "key": "/works/OL8058794W",
+   "text": [
+    "OL9888636M",
+    "9780906588130",
+    "0906588138",
+    "Derek Holton",
+    "OL2683469A",
+    "Graph Theory",
+    "/works/OL8058794W",
+    "Mathematical Association"
+   ],
+   "publish_date": [
+    "July 1, 1990"
+   ],
+   "author_key": [
+    "OL2683469A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Graph Theory",
+   "edition_key": [
+    "OL8282276M"
+   ],
+   "cover_i": 649647,
+   "isbn": [
+    "9780852742228",
+    "0852742223"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL8282276M",
+    "9780852742228",
+    "0852742223",
+    "B Andrasfai",
+    "OL2916241A",
+    "Flows, Matrices",
+    "Graph Theory",
+    "/works/OL8649157W",
+    "Taylor & Francis"
+   ],
+   "author_name": [
+    "B Andrasfai"
+   ],
+   "seed": [
+    "/books/OL8282276M",
+    "/works/OL8649157W",
+    "/authors/OL2916241A"
+   ],
+   "author_key": [
+    "OL2916241A"
+   ],
+   "title": "Graph Theory",
+   "publish_date": [
+    "January 1, 1991"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "edition_count": 1,
+   "key": "/works/OL8649157W",
+   "id_goodreads": [
+    "5941932"
+   ],
+   "publisher": [
+    "Taylor & Francis"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1281399191,
+   "id_librarything": [
+    "393381"
+   ],
+   "cover_edition_key": "OL8282276M",
+   "publish_year": [
+    1991
+   ],
+   "first_publish_year": 1991
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL17207534M"
+   ],
+   "isbn": [
+    "9780131423848",
+    "0131423843"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL17207534M",
+    "9780131423848",
+    "0131423843",
+    "Geir Agnarsson",
+    "Greenlaw, Raymond",
+    "OL3367476A",
+    "modeling, applications, and algorithms",
+    "Graph theory",
+    "Geir Agnarsson, Raymond Greenlaw",
+    "Graph theory",
+    "Algorithms",
+    "/works/OL9319346W",
+    "Pearson/Prentice Hall"
+   ],
+   "author_name": [
+    "Geir Agnarsson"
+   ],
+   "seed": [
+    "/books/OL17207534M",
+    "/works/OL9319346W",
+    "/subjects/algorithms",
+    "/subjects/graph_theory",
+    "/authors/OL3367476A"
+   ],
+   "contributor": [
+    "Greenlaw, Raymond"
+   ],
+   "author_key": [
+    "OL3367476A"
+   ],
+   "subject": [
+    "Graph theory",
+    "Algorithms"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "2007"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Upper Saddle River, N.J"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL9319346W",
+   "id_goodreads": [
+    "1186666"
+   ],
+   "publisher": [
+    "Pearson/Prentice Hall"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1291398075,
+   "id_librarything": [
+    "7650633"
+   ],
+   "publish_year": [
+    2007
+   ],
+   "first_publish_year": 2007
+  },
+  {
+   "title_suggest": "Graph Theory",
+   "edition_key": [
+    "OL10081547M"
+   ],
+   "isbn": [
+    "9780131423848",
+    "0131423843"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL10081547M",
+    "9780131423848",
+    "0131423843",
+    "Geir Agnarsson",
+    "Raymond Greenlaw",
+    "OL3367476A",
+    "OL221359A",
+    "Modeling, Applications, and Algorithms",
+    "Graph Theory",
+    "Graph Theory",
+    "Programming - Algorithms",
+    "Discrete Mathematics (Computer Science)",
+    "Applied mathematics",
+    "Combinatorics",
+    "Mathematics / Advanced",
+    "Textbooks",
+    "Advanced",
+    "Mathematics",
+    "Science/Mathematics",
+    "Combinatorics & graph theory",
+    "Computer Science",
+    "/works/OL10081547M",
+    "Prentice Hall"
+   ],
+   "author_name": [
+    "Geir Agnarsson",
+    "Raymond Greenlaw"
+   ],
+   "seed": [
+    "/books/OL10081547M",
+    "/works/OL10081547M",
+    "/subjects/applied_mathematics",
+    "/subjects/combinatorics_&_graph_theory",
+    "/subjects/discrete_mathematics_(computer_science)",
+    "/subjects/graph_theory",
+    "/subjects/mathematics",
+    "/subjects/textbooks",
+    "/subjects/science/mathematics",
+    "/subjects/advanced",
+    "/subjects/mathematics_/_advanced",
+    "/subjects/combinatorics",
+    "/subjects/computer_science",
+    "/subjects/programming_-_algorithms",
+    "/authors/OL3367476A",
+    "/authors/OL221359A"
+   ],
+   "author_key": [
+    "OL3367476A",
+    "OL221359A"
+   ],
+   "subject": [
+    "Graph Theory",
+    "Programming - Algorithms",
+    "Discrete Mathematics (Computer Science)",
+    "Applied mathematics",
+    "Combinatorics",
+    "Mathematics / Advanced",
+    "Textbooks",
+    "Advanced",
+    "Mathematics",
+    "Science/Mathematics",
+    "Combinatorics & graph theory",
+    "Computer Science"
+   ],
+   "title": "Graph Theory",
+   "publish_date": [
+    "October 2, 2006"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "edition_count": 1,
+   "key": "/works/OL10081547M",
+   "id_goodreads": [
+    "1186666"
+   ],
+   "publisher": [
+    "Prentice Hall"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1419576670,
+   "id_librarything": [
+    "7650633"
+   ],
+   "cover_edition_key": "OL10081547M",
+   "publish_year": [
+    2006
+   ],
+   "first_publish_year": 2006
+  },
+  {
+   "title_suggest": "Graph Theory",
+   "publisher": [
+    "Everyday Learning Corporation"
+   ],
+   "isbn": [
+    "9780939765096",
+    "0939765098"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "edition_key": [
+    "OL11536083M"
+   ],
+   "last_modified_i": 1419575394,
+   "title": "Graph Theory",
+   "subject": [
+    "Children's Books/Young Adult Misc. Nonfiction",
+    "Graphic Methods",
+    "Science/Mathematics",
+    "Graph Theory"
+   ],
+   "author_name": [
+    "Wayne Copes",
+    "Clifford Sloyer",
+    "Robert Stark",
+    "William Sacco"
+   ],
+   "seed": [
+    "/books/OL11536083M",
+    "/works/OL11536083M",
+    "/subjects/graphic_methods",
+    "/subjects/children's_books/young_adult_misc._nonfiction",
+    "/subjects/graph_theory",
+    "/subjects/science/mathematics",
+    "/authors/OL2961284A",
+    "/authors/OL2961285A",
+    "/authors/OL2961286A",
+    "/authors/OL2961283A"
+   ],
+   "first_publish_year": 1987,
+   "publish_year": [
+    1987
+   ],
+   "key": "/works/OL11536083M",
+   "text": [
+    "OL11536083M",
+    "9780939765096",
+    "0939765098",
+    "Wayne Copes",
+    "Clifford Sloyer",
+    "Robert Stark",
+    "William Sacco",
+    "OL2961284A",
+    "OL2961285A",
+    "OL2961286A",
+    "OL2961283A",
+    "Euler's Rich Legacy (Contemporary Applied Mathematics)",
+    "Graph Theory",
+    "Children's Books/Young Adult Misc. Nonfiction",
+    "Graphic Methods",
+    "Science/Mathematics",
+    "Graph Theory",
+    "/works/OL11536083M",
+    "Everyday Learning Corporation"
+   ],
+   "id_goodreads": [
+    "3001166"
+   ],
+   "publish_date": [
+    "June 1987"
+   ],
+   "author_key": [
+    "OL2961284A",
+    "OL2961285A",
+    "OL2961286A",
+    "OL2961283A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL2030543M"
+   ],
+   "isbn": [
+    "9780805360301",
+    "0805360301"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL2030543M",
+    "9780805360301",
+    "0805360301",
+    "Ronald Gould",
+    "OL947006A",
+    "Graph theory",
+    "Ronald Gould.",
+    "Graph theory",
+    "/works/OL4617810W",
+    "Benjamin/Cummings Pub. Co.",
+    "88006049"
+   ],
+   "author_name": [
+    "Ronald Gould"
+   ],
+   "seed": [
+    "/books/OL2030543M",
+    "/works/OL4617810W",
+    "/subjects/graph_theory",
+    "/authors/OL947006A"
+   ],
+   "author_key": [
+    "OL947006A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "1988"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Menlo Park, Calif"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL4617810W",
+   "id_goodreads": [
+    "4339102"
+   ],
+   "publisher": [
+    "Benjamin/Cummings Pub. Co."
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "88006049"
+   ],
+   "last_modified_i": 1291477561,
+   "id_librarything": [
+    "1442313"
+   ],
+   "publish_year": [
+    1988
+   ],
+   "first_publish_year": 1988
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL2054090M"
+   ],
+   "cover_i": 649646,
+   "isbn": [
+    "9780852742228",
+    "0852742223"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL2054090M",
+    "9780852742228",
+    "0852742223",
+    "Andr\u00e1sfai, B\u00e9la.",
+    "OL953821A",
+    "flows, matrices",
+    "Graph theory",
+    "B\u00e9la Andr\u00e1sfai.",
+    "Graph theory",
+    "Matrices",
+    "/works/OL4643384W",
+    "Akad\u00e9miai Kiad\u00f3",
+    "A. Hilger",
+    "88032072"
+   ],
+   "author_name": [
+    "Andr\u00e1sfai, B\u00e9la."
+   ],
+   "seed": [
+    "/books/OL2054090M",
+    "/works/OL4643384W",
+    "/subjects/graph_theory",
+    "/subjects/matrices",
+    "/authors/OL953821A"
+   ],
+   "author_key": [
+    "OL953821A"
+   ],
+   "subject": [
+    "Graph theory",
+    "Matrices"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "1989"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Budapest",
+    "Philadelphia, USA"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL4643384W",
+   "id_goodreads": [
+    "5941932"
+   ],
+   "publisher": [
+    "Akad\u00e9miai Kiad\u00f3",
+    "A. Hilger"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "88032072"
+   ],
+   "last_modified_i": 1291478279,
+   "id_librarything": [
+    "393381"
+   ],
+   "cover_edition_key": "OL2054090M",
+   "publish_year": [
+    1989
+   ],
+   "first_publish_year": 1989
+  },
+  {
+   "title_suggest": "Graph theory",
+   "publisher": [
+    "Springer"
+   ],
+   "isbn": [
+    "0387126872",
+    "9780387126876"
+   ],
+   "has_fulltext": false,
+   "id_goodreads": [
+    "4790118"
+   ],
+   "edition_count": 1,
+   "edition_key": [
+    "OL7443253M"
+   ],
+   "last_modified_i": 1325057297,
+   "title": "Graph theory",
+   "language": [
+    "eng"
+   ],
+   "seed": [
+    "/books/OL7443253M",
+    "/works/OL16351173W",
+    "/subjects/graph_theory",
+    "/subjects/congresses"
+   ],
+   "first_publish_year": 1983,
+   "publish_year": [
+    1983
+   ],
+   "key": "/works/OL16351173W",
+   "text": [
+    "OL7443253M",
+    "0387126872",
+    "9780387126876",
+    "M. M. Systo (Editor)",
+    "Lecture Notes in Mathematics, Vol 1018 (Lecture Notes in Mathematics)",
+    "Graph theory",
+    "Graph theory",
+    "Congresses",
+    "/works/OL16351173W",
+    "Springer",
+    "Graph Theory: Proceedings of a Conference Held in Lagow, Poland, February 10-13, 1981 "
+   ],
+   "contributor": [
+    "M. M. Systo (Editor)"
+   ],
+   "publish_date": [
+    "December 1983"
+   ],
+   "subject": [
+    "Graph theory",
+    "Congresses"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Graph theory;",
+   "edition_key": [
+    "OL12110159M"
+   ],
+   "subtitle": "Or, How to connect the dots (Modules in mathematics)",
+   "has_fulltext": false,
+   "text": [
+    "OL12110159M",
+    "Or, How to connect the dots (Modules in mathematics)",
+    "Steven Roman",
+    "31259405",
+    "9781878015044",
+    "1878015044",
+    "OL183710A",
+    "Graph theory;",
+    "/works/OL1646162W",
+    "Innovative Textbooks"
+   ],
+   "author_name": [
+    "Steven Roman"
+   ],
+   "seed": [
+    "/books/OL12110159M",
+    "/works/OL1646162W",
+    "/authors/OL183710A"
+   ],
+   "oclc": [
+    "31259405"
+   ],
+   "isbn": [
+    "9781878015044",
+    "1878015044"
+   ],
+   "author_key": [
+    "OL183710A"
+   ],
+   "title": "Graph theory;",
+   "publish_date": [
+    "1990"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "edition_count": 1,
+   "key": "/works/OL1646162W",
+   "publisher": [
+    "Innovative Textbooks"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1304067329,
+   "id_librarything": [
+    "9682367"
+   ],
+   "publish_year": [
+    1990
+   ],
+   "first_publish_year": 1990
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL25384392M"
+   ],
+   "isbn": [
+    "0486498069",
+    "9780486498065"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "lccn": [
+    "2012022298"
+   ],
+   "last_modified_i": 1343223412,
+   "title": "Graph theory",
+   "subject": [
+    "MATHEMATICS / Discrete Mathematics",
+    "Graph theory"
+   ],
+   "author_name": [
+    "Ronald Gould"
+   ],
+   "seed": [
+    "/books/OL25384392M",
+    "/works/OL16714498W",
+    "/subjects/mathematics_/_discrete_mathematics",
+    "/subjects/graph_theory",
+    "/authors/OL947006A"
+   ],
+   "first_publish_year": 2012,
+   "publish_year": [
+    2012
+   ],
+   "key": "/works/OL16714498W",
+   "text": [
+    "OL25384392M",
+    "0486498069",
+    "9780486498065",
+    "Ronald Gould",
+    "OL947006A",
+    "Graph theory",
+    "Ronald Gould",
+    "MATHEMATICS / Discrete Mathematics",
+    "Graph theory",
+    "/works/OL16714498W",
+    "2012022298"
+   ],
+   "publish_date": [
+    "2012"
+   ],
+   "author_key": [
+    "OL947006A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL23164461M"
+   ],
+   "isbn": [
+    "0883857537",
+    "9780883857533"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL23164461M",
+    "0883857537",
+    "9780883857533",
+    "Daniel A. Marcus",
+    "Mathematical Association of America.",
+    "OL246182A",
+    "a problem oriented approach",
+    "Graph theory",
+    "Daniel A. Marcus.",
+    "/works/OL2035412W",
+    "Mathematical Association of America",
+    "2008922013"
+   ],
+   "author_name": [
+    "Daniel A. Marcus"
+   ],
+   "seed": [
+    "/books/OL23164461M",
+    "/works/OL2035412W",
+    "/authors/OL246182A"
+   ],
+   "contributor": [
+    "Mathematical Association of America."
+   ],
+   "author_key": [
+    "OL246182A"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "2008"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Washington, D.C"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL2035412W",
+   "id_goodreads": [
+    "4851845"
+   ],
+   "publisher": [
+    "Mathematical Association of America"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "2008922013"
+   ],
+   "last_modified_i": 1282218901,
+   "id_librarything": [
+    "8454563"
+   ],
+   "publish_year": [
+    2008
+   ],
+   "first_publish_year": 2008
+  },
+  {
+   "title_suggest": "Graph theory",
+   "publisher": [
+    "Pitman"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "edition_key": [
+    "OL19664974M"
+   ],
+   "last_modified_i": 1264379424,
+   "title": "Graph theory",
+   "author_name": [
+    "Shimon EVEN"
+   ],
+   "seed": [
+    "/books/OL19664974M",
+    "/works/OL12844620W",
+    "/authors/OL5792254A"
+   ],
+   "first_publish_year": 1979,
+   "publish_year": [
+    1979
+   ],
+   "key": "/works/OL12844620W",
+   "text": [
+    "OL19664974M",
+    "Shimon EVEN",
+    "OL5792254A",
+    "Graph theory",
+    "Shimon Even.",
+    "/works/OL12844620W",
+    "Pitman"
+   ],
+   "publish_date": [
+    "1979"
+   ],
+   "author_key": [
+    "OL5792254A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Graph theory",
+   "publish_place": [
+    "New York, NY"
+   ],
+   "edition_key": [
+    "OL19832547M"
+   ],
+   "author_key": [
+    "OL5836035A"
+   ],
+   "isbn": [
+    "0387903992",
+    "9780387903996"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "lccn": [
+    "79010720"
+   ],
+   "last_modified_i": 1282137850,
+   "title": "Graph theory",
+   "publisher": [
+    "Springer-Verlag"
+   ],
+   "id_librarything": [
+    "939121"
+   ],
+   "seed": [
+    "/books/OL19832547M",
+    "/works/OL12903031W",
+    "/subjects/graph_theory",
+    "/authors/OL5836035A"
+   ],
+   "author_name": [
+    "B\u00e9la Bollobas"
+   ],
+   "key": "/works/OL12903031W",
+   "text": [
+    "OL19832547M",
+    "0387903992",
+    "9780387903996",
+    "B\u00e9la Bollobas",
+    "OL5836035A",
+    "an introductory course",
+    "Graph theory",
+    "B\u00e9la Bollobas.",
+    "Graph theory",
+    "/works/OL12903031W",
+    "Springer-Verlag",
+    "79010720"
+   ],
+   "id_goodreads": [
+    "1390267"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL20840855M"
+   ],
+   "isbn": [
+    "9780852742228",
+    "0852742223"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL20840855M",
+    "9780852742228",
+    "0852742223",
+    "B\u00e9la Andr\u00e1sfai",
+    "OL6143513A",
+    "flows, matrices",
+    "Graph theory",
+    "B\u00e9la Andr\u00e1sfai.",
+    "Graph theory",
+    "Matrices",
+    "/works/OL13237778W",
+    "A.Hilger",
+    "Gr\u00e1felm\u00e9let."
+   ],
+   "author_name": [
+    "B\u00e9la Andr\u00e1sfai"
+   ],
+   "seed": [
+    "/books/OL20840855M",
+    "/works/OL13237778W",
+    "/subjects/graph_theory",
+    "/subjects/matrices",
+    "/authors/OL6143513A"
+   ],
+   "author_key": [
+    "OL6143513A"
+   ],
+   "subject": [
+    "Graph theory",
+    "Matrices"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "1991"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Bristol, England"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL13237778W",
+   "id_goodreads": [
+    "5941932"
+   ],
+   "publisher": [
+    "A.Hilger"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1282151336,
+   "id_librarything": [
+    "393381"
+   ],
+   "publish_year": [
+    1991
+   ],
+   "first_publish_year": 1991
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL24818751M"
+   ],
+   "isbn": [
+    "9814271128",
+    "9789814271127"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL24818751M",
+    "9814271128",
+    "9789814271127",
+    "Bin Xiong",
+    "Zheng, Zhongyi",
+    "477297044",
+    "OL6583515A",
+    "Graph theory",
+    "Xiong Bin, Zheng Zhongyi",
+    "Graph theory",
+    "/works/OL15912372W",
+    "World Scientific",
+    "East China Normal University Press",
+    "2010483392"
+   ],
+   "author_name": [
+    "Bin Xiong"
+   ],
+   "seed": [
+    "/books/OL24818751M",
+    "/works/OL15912372W",
+    "/subjects/graph_theory",
+    "/authors/OL6583515A"
+   ],
+   "oclc": [
+    "477297044"
+   ],
+   "contributor": [
+    "Zheng, Zhongyi"
+   ],
+   "author_key": [
+    "OL6583515A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "2010"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Shanghai",
+    "London",
+    "Singapore"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL15912372W",
+   "publisher": [
+    "World Scientific",
+    "East China Normal University Press"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "2010483392"
+   ],
+   "last_modified_i": 1311389119,
+   "publish_year": [
+    2010
+   ],
+   "first_publish_year": 2010
+  },
+  {
+   "title_suggest": "Graph theory",
+   "publish_place": [
+    "New York"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "edition_key": [
+    "OL20368109M"
+   ],
+   "last_modified_i": 1264369536,
+   "title": "Graph theory",
+   "publisher": [
+    "Ronald"
+   ],
+   "author_name": [
+    "D. E. Johnson"
+   ],
+   "seed": [
+    "/books/OL20368109M",
+    "/works/OL12814093W",
+    "/authors/OL5768129A"
+   ],
+   "first_publish_year": 1972,
+   "publish_year": [
+    1972
+   ],
+   "key": "/works/OL12814093W",
+   "text": [
+    "OL20368109M",
+    "D. E. Johnson",
+    "Johnson, Johnny R. 1929-",
+    "OL5768129A",
+    "with engineering applications",
+    "Graph theory",
+    "[by] David E. Johnson,  Johnny R. Johnson.",
+    "/works/OL12814093W",
+    "Ronald"
+   ],
+   "contributor": [
+    "Johnson, Johnny R. 1929-"
+   ],
+   "publish_date": [
+    "1972"
+   ],
+   "author_key": [
+    "OL5768129A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL22618550M"
+   ],
+   "isbn": [
+    "0201135205",
+    "9780201135206"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL22618550M",
+    "0201135205",
+    "9780201135206",
+    "W. T. Tutte",
+    "OL5397358A",
+    "Graph theory",
+    "W.T. Tutte ; foreword by Crispin St. J.A. Nash-Williams.",
+    "Graph theory",
+    "/works/OL12316098W",
+    "Addison-Wesley Pub."
+   ],
+   "author_name": [
+    "W. T. Tutte"
+   ],
+   "seed": [
+    "/books/OL22618550M",
+    "/works/OL12316098W",
+    "/subjects/graph_theory",
+    "/authors/OL5397358A"
+   ],
+   "author_key": [
+    "OL5397358A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "1984"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Reading, Mass"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL12316098W",
+   "id_goodreads": [
+    "4752270"
+   ],
+   "publisher": [
+    "Addison-Wesley Pub."
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1282202338,
+   "id_librarything": [
+    "1583242"
+   ],
+   "publish_year": [
+    1984
+   ],
+   "first_publish_year": 1984
+  },
+  {
+   "title_suggest": "Graph theory",
+   "publish_place": [
+    "Novi Sad"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "edition_key": [
+    "OL18881959M"
+   ],
+   "last_modified_i": 1264290853,
+   "publisher": [
+    "University of Novi Sad, Institute of Mathematics"
+   ],
+   "title": "Graph theory",
+   "subject": [
+    "Graph theory",
+    "Congresses"
+   ],
+   "author_name": [
+    "Yugoslav Seminar on Graph Theory (4th 1983 Novi Sad, Serbia)"
+   ],
+   "seed": [
+    "/books/OL18881959M",
+    "/works/OL12564109W",
+    "/subjects/graph_theory",
+    "/subjects/congresses",
+    "/authors/OL5581560A"
+   ],
+   "first_publish_year": 1984,
+   "publish_year": [
+    1984
+   ],
+   "key": "/works/OL12564109W",
+   "text": [
+    "OL18881959M",
+    "Yugoslav Seminar on Graph Theory (4th 1983 Novi Sad, Serbia)",
+    "Institut za matematiku (Novi Sad, Serbia)",
+    "OL5581560A",
+    "proceedings of the fourth Yugoslav Seminar on Graph Theory, Novi Sad, April 15.-16. 1983.",
+    "Graph theory",
+    "Graph theory",
+    "Congresses",
+    "/works/OL12564109W",
+    "University of Novi Sad, Institute of Mathematics"
+   ],
+   "contributor": [
+    "Institut za matematiku (Novi Sad, Serbia)"
+   ],
+   "publish_date": [
+    "1984"
+   ],
+   "author_key": [
+    "OL5581560A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL2858506M"
+   ],
+   "cover_i": 4193327,
+   "isbn": [
+    "9780444995896",
+    "0444995897"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL2858506M",
+    "9780444995896",
+    "0444995897",
+    "Istv\u00e1n V\u00e1g\u00f3",
+    "OL283603A",
+    "application to the calculation of electrical networks",
+    "Graph theory",
+    "Istv\u00e1n V\u00e1g\u00f3 ; [translated by O. Bir\u00f3].",
+    "Electric network analysis",
+    "Graph theory",
+    "/works/OL2213107W",
+    "Elsevier",
+    "[Distributor] for the U.S.A. and Canada, Elsevier Science Pub. Co.",
+    "84021177"
+   ],
+   "author_name": [
+    "Istv\u00e1n V\u00e1g\u00f3"
+   ],
+   "seed": [
+    "/books/OL2858506M",
+    "/works/OL2213107W",
+    "/subjects/electric_network_analysis",
+    "/subjects/graph_theory",
+    "/authors/OL283603A"
+   ],
+   "author_key": [
+    "OL283603A"
+   ],
+   "subject": [
+    "Electric network analysis",
+    "Graph theory"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "1985"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Amsterdam",
+    "New York",
+    "New York, N.Y., U.S.A"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL2213107W",
+   "id_goodreads": [
+    "4746359"
+   ],
+   "publisher": [
+    "Elsevier",
+    "[Distributor] for the U.S.A. and Canada, Elsevier Science Pub. Co."
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "84021177"
+   ],
+   "last_modified_i": 1272442230,
+   "cover_edition_key": "OL2858506M",
+   "publish_year": [
+    1985
+   ],
+   "first_publish_year": 1985
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL5693043M"
+   ],
+   "isbn": [
+    "0471579505",
+    "9780471579502"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL5693043M",
+    "0471579505",
+    "9780471579502",
+    "Wataru Maeda",
+    "OL829057A",
+    "Graph theory",
+    "[by] Wataru Mayeda.",
+    "Graph theory",
+    "Switching theory",
+    "Electric networks",
+    "/works/OL4276587W",
+    "Wiley-Interscience",
+    "70037366"
+   ],
+   "author_name": [
+    "Wataru Maeda"
+   ],
+   "seed": [
+    "/books/OL5693043M",
+    "/works/OL4276587W",
+    "/subjects/electric_networks",
+    "/subjects/graph_theory",
+    "/subjects/switching_theory",
+    "/authors/OL829057A"
+   ],
+   "author_key": [
+    "OL829057A"
+   ],
+   "subject": [
+    "Graph theory",
+    "Switching theory",
+    "Electric networks"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "1972"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL4276587W",
+   "id_goodreads": [
+    "1311034"
+   ],
+   "publisher": [
+    "Wiley-Interscience"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "70037366"
+   ],
+   "last_modified_i": 1291568906,
+   "publish_year": [
+    1972
+   ],
+   "first_publish_year": 1972
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL1911222M"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL1911222M",
+    "Yugoslav Seminar on Graph Theory (8th 1987 Novi Sad, Serbia)",
+    "To\u0161i\u0107, R.",
+    "OL902845A",
+    "proceedings of the Eighth Yugoslav Seminar on Graph Theory, Novi Sad, April 17-18, 1987",
+    "Graph theory",
+    "[edited by R. To\u0161i\u0107 ... et al.].",
+    "Graph theory",
+    "Congresses",
+    "/works/OL4506909W",
+    "University of Novi Sad, Institute of Mathematics",
+    "90117390"
+   ],
+   "author_name": [
+    "Yugoslav Seminar on Graph Theory (8th 1987 Novi Sad, Serbia)"
+   ],
+   "seed": [
+    "/books/OL1911222M",
+    "/works/OL4506909W",
+    "/subjects/congresses",
+    "/subjects/graph_theory",
+    "/authors/OL902845A"
+   ],
+   "contributor": [
+    "To\u0161i\u0107, R."
+   ],
+   "author_key": [
+    "OL902845A"
+   ],
+   "subject": [
+    "Graph theory",
+    "Congresses"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "1989"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Novi Sad"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL4506909W",
+   "publisher": [
+    "University of Novi Sad, Institute of Mathematics"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "90117390"
+   ],
+   "last_modified_i": 1291475181,
+   "publish_year": [
+    1989
+   ],
+   "first_publish_year": 1989
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL2477341M"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL2477341M",
+    "Yugoslav Seminar on Graph Theory (6th 1985 Dubrovnik, Croatia)",
+    "To\u0161i\u0107, R.",
+    "Petrovi\u0107, V.",
+    "Acketa, D.",
+    "OL1104074A",
+    "proceedings of the Sixth Yugoslav Seminar on Graph Theory, Dubrovnik, April 18.-19. 1985",
+    "Graph theory",
+    "[edited by R. Ta\u0161i\u0107, D. Acketa, V. Petrovi\u0107].",
+    "Graph theory",
+    "Congresses",
+    "/works/OL5053942W",
+    "University of Novi Sad, Institute of Mathematics",
+    "87210154"
+   ],
+   "author_name": [
+    "Yugoslav Seminar on Graph Theory (6th 1985 Dubrovnik, Croatia)"
+   ],
+   "seed": [
+    "/books/OL2477341M",
+    "/works/OL5053942W",
+    "/subjects/congresses",
+    "/subjects/graph_theory",
+    "/authors/OL1104074A"
+   ],
+   "contributor": [
+    "To\u0161i\u0107, R.",
+    "Petrovi\u0107, V.",
+    "Acketa, D."
+   ],
+   "author_key": [
+    "OL1104074A"
+   ],
+   "subject": [
+    "Graph theory",
+    "Congresses"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "1986"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Novi Sad"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL5053942W",
+   "publisher": [
+    "University of Novi Sad, Institute of Mathematics"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "87210154"
+   ],
+   "last_modified_i": 1291490342,
+   "publish_year": [
+    1986
+   ],
+   "first_publish_year": 1986
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL3488432M"
+   ],
+   "cover_i": 4634012,
+   "isbn": [
+    "9780444864499",
+    "0444864490"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL3488432M",
+    "9780444864499",
+    "0444864490",
+    "Conference on Graph Theory (1981 Trinity College, University of Cambridge)",
+    "Bollob\u00e1s, B\u00e9la.",
+    "OL1456343A",
+    "proceedings of the Conference on Graph Theory, Cambridge",
+    "Graph theory",
+    "editor, B\u00e9la Bollob\u00e1s.",
+    "Graph theory",
+    "Congresses",
+    "/works/OL5901179W",
+    "Sole distributors for the U.S.A. and Canada, Elsevier Science Pub. Co.",
+    "North-Holland Pub. Co.",
+    "82008098"
+   ],
+   "author_name": [
+    "Conference on Graph Theory (1981 Trinity College, University of Cambridge)"
+   ],
+   "seed": [
+    "/books/OL3488432M",
+    "/works/OL5901179W",
+    "/subjects/congresses",
+    "/subjects/graph_theory",
+    "/authors/OL1456343A"
+   ],
+   "contributor": [
+    "Bollob\u00e1s, B\u00e9la."
+   ],
+   "author_key": [
+    "OL1456343A"
+   ],
+   "subject": [
+    "Graph theory",
+    "Congresses"
+   ],
+   "title": "Graph theory",
+   "publish_date": [
+    "1982"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Amsterdam",
+    "New York",
+    "New York, N.Y"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL5901179W",
+   "id_goodreads": [
+    "5391840"
+   ],
+   "publisher": [
+    "Sole distributors for the U.S.A. and Canada, Elsevier Science Pub. Co.",
+    "North-Holland Pub. Co."
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "82008098"
+   ],
+   "last_modified_i": 1291510488,
+   "id_librarything": [
+    "8767916"
+   ],
+   "cover_edition_key": "OL3488432M",
+   "publish_year": [
+    1982
+   ],
+   "first_publish_year": 1982
+  },
+  {
+   "title_suggest": "Graph Theory",
+   "edition_key": [
+    "OL7616330M"
+   ],
+   "cover_i": 1246154,
+   "isbn": [
+    "0471389250",
+    "9780471389255"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL7616330M",
+    "0471389250",
+    "9780471389255",
+    "Russell Merris",
+    "graphtheorywiley00merr",
+    "OL92203A",
+    "Graph Theory",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "/works/OL993672W",
+    "Wiley-Interscience",
+    "By the end of a long flight, most airline passengers will have become familiar with the contents of the seat pocket in front of them."
+   ],
+   "author_name": [
+    "Russell Merris"
+   ],
+   "seed": [
+    "/books/OL7616330M",
+    "/works/OL993672W",
+    "/subjects/graph_theory",
+    "/authors/OL92203A"
+   ],
+   "ia": [
+    "graphtheorywiley00merr"
+   ],
+   "author_key": [
+    "OL92203A"
+   ],
+   "subject": [
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY"
+   ],
+   "title": "Graph Theory",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "first_publish_year": 2000,
+   "type": "work",
+   "ebook_count_i": 1,
+   "printdisabled_s": "OL7616330M",
+   "edition_count": 1,
+   "key": "/works/OL993672W",
+   "id_goodreads": [
+    "5784800"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "Wiley-Interscience"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1406630999,
+   "cover_edition_key": "OL7616330M",
+   "first_sentence": [
+    "By the end of a long flight, most airline passengers will have become familiar with the contents of the seat pocket in front of them."
+   ],
+   "publish_year": [
+    2000
+   ],
+   "publish_date": [
+    "October 23, 2000"
+   ]
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL11914468M"
+   ],
+   "isbn": [
+    "9781846289699",
+    "1846289696"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL11914468M",
+    "9781846289699",
+    "1846289696",
+    "graphtheorygradu00bond_910",
+    "Graphes, Th\u00e9orie des",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "Graph theory",
+    "/works/OL16933739W",
+    "Springer",
+    "Graph Theory (Graduate Texts in Mathematics)"
+   ],
+   "seed": [
+    "/books/OL11914468M",
+    "/works/OL16933739W",
+    "/subjects/graphes_th\u00e9orie_des",
+    "/subjects/graph_theory"
+   ],
+   "ia": [
+    "graphtheorygradu00bond_910"
+   ],
+   "subject": [
+    "Graphes, Th\u00e9orie des",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY"
+   ],
+   "title": "Graph theory",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "printdisabled_s": "OL11914468M",
+   "type": "work",
+   "ebook_count_i": 1,
+   "edition_count": 1,
+   "key": "/works/OL16933739W",
+   "id_goodreads": [
+    "2483380"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "Springer"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1406636049,
+   "first_publish_year": 2007,
+   "id_librarything": [
+    "4619181"
+   ],
+   "cover_edition_key": "OL11914468M",
+   "publish_year": [
+    2007
+   ],
+   "publish_date": [
+    "December 11, 2007"
+   ]
+  },
+  {
+   "title_suggest": "Graph theory",
+   "edition_key": [
+    "OL25328733M"
+   ],
+   "isbn": [
+    "3642142788",
+    "9783642142789",
+    "3642142796",
+    "9783642142796"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL25328733M",
+    "3642142788",
+    "9783642142789",
+    "3642142796",
+    "9783642142796",
+    "Reinhard Diestel",
+    "658045165",
+    "graphtheorygradu00dies_711",
+    "OL33875A",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "Graph theory",
+    "/works/OL16651970W",
+    "Reinhard Diestel",
+    "Springer",
+    "Graphentheorie",
+    "2010931087"
+   ],
+   "author_name": [
+    "Reinhard Diestel"
+   ],
+   "seed": [
+    "/books/OL25328733M",
+    "/works/OL16651970W",
+    "/subjects/graph_theory",
+    "/authors/OL33875A"
+   ],
+   "oclc": [
+    "658045165"
+   ],
+   "ia": [
+    "graphtheorygradu00dies_711"
+   ],
+   "author_key": [
+    "OL33875A"
+   ],
+   "subject": [
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY"
+   ],
+   "title": "Graph theory",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "printdisabled_s": "OL25328733M",
+   "type": "work",
+   "ebook_count_i": 1,
+   "publish_place": [
+    "New York",
+    "Heidelberg"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL16651970W",
+   "public_scan_b": false,
+   "publisher": [
+    "Springer"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "2010931087"
+   ],
+   "last_modified_i": 1406607117,
+   "first_publish_year": 2010,
+   "publish_year": [
+    2010
+   ],
+   "publish_date": [
+    "2010"
+   ]
+  },
+  {
+   "title_suggest": "Pearls in graph theory",
+   "edition_key": [
+    "OL21397175M",
+    "OL1876113M",
+    "OL15078199M",
+    "OL1082357M",
+    "OL13331636M",
+    "OL3693385M",
+    "OL22047249M"
+   ],
+   "cover_i": 314002,
+   "isbn": [
+    "0123285526",
+    "9789994533572",
+    "9780123285522",
+    "9780123285539",
+    "9994533576",
+    "9780486432328",
+    "0123285534",
+    "0486432327"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL21397175M",
+    "OL1876113M",
+    "OL15078199M",
+    "OL1082357M",
+    "OL13331636M",
+    "OL3693385M",
+    "OL22047249M",
+    "0123285526",
+    "9789994533572",
+    "9780123285522",
+    "9780123285539",
+    "9994533576",
+    "9780486432328",
+    "0123285534",
+    "0486432327",
+    "Nora Hartsfield",
+    "Ringel, Gerhard.",
+    "pearlsingraphthe00har_f6p",
+    "OL576787A",
+    "a comprehensive introduction",
+    "Pearls in graph theory",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "/works/OL3462018W",
+    "Nora Hartsfield, Gerhard Ringel.",
+    "Dover Publications",
+    "Academic Press",
+    "Pearls in Graph Theory",
+    "90036165",
+    "94005945",
+    "2003067493"
+   ],
+   "author_name": [
+    "Nora Hartsfield"
+   ],
+   "contributor": [
+    "Ringel, Gerhard."
+   ],
+   "seed": [
+    "/books/OL21397175M",
+    "/books/OL1876113M",
+    "/books/OL15078199M",
+    "/books/OL1082357M",
+    "/books/OL13331636M",
+    "/books/OL3693385M",
+    "/books/OL22047249M",
+    "/works/OL3462018W",
+    "/subjects/graph_theory",
+    "/authors/OL576787A"
+   ],
+   "ia": [
+    "pearlsingraphthe00har_f6p"
+   ],
+   "author_key": [
+    "OL576787A"
+   ],
+   "subject": [
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY"
+   ],
+   "title": "Pearls in graph theory",
+   "lending_identifier_s": "pearlsingraphthe00har_f6p",
+   "ia_collection_s": "printdisabled;inlibrary;browserlending;americana;internetarchivebooks",
+   "first_publish_year": 1990,
+   "type": "work",
+   "ebook_count_i": 1,
+   "publish_place": [
+    "Boston",
+    "Mineola, N.Y",
+    "Boston, Mass"
+   ],
+   "printdisabled_s": "OL1876113M",
+   "ia_box_id": [
+    "IA1104918"
+   ],
+   "edition_count": 7,
+   "key": "/works/OL3462018W",
+   "id_goodreads": [
+    "746773",
+    "5780236"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "Dover Publications",
+    "Academic Press"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "90036165",
+    "94005945",
+    "2003067493"
+   ],
+   "last_modified_i": 1406740521,
+   "lending_edition_s": "OL1876113M",
+   "id_librarything": [
+    "335382",
+    "6521643"
+   ],
+   "cover_edition_key": "OL3693385M",
+   "publish_year": [
+    1990,
+    1994,
+    2004,
+    2003
+   ],
+   "publish_date": [
+    "May 1994",
+    "1990",
+    "1994",
+    "2004",
+    "2003"
+   ]
+  },
+  {
+   "title_suggest": "Graph theory",
+   "has_fulltext": false,
+   "edition_count": 0,
+   "last_modified_i": 1325057297,
+   "title": "Graph theory",
+   "seed": [
+    "/works/OL16351172W",
+    "/subjects/graph_theory",
+    "/subjects/congresses"
+   ],
+   "key": "/works/OL16351172W",
+   "text": [
+    "Graph theory",
+    "Graph theory",
+    "Congresses",
+    "/works/OL16351172W"
+   ],
+   "subject": [
+    "Graph theory",
+    "Congresses"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Graph theory applications",
+   "edition_key": [
+    "OL21348239M",
+    "OL1541807M",
+    "OL873605M"
+   ],
+   "cover_i": 1193576,
+   "isbn": [
+    "0387975993",
+    "9780387975993",
+    "3540975993",
+    "9783540975991"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL21348239M",
+    "OL1541807M",
+    "OL873605M",
+    "0387975993",
+    "9780387975993",
+    "3540975993",
+    "9783540975991",
+    "L. R. Foulds",
+    "OL486095A",
+    "Graph theory applications",
+    "L.R. Foulds.",
+    "Graph theory",
+    "/works/OL3100344W",
+    "Springer-Verlag",
+    "91020590",
+    "95159476"
+   ],
+   "author_name": [
+    "L. R. Foulds"
+   ],
+   "seed": [
+    "/books/OL21348239M",
+    "/books/OL1541807M",
+    "/books/OL873605M",
+    "/works/OL3100344W",
+    "/subjects/graph_theory",
+    "/authors/OL486095A"
+   ],
+   "author_key": [
+    "OL486095A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Graph theory applications",
+   "publish_date": [
+    "1991",
+    "1992",
+    "1994"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York"
+   ],
+   "edition_count": 3,
+   "key": "/works/OL3100344W",
+   "id_goodreads": [
+    "4027513"
+   ],
+   "publisher": [
+    "Springer-Verlag"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "91020590",
+    "95159476"
+   ],
+   "last_modified_i": 1272443192,
+   "cover_edition_key": "OL873605M",
+   "publish_year": [
+    1991,
+    1992,
+    1994
+   ],
+   "first_publish_year": 1991
+  },
+  {
+   "title_suggest": "Graph theory with applications",
+   "edition_key": [
+    "OL4410988M",
+    "OL4936556M",
+    "OL21600415M"
+   ],
+   "isbn": [
+    "0444194517",
+    "0333177916",
+    "9780333177914",
+    "9780444194510"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL4410988M",
+    "OL4936556M",
+    "OL21600415M",
+    "0444194517",
+    "0333177916",
+    "9780333177914",
+    "9780444194510",
+    "J. A. Bondy",
+    "Murty, U. S. R., joint author.",
+    "Murty, U. S. R.",
+    "graphtheorywitha00bond",
+    "OL1758453A",
+    "Graph theory with applications",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "/works/OL6561798W",
+    "J. A. Bondy and U. S. R. Murty.",
+    "North Holland",
+    "American Elsevier Pub. Co.",
+    "Macmillan",
+    "76363659",
+    "79014497",
+    "75029826"
+   ],
+   "author_name": [
+    "J. A. Bondy"
+   ],
+   "contributor": [
+    "Murty, U. S. R., joint author.",
+    "Murty, U. S. R."
+   ],
+   "seed": [
+    "/books/OL4410988M",
+    "/books/OL4936556M",
+    "/books/OL21600415M",
+    "/works/OL6561798W",
+    "/subjects/graph_theory",
+    "/authors/OL1758453A"
+   ],
+   "ia": [
+    "graphtheorywitha00bond"
+   ],
+   "author_key": [
+    "OL1758453A"
+   ],
+   "subject": [
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY"
+   ],
+   "title": "Graph theory with applications",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "first_publish_year": 1976,
+   "type": "work",
+   "ebook_count_i": 1,
+   "publish_place": [
+    "New York",
+    "London"
+   ],
+   "printdisabled_s": "OL4410988M",
+   "edition_count": 3,
+   "key": "/works/OL6561798W",
+   "id_goodreads": [
+    "746785",
+    "3771762"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "North Holland",
+    "American Elsevier Pub. Co.",
+    "Macmillan"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "76363659",
+    "79014497",
+    "75029826"
+   ],
+   "last_modified_i": 1406643289,
+   "id_librarything": [
+    "294149"
+   ],
+   "publish_year": [
+    1976
+   ],
+   "publish_date": [
+    "1976"
+   ]
+  },
+  {
+   "title_suggest": "Introduction to graph theory",
+   "edition_key": [
+    "OL22195815M",
+    "OL15075491M",
+    "OL22148883M"
+   ],
+   "isbn": [
+    "9780582249936",
+    "0582249937",
+    "0050025341",
+    "9780050025345",
+    "0582447623",
+    "9780582447622"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL22195815M",
+    "OL15075491M",
+    "OL22148883M",
+    "9780582249936",
+    "0582249937",
+    "0050025341",
+    "9780050025345",
+    "0582447623",
+    "9780582447622",
+    "Robin J. Wilson",
+    "OL4590762A",
+    "Introduction to graph theory",
+    "Robin J. Wilson.",
+    "(by) Robin J. Wilson.",
+    "Graph theory",
+    "/works/OL11024998W",
+    "Longman",
+    "Prentice Hall",
+    "Oliver and Boyd",
+    "Introduction to graph theory."
+   ],
+   "author_name": [
+    "Robin J. Wilson"
+   ],
+   "seed": [
+    "/books/OL22195815M",
+    "/books/OL15075491M",
+    "/books/OL22148883M",
+    "/works/OL11024998W",
+    "/subjects/graph_theory",
+    "/authors/OL4590762A"
+   ],
+   "author_key": [
+    "OL4590762A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Introduction to graph theory",
+   "publish_date": [
+    "1975",
+    "1972",
+    "1996"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Edinburgh",
+    "London",
+    "Harlow"
+   ],
+   "edition_count": 3,
+   "key": "/works/OL11024998W",
+   "id_goodreads": [
+    "746771"
+   ],
+   "publisher": [
+    "Longman",
+    "Prentice Hall",
+    "Oliver and Boyd"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1282183718,
+   "id_librarything": [
+    "705606"
+   ],
+   "publish_year": [
+    1975,
+    1972,
+    1996
+   ],
+   "first_publish_year": 1972
+  },
+  {
+   "title_suggest": "Applied graph theory",
+   "edition_key": [
+    "OL5317802M",
+    "OL5205206M",
+    "OL14810105M"
+   ],
+   "cover_i": 4502589,
+   "subtitle": "graphs and electrical networks",
+   "has_fulltext": false,
+   "text": [
+    "OL5317802M",
+    "OL5205206M",
+    "OL14810105M",
+    "graphs and electrical networks",
+    "Wai-Kai Chen",
+    "630467755",
+    "286329",
+    "0444101055",
+    "9780444108708",
+    "0444108718",
+    "044410870X",
+    "9780444101051",
+    "9780444108715",
+    "OL335289A",
+    "graphs and electrical networks.",
+    "Applied graph theory",
+    "by Wai-Kai Chen.",
+    "Graph theory",
+    "/works/OL2429567W",
+    "North-Holland",
+    "American Elsevier Pub. Co.",
+    "North-Holland Pub. Co.",
+    "Applied graph theory.",
+    "72157036",
+    "75030768"
+   ],
+   "author_name": [
+    "Wai-Kai Chen"
+   ],
+   "seed": [
+    "/books/OL5317802M",
+    "/books/OL5205206M",
+    "/books/OL14810105M",
+    "/works/OL2429567W",
+    "/subjects/graph_theory",
+    "/authors/OL335289A"
+   ],
+   "oclc": [
+    "630467755",
+    "286329"
+   ],
+   "isbn": [
+    "0444101055",
+    "9780444108708",
+    "0444108718",
+    "044410870X",
+    "9780444101051",
+    "9780444108715"
+   ],
+   "author_key": [
+    "OL335289A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Applied graph theory",
+   "publish_date": [
+    "1976",
+    "1972"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Amsterdam",
+    "New York"
+   ],
+   "edition_count": 3,
+   "key": "/works/OL2429567W",
+   "id_goodreads": [
+    "5001815",
+    "4108548"
+   ],
+   "publisher": [
+    "North-Holland",
+    "American Elsevier Pub. Co.",
+    "North-Holland Pub. Co."
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "72157036",
+    "75030768"
+   ],
+   "last_modified_i": 1304176596,
+   "cover_edition_key": "OL5317802M",
+   "publish_year": [
+    1976,
+    1972
+   ],
+   "first_publish_year": 1972
+  },
+  {
+   "title_suggest": "Computers and Graph Theory",
+   "edition_key": [
+    "OL1541301M",
+    "OL7337245M",
+    "OL9291900M"
+   ],
+   "cover_i": 4958497,
+   "isbn": [
+    "9780131616059",
+    "0131616056"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL1541301M",
+    "OL7337245M",
+    "OL9291900M",
+    "9780131616059",
+    "0131616056",
+    "Ramachandran Bharath",
+    "OL575217A",
+    "representing knowledge for processing by computers",
+    "Representing Knowledge for Processing by Computers (Ellis Horwood Series in Computers and Their Applications)",
+    "Computers and Graph Theory",
+    "Ramachandran Bharath.",
+    "Graph theory",
+    "Data processing",
+    "/works/OL3454025W",
+    "E. Horwood",
+    "Ellis Horwood Ltd",
+    "Computers and graph theory",
+    "91020015"
+   ],
+   "author_name": [
+    "Ramachandran Bharath"
+   ],
+   "seed": [
+    "/books/OL1541301M",
+    "/books/OL7337245M",
+    "/books/OL9291900M",
+    "/works/OL3454025W",
+    "/subjects/graph_theory",
+    "/subjects/data_processing",
+    "/authors/OL575217A"
+   ],
+   "author_key": [
+    "OL575217A"
+   ],
+   "subject": [
+    "Graph theory",
+    "Data processing"
+   ],
+   "title": "Computers and Graph Theory",
+   "publish_date": [
+    "1991",
+    "February 1992"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York"
+   ],
+   "edition_count": 3,
+   "key": "/works/OL3454025W",
+   "id_goodreads": [
+    "1830680"
+   ],
+   "publisher": [
+    "E. Horwood",
+    "Ellis Horwood Ltd"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "91020015"
+   ],
+   "last_modified_i": 1272443610,
+   "cover_edition_key": "OL1541301M",
+   "publish_year": [
+    1991,
+    1992
+   ],
+   "first_publish_year": 1991
+  },
+  {
+   "title_suggest": "Graph theory 1736-1936",
+   "edition_key": [
+    "OL4951060M",
+    "OL21108055M",
+    "OL2455982M"
+   ],
+   "cover_i": 1135981,
+   "isbn": [
+    "0198539169",
+    "9780198539018",
+    "0198539010",
+    "9780198539162"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL4951060M",
+    "OL21108055M",
+    "OL2455982M",
+    "0198539169",
+    "9780198539018",
+    "0198539010",
+    "9780198539162",
+    "Norman Biggs",
+    "Wilson, Robin J.",
+    "Wilson, Robin J., joint author.",
+    "Lloyd, E. Keith, joint author.",
+    "Lloyd, E. Keith.",
+    "graphtheory00bigg_996",
+    "OL605958A",
+    "[by] Norman L. Biggs, E. Keith Lloyd, Robin J. Wilson.",
+    "Graph theory 1736-1936",
+    "Sources",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "History",
+    "/works/OL3584304W",
+    "Norman L. Biggs, E. Keith Lloyd, Robin J. Wilson.",
+    "Clarendon Press",
+    "Graph theory, 1736-1936",
+    "76379235",
+    "87158862"
+   ],
+   "author_name": [
+    "Norman Biggs"
+   ],
+   "contributor": [
+    "Wilson, Robin J.",
+    "Wilson, Robin J., joint author.",
+    "Lloyd, E. Keith, joint author.",
+    "Lloyd, E. Keith."
+   ],
+   "seed": [
+    "/books/OL4951060M",
+    "/books/OL21108055M",
+    "/books/OL2455982M",
+    "/works/OL3584304W",
+    "/subjects/sources",
+    "/subjects/graph_theory",
+    "/subjects/history",
+    "/authors/OL605958A"
+   ],
+   "ia": [
+    "graphtheory00bigg_996"
+   ],
+   "author_key": [
+    "OL605958A"
+   ],
+   "subject": [
+    "Sources",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "History"
+   ],
+   "title": "Graph theory 1736-1936",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "first_publish_year": 1976,
+   "type": "work",
+   "ebook_count_i": 1,
+   "publish_place": [
+    "Oxford [Eng.]",
+    "New York",
+    "Oxford [Oxfordshire]"
+   ],
+   "printdisabled_s": "OL4951060M",
+   "edition_count": 3,
+   "key": "/works/OL3584304W",
+   "id_goodreads": [
+    "630382",
+    "1501173"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "Clarendon Press"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "76379235",
+    "87158862"
+   ],
+   "last_modified_i": 1396764439,
+   "id_librarything": [
+    "1191923"
+   ],
+   "cover_edition_key": "OL2455982M",
+   "publish_year": [
+    1977,
+    1976,
+    1986
+   ],
+   "publish_date": [
+    "1977",
+    "1976",
+    "1986"
+   ]
+  },
+  {
+   "title_suggest": "Introduction to graph theory",
+   "edition_key": [
+    "OL792219M",
+    "OL6785828M"
+   ],
+   "cover_i": 81155,
+   "isbn": [
+    "9780130144003",
+    "0130144002",
+    "0132278286",
+    "9780132278287"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL792219M",
+    "OL6785828M",
+    "9780130144003",
+    "0130144002",
+    "0132278286",
+    "9780132278287",
+    "Douglas Brent West",
+    "introductiontogr00west_978",
+    "OL447839A",
+    "Introduction to graph theory",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "/works/OL2937253W",
+    "Douglas B. West.",
+    "Prentice Hall",
+    "Graph theory",
+    "95024773",
+    "00039993"
+   ],
+   "author_name": [
+    "Douglas Brent West"
+   ],
+   "seed": [
+    "/books/OL792219M",
+    "/books/OL6785828M",
+    "/works/OL2937253W",
+    "/subjects/graph_theory",
+    "/authors/OL447839A"
+   ],
+   "ia": [
+    "introductiontogr00west_978"
+   ],
+   "author_key": [
+    "OL447839A"
+   ],
+   "subject": [
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY"
+   ],
+   "title": "Introduction to graph theory",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "first_publish_year": 1996,
+   "type": "work",
+   "ebook_count_i": 1,
+   "publish_place": [
+    "Upper Saddle River, N.J",
+    "Upper Saddle River, NJ"
+   ],
+   "printdisabled_s": "OL6785828M",
+   "edition_count": 2,
+   "key": "/works/OL2937253W",
+   "id_goodreads": [
+    "206649",
+    "4228531"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "Prentice Hall"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "95024773",
+    "00039993"
+   ],
+   "last_modified_i": 1406682964,
+   "id_librarything": [
+    "9101826",
+    "479278"
+   ],
+   "cover_edition_key": "OL6785828M",
+   "publish_year": [
+    2001,
+    1996
+   ],
+   "publish_date": [
+    "2001",
+    "1996"
+   ]
+  },
+  {
+   "title_suggest": "Algebraic graph theory",
+   "edition_key": [
+    "OL5437392M",
+    "OL1182114M"
+   ],
+   "cover_i": 330841,
+   "isbn": [
+    "052120335X",
+    "9780521458979",
+    "0521458978",
+    "9780521203357"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL5437392M",
+    "OL1182114M",
+    "052120335X",
+    "9780521458979",
+    "0521458978",
+    "9780521203357",
+    "Norman Biggs",
+    "30411209",
+    "algebraicgraphth00bigg",
+    "OL605958A",
+    "Algebraic graph theory",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "/works/OL3584302W",
+    "Norman Biggs.",
+    "Cambridge University Press",
+    "Algebraic graph theory.",
+    "73086042",
+    "94170202"
+   ],
+   "author_name": [
+    "Norman Biggs"
+   ],
+   "seed": [
+    "/books/OL5437392M",
+    "/books/OL1182114M",
+    "/works/OL3584302W",
+    "/subjects/graph_theory",
+    "/authors/OL605958A"
+   ],
+   "oclc": [
+    "30411209"
+   ],
+   "ia": [
+    "algebraicgraphth00bigg"
+   ],
+   "author_key": [
+    "OL605958A"
+   ],
+   "subject": [
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY"
+   ],
+   "title": "Algebraic graph theory",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "first_publish_year": 1974,
+   "type": "work",
+   "ebook_count_i": 1,
+   "publish_place": [
+    "Cambridge",
+    "New York]",
+    "[London"
+   ],
+   "printdisabled_s": "OL5437392M",
+   "edition_count": 2,
+   "key": "/works/OL3584302W",
+   "id_goodreads": [
+    "632833",
+    "4033724"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "Cambridge University Press"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "73086042",
+    "94170202"
+   ],
+   "last_modified_i": 1406666092,
+   "id_librarything": [
+    "954925"
+   ],
+   "cover_edition_key": "OL5437392M",
+   "publish_year": [
+    1993,
+    1974
+   ],
+   "publish_date": [
+    "1993",
+    "1974"
+   ]
+  },
+  {
+   "title_suggest": "Graph Theory and Combinatorics",
+   "publisher": [
+    "Academic Pr"
+   ],
+   "isbn": [
+    "012111760X",
+    "9780121117603"
+   ],
+   "has_fulltext": false,
+   "id_librarything": [
+    "8217462"
+   ],
+   "edition_count": 2,
+   "edition_key": [
+    "OL7325820M",
+    "OL9280468M"
+   ],
+   "last_modified_i": 1281584076,
+   "title": "Graph Theory and Combinatorics",
+   "author_name": [
+    "Bela Bollobas"
+   ],
+   "language": [
+    "eng"
+   ],
+   "seed": [
+    "/books/OL7325820M",
+    "/books/OL9280468M",
+    "/works/OL7938889W",
+    "/authors/OL2646740A"
+   ],
+   "first_publish_year": 1984,
+   "publish_year": [
+    1984
+   ],
+   "key": "/works/OL7938889W",
+   "text": [
+    "OL7325820M",
+    "OL9280468M",
+    "012111760X",
+    "9780121117603",
+    "Bela Bollobas",
+    "OL2646740A",
+    "Proceedings of the Cambridge Conference in Honor of Paul Erdos",
+    "Graph Theory and Combinatorics",
+    "/works/OL7938889W",
+    "Academic Pr"
+   ],
+   "id_goodreads": [
+    "2085750"
+   ],
+   "publish_date": [
+    "October 1984"
+   ],
+   "author_key": [
+    "OL2646740A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Modern Graph Theory",
+   "edition_key": [
+    "OL7449688M",
+    "OL13175212M"
+   ],
+   "cover_i": 246145,
+   "isbn": [
+    "9788181283092",
+    "8181283090",
+    "9780387984889",
+    "0387984887"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL7449688M",
+    "OL13175212M",
+    "9788181283092",
+    "8181283090",
+    "9780387984889",
+    "0387984887",
+    "Bela Bollobas",
+    "OL2646740A",
+    "Modern Graph Theory",
+    "/works/OL7938890W",
+    "Springer",
+    "Springer (India) Private Limited",
+    "The basic concepts of graph theory are extraordinarily simple and can be used to express problems from many different subjects."
+   ],
+   "author_name": [
+    "Bela Bollobas"
+   ],
+   "seed": [
+    "/books/OL7449688M",
+    "/books/OL13175212M",
+    "/works/OL7938890W",
+    "/authors/OL2646740A"
+   ],
+   "author_key": [
+    "OL2646740A"
+   ],
+   "title": "Modern Graph Theory",
+   "publish_date": [
+    "August 12, 2002",
+    "2005"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "edition_count": 2,
+   "key": "/works/OL7938890W",
+   "id_goodreads": [
+    "388048"
+   ],
+   "publisher": [
+    "Springer",
+    "Springer (India) Private Limited"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1282087211,
+   "id_librarything": [
+    "15667"
+   ],
+   "cover_edition_key": "OL7449688M",
+   "first_sentence": [
+    "The basic concepts of graph theory are extraordinarily simple and can be used to express problems from many different subjects."
+   ],
+   "publish_year": [
+    2002,
+    2005
+   ],
+   "first_publish_year": 2002
+  },
+  {
+   "title_suggest": "Introduction to Graph Theory",
+   "publisher": [
+    "Prentice Hall"
+   ],
+   "edition_key": [
+    "OL9291028M",
+    "OL7336374M"
+   ],
+   "isbn": [
+    "0131437372",
+    "9780131437371"
+   ],
+   "has_fulltext": false,
+   "id_librarything": [
+    "479278"
+   ],
+   "edition_count": 2,
+   "oclc": [
+    "176817985"
+   ],
+   "last_modified_i": 1303918012,
+   "title": "Introduction to Graph Theory",
+   "author_name": [
+    "Douglas West"
+   ],
+   "language": [
+    "eng"
+   ],
+   "seed": [
+    "/books/OL9291028M",
+    "/books/OL7336374M",
+    "/works/OL7951533W",
+    "/authors/OL2652817A"
+   ],
+   "first_publish_year": 2007,
+   "publish_year": [
+    2007
+   ],
+   "key": "/works/OL7951533W",
+   "text": [
+    "OL9291028M",
+    "OL7336374M",
+    "0131437372",
+    "9780131437371",
+    "Douglas West",
+    "176817985",
+    "OL2652817A",
+    "Introduction to Graph Theory",
+    "/works/OL7951533W",
+    "Prentice Hall",
+    "Introduction to Graph Theory (3rd Edition)"
+   ],
+   "publish_date": [
+    "December 1, 2007"
+   ],
+   "author_key": [
+    "OL2652817A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Exploring Graph Theory",
+   "publisher": [
+    "Keele Mathematical Educ.Pubns."
+   ],
+   "edition_key": [
+    "OL11574547M",
+    "OL11574548M"
+   ],
+   "isbn": [
+    "0947747028",
+    "9780947747022",
+    "9780947747039",
+    "0947747036"
+   ],
+   "has_fulltext": false,
+   "edition_count": 2,
+   "oclc": [
+    "17773039"
+   ],
+   "last_modified_i": 1304524593,
+   "title": "Exploring Graph Theory",
+   "author_name": [
+    "Charles Cooke"
+   ],
+   "seed": [
+    "/books/OL11574547M",
+    "/books/OL11574548M",
+    "/works/OL7306103W",
+    "/authors/OL2144372A"
+   ],
+   "first_publish_year": 1986,
+   "publish_year": [
+    1986
+   ],
+   "key": "/works/OL7306103W",
+   "text": [
+    "OL11574547M",
+    "OL11574548M",
+    "0947747028",
+    "9780947747022",
+    "9780947747039",
+    "0947747036",
+    "Charles Cooke",
+    "17773039",
+    "OL2144372A",
+    "Exploring Graph Theory",
+    "/works/OL7306103W",
+    "Keele Mathematical Educ.Pubns."
+   ],
+   "publish_date": [
+    "December 1986"
+   ],
+   "author_key": [
+    "OL2144372A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Chemical graph theory",
+   "edition_key": [
+    "OL3493015M",
+    "OL1551728M"
+   ],
+   "cover_i": 1597094,
+   "isbn": [
+    "0849352738",
+    "0849342562",
+    "9780849352737",
+    "9780849352744",
+    "0849352746",
+    "9780849342561"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL3493015M",
+    "OL1551728M",
+    "0849352738",
+    "0849342562",
+    "9780849352737",
+    "9780849352744",
+    "0849352746",
+    "9780849342561",
+    "Nenad Trinajsti\u0107",
+    "OL299517A",
+    "Chemical graph theory",
+    "Nenad Trinajsti\u0107.",
+    "Mathematics",
+    "Chemistry",
+    "Graph theory",
+    "/works/OL2282845W",
+    "CRC Press",
+    "91031571",
+    "82012895"
+   ],
+   "author_name": [
+    "Nenad Trinajsti\u0107"
+   ],
+   "seed": [
+    "/books/OL3493015M",
+    "/books/OL1551728M",
+    "/works/OL2282845W",
+    "/subjects/mathematics",
+    "/subjects/chemistry",
+    "/subjects/graph_theory",
+    "/authors/OL299517A"
+   ],
+   "author_key": [
+    "OL299517A"
+   ],
+   "subject": [
+    "Mathematics",
+    "Chemistry",
+    "Graph theory"
+   ],
+   "title": "Chemical graph theory",
+   "publish_date": [
+    "1992",
+    "1983"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Boca Raton, Fla",
+    "Boca Raton"
+   ],
+   "edition_count": 2,
+   "key": "/works/OL2282845W",
+   "id_goodreads": [
+    "4303319",
+    "3331984",
+    "632828"
+   ],
+   "publisher": [
+    "CRC Press"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "91031571",
+    "82012895"
+   ],
+   "last_modified_i": 1280781824,
+   "id_librarything": [
+    "5721515",
+    "4504226"
+   ],
+   "cover_edition_key": "OL1551728M",
+   "publish_year": [
+    1992,
+    1983
+   ],
+   "first_publish_year": 1983
+  },
+  {
+   "title_suggest": "Graph theory with applications",
+   "edition_key": [
+    "OL21717967M",
+    "OL22497718M"
+   ],
+   "isbn": [
+    "0444194517",
+    "9780444194510"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL21717967M",
+    "OL22497718M",
+    "0444194517",
+    "9780444194510",
+    "John Adrian Bondy",
+    "Murty, U.S.R., jt. author",
+    "Murty, U. S. R.",
+    "OL6332903A",
+    "[by] J.A. Bondy and U.S.R. Murty.",
+    "Graph theory with applications",
+    "J. A. Bondy and U. S. R. Murty.",
+    "Graph theory",
+    "/works/OL13451761W",
+    "American Elsevier Pub. Co.",
+    "North Holland"
+   ],
+   "author_name": [
+    "John Adrian Bondy"
+   ],
+   "seed": [
+    "/books/OL21717967M",
+    "/books/OL22497718M",
+    "/works/OL13451761W",
+    "/subjects/graph_theory",
+    "/authors/OL6332903A"
+   ],
+   "contributor": [
+    "Murty, U.S.R., jt. author",
+    "Murty, U. S. R."
+   ],
+   "author_key": [
+    "OL6332903A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Graph theory with applications",
+   "publish_date": [
+    "1976"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York"
+   ],
+   "edition_count": 2,
+   "key": "/works/OL13451761W",
+   "id_goodreads": [
+    "746785"
+   ],
+   "publisher": [
+    "American Elsevier Pub. Co.",
+    "North Holland"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1282196593,
+   "id_librarything": [
+    "294149"
+   ],
+   "publish_year": [
+    1976
+   ],
+   "first_publish_year": 1976
+  },
+  {
+   "title_suggest": "Graph theory, 1736-1936",
+   "edition_key": [
+    "OL22635427M",
+    "OL18075666M"
+   ],
+   "isbn": [
+    "0198539169",
+    "9780198539162"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL22635427M",
+    "OL18075666M",
+    "0198539169",
+    "9780198539162",
+    "Norman L. Biggs",
+    "Wilson, Robin J. 1943-",
+    "Lloyd, E. Keith.",
+    "Lloyd, E. Keith",
+    "graphtheory00bigg_525",
+    "OL5397445A",
+    "Graph theory, 1736-1936",
+    "Sources",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "History",
+    "/works/OL12316221W",
+    "Norman L. Biggs, E. Keith Lloyd, Robin J. Wilson.",
+    "(by) Norman L. Biggs, E. Keith Lloyd, Robin J. Wilson.",
+    "Clarendon Press"
+   ],
+   "author_name": [
+    "Norman L. Biggs"
+   ],
+   "contributor": [
+    "Wilson, Robin J. 1943-",
+    "Lloyd, E. Keith.",
+    "Lloyd, E. Keith"
+   ],
+   "seed": [
+    "/books/OL22635427M",
+    "/books/OL18075666M",
+    "/works/OL12316221W",
+    "/subjects/sources",
+    "/subjects/graph_theory",
+    "/subjects/history",
+    "/authors/OL5397445A"
+   ],
+   "ia": [
+    "graphtheory00bigg_525"
+   ],
+   "author_key": [
+    "OL5397445A"
+   ],
+   "subject": [
+    "Sources",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "History"
+   ],
+   "title": "Graph theory, 1736-1936",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "first_publish_year": 1998,
+   "type": "work",
+   "ebook_count_i": 1,
+   "publish_place": [
+    "Oxford"
+   ],
+   "printdisabled_s": "OL22635427M",
+   "edition_count": 2,
+   "key": "/works/OL12316221W",
+   "id_goodreads": [
+    "630382"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "Clarendon Press"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1406649870,
+   "id_librarything": [
+    "1191923"
+   ],
+   "publish_year": [
+    1998
+   ],
+   "publish_date": [
+    "1998"
+   ]
+  },
+  {
+   "title_suggest": "Theory of graphs",
+   "edition_key": [
+    "OL5596913M",
+    "OL17757698M"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL5596913M",
+    "OL17757698M",
+    "Colloquium on Graph Theory (1966 Tihany, Hungary)",
+    "Katona, G.",
+    "Bolyai J\u00e1nos Matematikai T\u00e1rsulat.",
+    "Erd\u0151s, Paul, 1913-1996.",
+    "Erd\u0151s, Paul, 1913- ed.",
+    "Katona, G., ed.",
+    "OL2118010A",
+    "proceedings.",
+    "Theory of graphs",
+    "Edited by P. Erd\u00f6s and G. Katona.",
+    "Addresses, essays, lectures",
+    "Graph theory",
+    "/works/OL141428W",
+    "Academic Press",
+    "68002641"
+   ],
+   "author_name": [
+    "Colloquium on Graph Theory (1966 Tihany, Hungary)"
+   ],
+   "seed": [
+    "/books/OL5596913M",
+    "/books/OL17757698M",
+    "/works/OL141428W",
+    "/subjects/graph_theory",
+    "/subjects/addresses_essays_lectures",
+    "/authors/OL2118010A"
+   ],
+   "contributor": [
+    "Katona, G.",
+    "Bolyai J\u00e1nos Matematikai T\u00e1rsulat.",
+    "Erd\u0151s, Paul, 1913-1996.",
+    "Erd\u0151s, Paul, 1913- ed.",
+    "Katona, G., ed."
+   ],
+   "author_key": [
+    "OL2118010A"
+   ],
+   "subject": [
+    "Addresses, essays, lectures",
+    "Graph theory"
+   ],
+   "title": "Theory of graphs",
+   "publish_date": [
+    "1968"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York"
+   ],
+   "edition_count": 2,
+   "key": "/works/OL141428W",
+   "publisher": [
+    "Academic Press"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "68002641"
+   ],
+   "last_modified_i": 1268860143,
+   "publish_year": [
+    1968
+   ],
+   "first_publish_year": 1968
+  },
+  {
+   "title_suggest": "Theory of graphs",
+   "edition_key": [
+    "OL5827733M",
+    "OL5677664M"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL5827733M",
+    "OL5677664M",
+    "\u00d8ystein Ore",
+    "24398628",
+    "OL148811A",
+    "Theory of graphs",
+    "Per. s angl. I.N. Vrublevsko\u012d. Pod red. N.N Vorob\u02b9eva.",
+    "Graph theory",
+    "/works/OL1428838W",
+    "\"Nauka,\"",
+    "American Mathematical Society",
+    "Teorii\u0361a\ufe21 grafov.",
+    "Theory of graphs.",
+    "61015687",
+    "68142402"
+   ],
+   "author_name": [
+    "\u00d8ystein Ore"
+   ],
+   "seed": [
+    "/books/OL5827733M",
+    "/books/OL5677664M",
+    "/works/OL1428838W",
+    "/subjects/graph_theory",
+    "/authors/OL148811A"
+   ],
+   "oclc": [
+    "24398628"
+   ],
+   "author_key": [
+    "OL148811A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Theory of graphs",
+   "publish_date": [
+    "1968",
+    "1962"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Providence",
+    "Moskva"
+   ],
+   "edition_count": 2,
+   "key": "/works/OL1428838W",
+   "publisher": [
+    "\"Nauka,\"",
+    "American Mathematical Society"
+   ],
+   "language": [
+    "rus",
+    "eng"
+   ],
+   "lccn": [
+    "61015687",
+    "68142402"
+   ],
+   "last_modified_i": 1264852526,
+   "publish_year": [
+    1968,
+    1962
+   ],
+   "first_publish_year": 1962
+  },
+  {
+   "title_suggest": "Algorithmic graph theory and perfect graphs",
+   "edition_key": [
+    "OL4418784M",
+    "OL3382189M"
+   ],
+   "cover_i": 285048,
+   "isbn": [
+    "9780122892608",
+    "9780444515308",
+    "0122892607",
+    "0444515305"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL4418784M",
+    "OL3382189M",
+    "9780122892608",
+    "9780444515308",
+    "0122892607",
+    "0444515305",
+    "Martin Charles Golumbic",
+    "algorithmicgraph00golu_852",
+    "OL1400586A",
+    "Algorithmic graph theory and perfect graphs",
+    "Perfect graphs",
+    "Accessible book",
+    "Protected DAISY",
+    "/works/OL5756254W",
+    "Martin Charles Golumbic.",
+    "Elsevier",
+    "Academic Press",
+    "2004555477",
+    "79022956"
+   ],
+   "author_name": [
+    "Martin Charles Golumbic"
+   ],
+   "seed": [
+    "/books/OL4418784M",
+    "/books/OL3382189M",
+    "/works/OL5756254W",
+    "/subjects/perfect_graphs",
+    "/authors/OL1400586A"
+   ],
+   "ia": [
+    "algorithmicgraph00golu_852"
+   ],
+   "author_key": [
+    "OL1400586A"
+   ],
+   "subject": [
+    "Perfect graphs",
+    "Accessible book",
+    "Protected DAISY"
+   ],
+   "title": "Algorithmic graph theory and perfect graphs",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "first_publish_year": 1980,
+   "type": "work",
+   "ebook_count_i": 1,
+   "publish_place": [
+    "Amsterdam",
+    "New York",
+    "Boston"
+   ],
+   "printdisabled_s": "OL3382189M",
+   "edition_count": 2,
+   "key": "/works/OL5756254W",
+   "id_goodreads": [
+    "6160131"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "Elsevier",
+    "Academic Press"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "2004555477",
+    "79022956"
+   ],
+   "last_modified_i": 1406593729,
+   "id_librarything": [
+    "1605494"
+   ],
+   "cover_edition_key": "OL3382189M",
+   "publish_year": [
+    1980,
+    2004
+   ],
+   "publish_date": [
+    "2004",
+    "1980"
+   ]
+  },
+  {
+   "title_suggest": "Algorithmic graph theory",
+   "edition_key": [
+    "OL2052876M"
+   ],
+   "isbn": [
+    "0130236152",
+    "9780130236159"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL2052876M",
+    "0130236152",
+    "9780130236159",
+    "James A. McHugh",
+    "OL953432A",
+    "Algorithmic graph theory",
+    "James A. McHugh.",
+    "Graph theory",
+    "Data processing",
+    "/works/OL4641941W",
+    "Prentice Hall",
+    "88030722"
+   ],
+   "author_name": [
+    "James A. McHugh"
+   ],
+   "seed": [
+    "/books/OL2052876M",
+    "/works/OL4641941W",
+    "/subjects/data_processing",
+    "/subjects/graph_theory",
+    "/authors/OL953432A"
+   ],
+   "author_key": [
+    "OL953432A"
+   ],
+   "subject": [
+    "Graph theory",
+    "Data processing"
+   ],
+   "title": "Algorithmic graph theory",
+   "publish_date": [
+    "1990"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Englewood Cliffs, N.J"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL4641941W",
+   "id_goodreads": [
+    "4744766"
+   ],
+   "publisher": [
+    "Prentice Hall"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "88030722"
+   ],
+   "last_modified_i": 1291478279,
+   "id_librarything": [
+    "769749"
+   ],
+   "publish_year": [
+    1990
+   ],
+   "first_publish_year": 1990
+  },
+  {
+   "title_suggest": "Algorithmic graph theory",
+   "edition_key": [
+    "OL2861030M"
+   ],
+   "cover_i": 332375,
+   "isbn": [
+    "0521288819",
+    "9780521246590",
+    "0521246598",
+    "9780521288811"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL2861030M",
+    "0521288819",
+    "9780521246590",
+    "0521246598",
+    "9780521288811",
+    "Gibbons, Alan",
+    "algorithmicgraph00gibb_582",
+    "OL1076731A",
+    "Algorithmic graph theory",
+    "Accessible book",
+    "Graph theory",
+    "Data processing",
+    "Protected DAISY",
+    "/works/OL4981840W",
+    "Alan Gibbons.",
+    "Cambridge University Press",
+    "84023835"
+   ],
+   "author_name": [
+    "Gibbons, Alan"
+   ],
+   "seed": [
+    "/books/OL2861030M",
+    "/works/OL4981840W",
+    "/subjects/data_processing",
+    "/subjects/graph_theory",
+    "/authors/OL1076731A"
+   ],
+   "ia": [
+    "algorithmicgraph00gibb_582"
+   ],
+   "author_key": [
+    "OL1076731A"
+   ],
+   "subject": [
+    "Accessible book",
+    "Graph theory",
+    "Data processing",
+    "Protected DAISY"
+   ],
+   "title": "Algorithmic graph theory",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "first_publish_year": 1985,
+   "type": "work",
+   "ebook_count_i": 1,
+   "publish_place": [
+    "New York",
+    "Cambridge [Cambridgeshire]"
+   ],
+   "printdisabled_s": "OL2861030M",
+   "edition_count": 1,
+   "key": "/works/OL4981840W",
+   "id_goodreads": [
+    "2420069"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "Cambridge University Press"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "84023835"
+   ],
+   "last_modified_i": 1406702098,
+   "id_librarything": [
+    "3678365"
+   ],
+   "cover_edition_key": "OL2861030M",
+   "publish_year": [
+    1985
+   ],
+   "publish_date": [
+    "1985"
+   ]
+  },
+  {
+   "title_suggest": "Extremal graph theory",
+   "edition_key": [
+    "OL4563284M"
+   ],
+   "isbn": [
+    "9780121117504",
+    "0121117502"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL4563284M",
+    "9780121117504",
+    "0121117502",
+    "B\u00e9la Bollob\u00e1s",
+    "OL19415A",
+    "Extremal graph theory",
+    "B\u00e9la Bollob\u00e1s.",
+    "Extremal problems (Mathematics)",
+    "Graph theory.",
+    "/works/OL4563284M",
+    "Academic Press",
+    "77076680"
+   ],
+   "author_name": [
+    "B\u00e9la Bollob\u00e1s"
+   ],
+   "seed": [
+    "/books/OL4563284M",
+    "/works/OL4563284M",
+    "/subjects/graph_theory.",
+    "/subjects/extremal_problems_(mathematics)",
+    "/authors/OL19415A"
+   ],
+   "author_key": [
+    "OL19415A"
+   ],
+   "subject": [
+    "Extremal problems (Mathematics)",
+    "Graph theory."
+   ],
+   "title": "Extremal graph theory",
+   "publish_date": [
+    "1978"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York",
+    "London"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL4563284M",
+   "publisher": [
+    "Academic Press"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "77076680"
+   ],
+   "last_modified_i": 1419577882,
+   "publish_year": [
+    1978
+   ],
+   "first_publish_year": 1978
+  },
+  {
+   "title_suggest": "Modern graph theory",
+   "edition_key": [
+    "OL352470M"
+   ],
+   "isbn": [
+    "0387984917",
+    "9780387984889",
+    "9780387984919",
+    "0387984887"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL352470M",
+    "0387984917",
+    "9780387984889",
+    "9780387984919",
+    "0387984887",
+    "B\u00e9la Bollob\u00e1s",
+    "OL19415A",
+    "Modern graph theory",
+    "B\u00e9la Bollob\u00e1s.",
+    "Graph theory",
+    "/works/OL352470M",
+    "Springer",
+    "98011960"
+   ],
+   "author_name": [
+    "B\u00e9la Bollob\u00e1s"
+   ],
+   "seed": [
+    "/books/OL352470M",
+    "/works/OL352470M",
+    "/subjects/graph_theory",
+    "/authors/OL19415A"
+   ],
+   "author_key": [
+    "OL19415A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Modern graph theory",
+   "publish_date": [
+    "1998"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL352470M",
+   "id_goodreads": [
+    "3984898",
+    "388048"
+   ],
+   "publisher": [
+    "Springer"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "98011960"
+   ],
+   "last_modified_i": 1419577914,
+   "id_librarything": [
+    "15667"
+   ],
+   "cover_edition_key": "OL352470M",
+   "publish_year": [
+    1998
+   ],
+   "first_publish_year": 1998
+  },
+  {
+   "title_suggest": "Combinatorics and graph theory",
+   "publish_place": [
+    "Warszawa"
+   ],
+   "edition_key": [
+    "OL1954958M"
+   ],
+   "isbn": [
+    "8301093005",
+    "9788301093006"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "lccn": [
+    "90182889"
+   ],
+   "last_modified_i": 1419577799,
+   "title": "Combinatorics and graph theory",
+   "publisher": [
+    "PWN-Polish Scientific Publishers"
+   ],
+   "seed": [
+    "/books/OL1954958M",
+    "/works/OL1954958M",
+    "/subjects/combinatorial_analysis.",
+    "/subjects/graph_theory."
+   ],
+   "first_publish_year": 1989,
+   "publish_year": [
+    1989
+   ],
+   "key": "/works/OL1954958M",
+   "text": [
+    "OL1954958M",
+    "8301093005",
+    "9788301093006",
+    "Borowiecki, M.",
+    "Skupie\u0144, Zdzis\u0142aw.",
+    "Combinatorics and graph theory",
+    "editors of the volume, Zdzis\u0142aw Skupie\u0144, Mieczys\u0142aw Borowiecki.",
+    "Graph theory.",
+    "Combinatorial analysis.",
+    "/works/OL1954958M",
+    "PWN-Polish Scientific Publishers",
+    "90182889"
+   ],
+   "contributor": [
+    "Borowiecki, M.",
+    "Skupie\u0144, Zdzis\u0142aw."
+   ],
+   "publish_date": [
+    "1989"
+   ],
+   "subject": [
+    "Graph theory.",
+    "Combinatorial analysis."
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Theory of graphs",
+   "publish_place": [
+    "Providence"
+   ],
+   "has_fulltext": false,
+   "edition_count": 1,
+   "edition_key": [
+    "OL23839095M"
+   ],
+   "last_modified_i": 1419577827,
+   "title": "Theory of graphs",
+   "subject": [
+    "Graphic methods"
+   ],
+   "author_name": [
+    "Oystein Ore"
+   ],
+   "seed": [
+    "/books/OL23839095M",
+    "/works/OL23839095M",
+    "/subjects/graphic_methods",
+    "/authors/OL4356308A"
+   ],
+   "first_publish_year": 1962,
+   "publish_year": [
+    1962
+   ],
+   "key": "/works/OL23839095M",
+   "text": [
+    "OL23839095M",
+    "Oystein Ore",
+    "OL4356308A",
+    "Theory of graphs",
+    "Oystein Ore.",
+    "Graphic methods",
+    "/works/OL23839095M",
+    "American Mathematical Society"
+   ],
+   "publisher": [
+    "American Mathematical Society"
+   ],
+   "publish_date": [
+    "1962"
+   ],
+   "author_key": [
+    "OL4356308A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Computational graph theory",
+   "edition_key": [
+    "OL16688823M"
+   ],
+   "isbn": [
+    "0387821775",
+    "3211821775",
+    "9783211821770",
+    "9780387821771"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL16688823M",
+    "0387821775",
+    "3211821775",
+    "9783211821770",
+    "9780387821771",
+    "Tinhofer, Gottfried",
+    "Computational graph theory",
+    "G. Tinhofer ... [et al.] (eds.) ; in cooperation with R. Albrecht",
+    "Graph theory -- Data processing",
+    "Graph theory",
+    "/works/OL16688823M",
+    "Springer"
+   ],
+   "seed": [
+    "/books/OL16688823M",
+    "/works/OL16688823M",
+    "/subjects/graph_theory",
+    "/subjects/graph_theory_--_data_processing"
+   ],
+   "contributor": [
+    "Tinhofer, Gottfried"
+   ],
+   "subject": [
+    "Graph theory -- Data processing",
+    "Graph theory"
+   ],
+   "title": "Computational graph theory",
+   "publish_date": [
+    "1990"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Wien",
+    "New York"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL16688823M",
+   "publisher": [
+    "Springer"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1419574789,
+   "id_librarything": [
+    "3804101"
+   ],
+   "cover_edition_key": "OL16688823M",
+   "publish_year": [
+    1990
+   ],
+   "first_publish_year": 1990
+  },
+  {
+   "title_suggest": "Introduction to graph theory",
+   "edition_key": [
+    "OL15075482M"
+   ],
+   "isbn": [
+    "0582447038",
+    "9780582447035"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL15075482M",
+    "0582447038",
+    "9780582447035",
+    "R. J. Wilson",
+    "Wingate, W. J. G.",
+    "OL1865525A",
+    "hints and solutions manual",
+    "Introduction to graph theory",
+    "R.J. Wilson and W.J.G. Wingate.",
+    "/works/OL6815312W",
+    "Longman"
+   ],
+   "author_name": [
+    "R. J. Wilson"
+   ],
+   "seed": [
+    "/books/OL15075482M",
+    "/works/OL6815312W",
+    "/authors/OL1865525A"
+   ],
+   "contributor": [
+    "Wingate, W. J. G."
+   ],
+   "author_key": [
+    "OL1865525A"
+   ],
+   "title": "Introduction to graph theory",
+   "publish_date": [
+    "1985"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Harlow"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL6815312W",
+   "publisher": [
+    "Longman"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1282098071,
+   "id_librarything": [
+    "705606"
+   ],
+   "publish_year": [
+    1985
+   ],
+   "first_publish_year": 1985
+  },
+  {
+   "title_suggest": "Extremal Graph Theory",
+   "edition_key": [
+    "OL7639389M"
+   ],
+   "cover_i": 314194,
+   "isbn": [
+    "0486435962",
+    "9780486435961"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL7639389M",
+    "0486435962",
+    "9780486435961",
+    "Bela Bollobas",
+    "OL2646740A",
+    "Extremal Graph Theory",
+    "/works/OL7938885W",
+    "Dover Publications"
+   ],
+   "author_name": [
+    "Bela Bollobas"
+   ],
+   "seed": [
+    "/books/OL7639389M",
+    "/works/OL7938885W",
+    "/authors/OL2646740A"
+   ],
+   "author_key": [
+    "OL2646740A"
+   ],
+   "title": "Extremal Graph Theory",
+   "publish_date": [
+    "June 4, 2004"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "edition_count": 1,
+   "key": "/works/OL7938885W",
+   "id_goodreads": [
+    "388055"
+   ],
+   "publisher": [
+    "Dover Publications"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1281065568,
+   "id_librarything": [
+    "1558975"
+   ],
+   "cover_edition_key": "OL7639389M",
+   "publish_year": [
+    2004
+   ],
+   "first_publish_year": 2004
+  },
+  {
+   "title_suggest": "Graph Theory Combinator & Applications",
+   "publisher": [
+    "John Wiley & Sons Inc"
+   ],
+   "isbn": [
+    "9780471609179",
+    "047160917X"
+   ],
+   "has_fulltext": false,
+   "edition_count": 1,
+   "edition_key": [
+    "OL7619346M"
+   ],
+   "last_modified_i": 1260834793,
+   "title": "Graph Theory Combinator & Applications",
+   "author_name": [
+    "ALAVI"
+   ],
+   "seed": [
+    "/books/OL7619346M",
+    "/works/OL8230906W",
+    "/authors/OL2739862A"
+   ],
+   "first_publish_year": 1992,
+   "publish_year": [
+    1992
+   ],
+   "key": "/works/OL8230906W",
+   "text": [
+    "OL7619346M",
+    "9780471609179",
+    "047160917X",
+    "ALAVI",
+    "OL2739862A",
+    "Graph Theory Combinator & Applications",
+    "/works/OL8230906W",
+    "John Wiley & Sons Inc"
+   ],
+   "publish_date": [
+    "April 5, 1992"
+   ],
+   "author_key": [
+    "OL2739862A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Introductory graph theory",
+   "edition_key": [
+    "OL22629610M"
+   ],
+   "isbn": [
+    "0486247759",
+    "9780486247755"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL22629610M",
+    "0486247759",
+    "9780486247755",
+    "G. Chartrand",
+    "OL2739864A",
+    "Introductory graph theory",
+    "Gary Chartrand.",
+    "Graph theory",
+    "/works/OL8230908W",
+    "Dover",
+    "Graphs as mathematical models"
+   ],
+   "author_name": [
+    "G. Chartrand"
+   ],
+   "seed": [
+    "/books/OL22629610M",
+    "/works/OL8230908W",
+    "/subjects/graph_theory",
+    "/authors/OL2739864A"
+   ],
+   "author_key": [
+    "OL2739864A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Introductory graph theory",
+   "publish_date": [
+    "1985"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL8230908W",
+   "id_goodreads": [
+    "388047"
+   ],
+   "publisher": [
+    "Dover"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1291446626,
+   "id_librarything": [
+    "57832"
+   ],
+   "publish_year": [
+    1985
+   ],
+   "first_publish_year": 1985
+  },
+  {
+   "title_suggest": "Graph Theory and Algorithms",
+   "edition_key": [
+    "OL7442923M"
+   ],
+   "cover_i": 4611019,
+   "isbn": [
+    "9780387107042",
+    "0387107045"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL7442923M",
+    "9780387107042",
+    "0387107045",
+    "Saito",
+    "OL2678787A",
+    "17th Symposium of Research Institute of Electrical Communication, Tohoku University, Sendai, Japan, October 24-25, 1980 (Lecture Notes in Computer Science)",
+    "Graph Theory and Algorithms",
+    "Algorithms",
+    "Graph theory",
+    "Congresses",
+    "/works/OL8053858W",
+    "Springer"
+   ],
+   "author_name": [
+    "Saito"
+   ],
+   "seed": [
+    "/books/OL7442923M",
+    "/works/OL8053858W",
+    "/subjects/congresses",
+    "/subjects/graph_theory",
+    "/subjects/algorithms",
+    "/authors/OL2678787A"
+   ],
+   "author_key": [
+    "OL2678787A"
+   ],
+   "subject": [
+    "Algorithms",
+    "Graph theory",
+    "Congresses"
+   ],
+   "title": "Graph Theory and Algorithms",
+   "publish_date": [
+    "July 1981"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "edition_count": 1,
+   "key": "/works/OL8053858W",
+   "id_goodreads": [
+    "4798169"
+   ],
+   "publisher": [
+    "Springer"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1325055557,
+   "cover_edition_key": "OL7442923M",
+   "publish_year": [
+    1981
+   ],
+   "first_publish_year": 1981
+  },
+  {
+   "title_suggest": "Combinatoric and Graph Theory",
+   "publisher": [
+    "Springer-Verlag"
+   ],
+   "isbn": [
+    "0387111514",
+    "9780387111513"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "edition_key": [
+    "OL7443010M"
+   ],
+   "last_modified_i": 1325055644,
+   "title": "Combinatoric and Graph Theory",
+   "subject": [
+    "Congresses",
+    "Graph theory",
+    "Combinatorial analysis"
+   ],
+   "author_name": [
+    "S. B. Rao"
+   ],
+   "seed": [
+    "/books/OL7443010M",
+    "/works/OL8053961W",
+    "/subjects/combinatorial_analysis",
+    "/subjects/graph_theory",
+    "/subjects/congresses",
+    "/authors/OL2678854A"
+   ],
+   "first_publish_year": 1982,
+   "publish_year": [
+    1982
+   ],
+   "key": "/works/OL8053961W",
+   "text": [
+    "OL7443010M",
+    "0387111514",
+    "9780387111513",
+    "S. B. Rao",
+    "OL2678854A",
+    "Combinatoric and Graph Theory",
+    "Congresses",
+    "Graph theory",
+    "Combinatorial analysis",
+    "/works/OL8053961W",
+    "Springer-Verlag"
+   ],
+   "publish_date": [
+    "February 1982"
+   ],
+   "author_key": [
+    "OL2678854A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Chemical Graph Theory",
+   "edition_key": [
+    "OL8301379M"
+   ],
+   "cover_i": 1605575,
+   "isbn": [
+    "9780856264542",
+    "0856264547"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL8301379M",
+    "9780856264542",
+    "0856264547",
+    "BONCHEV",
+    "OL2922764A",
+    "Introduction and Fundamentals (Mathematical Chemistry, Vol 1)",
+    "Chemical Graph Theory",
+    "/works/OL8661631W",
+    "Taylor & Francis",
+    "It has frequently been remarked that mathematics is a more effective tool in the natural sciences than might be reasonably expected [1]."
+   ],
+   "author_name": [
+    "BONCHEV"
+   ],
+   "seed": [
+    "/books/OL8301379M",
+    "/works/OL8661631W",
+    "/authors/OL2922764A"
+   ],
+   "author_key": [
+    "OL2922764A"
+   ],
+   "title": "Chemical Graph Theory",
+   "publish_date": [
+    "January 1, 1991"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "edition_count": 1,
+   "key": "/works/OL8661631W",
+   "id_goodreads": [
+    "4902253"
+   ],
+   "publisher": [
+    "Taylor & Francis"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1281400530,
+   "id_librarything": [
+    "7502474"
+   ],
+   "cover_edition_key": "OL8301379M",
+   "first_sentence": [
+    "It has frequently been remarked that mathematics is a more effective tool in the natural sciences than might be reasonably expected [1]."
+   ],
+   "publish_year": [
+    1991
+   ],
+   "first_publish_year": 1991
+  },
+  {
+   "title_suggest": "Computational Chemical Graph Theory",
+   "publisher": [
+    "Nova Science Publishers"
+   ],
+   "isbn": [
+    "9780941743846",
+    "0941743845"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "edition_key": [
+    "OL9628340M"
+   ],
+   "last_modified_i": 1272131029,
+   "title": "Computational Chemical Graph Theory",
+   "author_name": [
+    "Dennis H. Rouvray"
+   ],
+   "seed": [
+    "/books/OL9628340M",
+    "/works/OL8669556W",
+    "/authors/OL2926377A"
+   ],
+   "first_publish_year": 1990,
+   "publish_year": [
+    1990
+   ],
+   "key": "/works/OL8669556W",
+   "text": [
+    "OL9628340M",
+    "9780941743846",
+    "0941743845",
+    "Dennis H. Rouvray",
+    "OL2926377A",
+    "Computational Chemical Graph Theory",
+    "/works/OL8669556W",
+    "Nova Science Publishers"
+   ],
+   "id_goodreads": [
+    "207844"
+   ],
+   "publish_date": [
+    "February 1990"
+   ],
+   "author_key": [
+    "OL2926377A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Basic Graph Theory",
+   "publisher": [
+    "McGraw-Hill Education"
+   ],
+   "isbn": [
+    "0074623230",
+    "9780074623237"
+   ],
+   "has_fulltext": false,
+   "edition_count": 1,
+   "edition_key": [
+    "OL9970747M"
+   ],
+   "last_modified_i": 1260837733,
+   "title": "Basic Graph Theory",
+   "author_name": [
+    "Parthasarathy"
+   ],
+   "seed": [
+    "/books/OL9970747M",
+    "/works/OL9308565W",
+    "/authors/OL3358087A"
+   ],
+   "first_publish_year": 1994,
+   "publish_year": [
+    1994
+   ],
+   "key": "/works/OL9308565W",
+   "text": [
+    "OL9970747M",
+    "0074623230",
+    "9780074623237",
+    "Parthasarathy",
+    "OL3358087A",
+    "Basic Graph Theory",
+    "/works/OL9308565W",
+    "McGraw-Hill Education"
+   ],
+   "publish_date": [
+    "August 1, 1994"
+   ],
+   "author_key": [
+    "OL3358087A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Computational Graph Theory",
+   "publisher": [
+    "Springer"
+   ],
+   "cover_i": 5348278,
+   "isbn": [
+    "0387821775",
+    "9780387821771"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "title": "Computational Graph Theory",
+   "edition_key": [
+    "OL10155002M"
+   ],
+   "last_modified_i": 1339980669,
+   "edition_count": 1,
+   "author_name": [
+    "G. Tinhofer"
+   ],
+   "cover_edition_key": "OL10155002M",
+   "seed": [
+    "/books/OL10155002M",
+    "/works/OL9336151W",
+    "/authors/OL3381914A"
+   ],
+   "first_publish_year": 1990,
+   "publish_year": [
+    1990
+   ],
+   "key": "/works/OL9336151W",
+   "text": [
+    "OL10155002M",
+    "0387821775",
+    "9780387821771",
+    "G. Tinhofer",
+    "OL3381914A",
+    "Computational Graph Theory",
+    "/works/OL9336151W",
+    "Springer"
+   ],
+   "publish_date": [
+    "June 1990"
+   ],
+   "author_key": [
+    "OL3381914A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Advances in Graph Theory",
+   "publisher": [
+    "Elsevier Science"
+   ],
+   "edition_key": [
+    "OL9669532M"
+   ],
+   "isbn": [
+    "9780444850751",
+    "0444850759"
+   ],
+   "has_fulltext": false,
+   "edition_count": 1,
+   "oclc": [
+    "228092636"
+   ],
+   "last_modified_i": 1303872750,
+   "title": "Advances in Graph Theory",
+   "author_name": [
+    "Bollobas"
+   ],
+   "seed": [
+    "/books/OL9669532M",
+    "/works/OL9249575W",
+    "/authors/OL3306166A"
+   ],
+   "first_publish_year": 1978,
+   "publish_year": [
+    1978
+   ],
+   "key": "/works/OL9249575W",
+   "text": [
+    "OL9669532M",
+    "9780444850751",
+    "0444850759",
+    "Bollobas",
+    "228092636",
+    "OL3306166A",
+    "Advances in Graph Theory",
+    "/works/OL9249575W",
+    "Elsevier Science"
+   ],
+   "publish_date": [
+    "June 1978"
+   ],
+   "author_key": [
+    "OL3306166A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Graph Theory in Chemistry",
+   "publisher": [
+    "John Wiley & Sons Inc"
+   ],
+   "isbn": [
+    "9780471049524",
+    "0471049522"
+   ],
+   "has_fulltext": false,
+   "edition_count": 1,
+   "edition_key": [
+    "OL10298372M"
+   ],
+   "last_modified_i": 1260837957,
+   "title": "Graph Theory in Chemistry",
+   "author_name": [
+    "RANDIC"
+   ],
+   "seed": [
+    "/books/OL10298372M",
+    "/works/OL9374539W",
+    "/authors/OL3413428A"
+   ],
+   "key": "/works/OL9374539W",
+   "text": [
+    "OL10298372M",
+    "9780471049524",
+    "0471049522",
+    "RANDIC",
+    "OL3413428A",
+    "Graph Theory in Chemistry",
+    "/works/OL9374539W",
+    "John Wiley & Sons Inc"
+   ],
+   "author_key": [
+    "OL3413428A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Chemical Graph Theory",
+   "publisher": [
+    "John Wiley & Sons Inc"
+   ],
+   "isbn": [
+    "9780471853039",
+    "0471853038"
+   ],
+   "has_fulltext": false,
+   "edition_count": 1,
+   "edition_key": [
+    "OL9425182M"
+   ],
+   "last_modified_i": 1260837051,
+   "title": "Chemical Graph Theory",
+   "author_name": [
+    "HERNDON"
+   ],
+   "seed": [
+    "/books/OL9425182M",
+    "/works/OL9190499W",
+    "/authors/OL3257806A"
+   ],
+   "key": "/works/OL9190499W",
+   "text": [
+    "OL9425182M",
+    "9780471853039",
+    "0471853038",
+    "HERNDON",
+    "OL3257806A",
+    "Chemical Graph Theory",
+    "/works/OL9190499W",
+    "John Wiley & Sons Inc"
+   ],
+   "author_key": [
+    "OL3257806A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Excursions in Graph Theory",
+   "publisher": [
+    "Univ of Maine Pr"
+   ],
+   "edition_key": [
+    "OL11274314M"
+   ],
+   "isbn": [
+    "0891010408",
+    "9780891010401"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "oclc": [
+    "6382920"
+   ],
+   "last_modified_i": 1303886292,
+   "title": "Excursions in Graph Theory",
+   "author_name": [
+    "Haggard"
+   ],
+   "seed": [
+    "/books/OL11274314M",
+    "/works/OL9181489W",
+    "/authors/OL3251073A"
+   ],
+   "first_publish_year": 1980,
+   "publish_year": [
+    1980
+   ],
+   "key": "/works/OL9181489W",
+   "text": [
+    "OL11274314M",
+    "0891010408",
+    "9780891010401",
+    "Haggard",
+    "6382920",
+    "OL3251073A",
+    "Excursions in Graph Theory",
+    "/works/OL9181489W",
+    "Univ of Maine Pr"
+   ],
+   "publish_date": [
+    "June 1980"
+   ],
+   "author_key": [
+    "OL3251073A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Jnl Graph Theory",
+   "publisher": [
+    "John Wiley & Sons Inc"
+   ],
+   "isbn": [
+    "047154132X",
+    "9780471541325"
+   ],
+   "has_fulltext": false,
+   "edition_count": 1,
+   "edition_key": [
+    "OL10329375M"
+   ],
+   "last_modified_i": 1260838018,
+   "title": "Jnl Graph Theory",
+   "author_name": [
+    "Jnl"
+   ],
+   "seed": [
+    "/books/OL10329375M",
+    "/works/OL9374845W",
+    "/authors/OL3413539A"
+   ],
+   "first_publish_year": 1993,
+   "publish_year": [
+    1993
+   ],
+   "key": "/works/OL9374845W",
+   "text": [
+    "OL10329375M",
+    "047154132X",
+    "9780471541325",
+    "Jnl",
+    "OL3413539A",
+    "Jnl Graph Theory",
+    "/works/OL9374845W",
+    "John Wiley & Sons Inc"
+   ],
+   "publish_date": [
+    "May 19, 1993"
+   ],
+   "author_key": [
+    "OL3413539A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Topological Graph Theory",
+   "edition_key": [
+    "OL7638407M"
+   ],
+   "isbn": [
+    "0486417417",
+    "9780486417417"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL7638407M",
+    "0486417417",
+    "9780486417417",
+    "Jonathan L. Gross",
+    "Thomas W. Tucker",
+    "OL234957A",
+    "OL2729661A",
+    "Topological Graph Theory",
+    "Graphic Methods",
+    "Topological graph theory",
+    "Discrete Mathematics",
+    "Mathematics",
+    "Science/Mathematics",
+    "Mathematics / General",
+    "Topology",
+    "/works/OL7638407M",
+    "Dover Publications"
+   ],
+   "author_name": [
+    "Jonathan L. Gross",
+    "Thomas W. Tucker"
+   ],
+   "seed": [
+    "/books/OL7638407M",
+    "/works/OL7638407M",
+    "/subjects/mathematics",
+    "/subjects/topology",
+    "/subjects/science/mathematics",
+    "/subjects/graphic_methods",
+    "/subjects/mathematics_/_general",
+    "/subjects/discrete_mathematics",
+    "/subjects/topological_graph_theory",
+    "/authors/OL234957A",
+    "/authors/OL2729661A"
+   ],
+   "author_key": [
+    "OL234957A",
+    "OL2729661A"
+   ],
+   "subject": [
+    "Graphic Methods",
+    "Topological graph theory",
+    "Discrete Mathematics",
+    "Mathematics",
+    "Science/Mathematics",
+    "Mathematics / General",
+    "Topology"
+   ],
+   "title": "Topological Graph Theory",
+   "publish_date": [
+    "June 13, 2001"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "edition_count": 1,
+   "key": "/works/OL7638407M",
+   "id_goodreads": [
+    "388053"
+   ],
+   "publisher": [
+    "Dover Publications"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1419576308,
+   "id_librarything": [
+    "658965"
+   ],
+   "cover_edition_key": "OL7638407M",
+   "publish_year": [
+    2001
+   ],
+   "first_publish_year": 2001
+  },
+  {
+   "title_suggest": "Introduction to Graph Theory",
+   "edition_key": [
+    "OL9198072M"
+   ],
+   "isbn": [
+    "9812705252",
+    "9789812705259"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL9198072M",
+    "9812705252",
+    "9789812705259",
+    "Koh Khee Meng",
+    "Dong Fengming",
+    "Tay Eng Guan",
+    "OL3228144A",
+    "OL3228204A",
+    "OL3228145A",
+    "H3 Mathematics",
+    "Introduction to Graph Theory",
+    "Graph theory",
+    "Combinatorics",
+    "Science / Mathematics",
+    "Discrete Mathematics",
+    "Mathematics",
+    "Science/Mathematics",
+    "Combinatorics & graph theory",
+    "/works/OL9198072M",
+    "World Scientific Publishing Company"
+   ],
+   "author_name": [
+    "Koh Khee Meng",
+    "Dong Fengming",
+    "Tay Eng Guan"
+   ],
+   "seed": [
+    "/books/OL9198072M",
+    "/works/OL9198072M",
+    "/subjects/combinatorics_&_graph_theory",
+    "/subjects/mathematics",
+    "/subjects/science/mathematics",
+    "/subjects/discrete_mathematics",
+    "/subjects/science_/_mathematics",
+    "/subjects/combinatorics",
+    "/subjects/graph_theory",
+    "/authors/OL3228144A",
+    "/authors/OL3228204A",
+    "/authors/OL3228145A"
+   ],
+   "author_key": [
+    "OL3228144A",
+    "OL3228204A",
+    "OL3228145A"
+   ],
+   "subject": [
+    "Graph theory",
+    "Combinatorics",
+    "Science / Mathematics",
+    "Discrete Mathematics",
+    "Mathematics",
+    "Science/Mathematics",
+    "Combinatorics & graph theory"
+   ],
+   "title": "Introduction to Graph Theory",
+   "publish_date": [
+    "March 15, 2007"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "edition_count": 1,
+   "key": "/works/OL9198072M",
+   "id_goodreads": [
+    "7232495"
+   ],
+   "publisher": [
+    "World Scientific Publishing Company"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1419576670,
+   "cover_edition_key": "OL9198072M",
+   "publish_year": [
+    2007
+   ],
+   "first_publish_year": 2007
+  },
+  {
+   "title_suggest": "Graph Theory and Algorithms",
+   "publisher": [
+    "Springer"
+   ],
+   "isbn": [
+    "3540107045",
+    "9783540107040"
+   ],
+   "has_fulltext": false,
+   "id_goodreads": [
+    "4394538"
+   ],
+   "edition_count": 1,
+   "edition_key": [
+    "OL9387691M"
+   ],
+   "last_modified_i": 1419576815,
+   "title": "Graph Theory and Algorithms",
+   "cover_edition_key": "OL9387691M",
+   "language": [
+    "eng"
+   ],
+   "seed": [
+    "/books/OL9387691M",
+    "/works/OL9387691M",
+    "/subjects/computer_science",
+    "/subjects/algorithmus",
+    "/subjects/computers_/_computer_science",
+    "/subjects/graph",
+    "/subjects/computers_-_general_information"
+   ],
+   "first_publish_year": 1981,
+   "publish_year": [
+    1981
+   ],
+   "key": "/works/OL9387691M",
+   "text": [
+    "OL9387691M",
+    "3540107045",
+    "9783540107040",
+    "N. Saito (Editor)",
+    "T. Nishizeki (Editor)",
+    "17th Symposium of Research Institute of Electrical Communication, Tohoku University, Sendai, Japan, October 24-25, 1980. Proceedings (Lecture Notes in Computer Science)",
+    "Graph Theory and Algorithms",
+    "Algorithmus",
+    "Graph",
+    "Computers / Computer Science",
+    "Computer Science",
+    "Computers - General Information",
+    "/works/OL9387691M",
+    "Springer"
+   ],
+   "contributor": [
+    "N. Saito (Editor)",
+    "T. Nishizeki (Editor)"
+   ],
+   "publish_date": [
+    "May 26, 1981"
+   ],
+   "subject": [
+    "Algorithmus",
+    "Graph",
+    "Computers / Computer Science",
+    "Computer Science",
+    "Computers - General Information"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Introduction to Graph Theory",
+   "edition_key": [
+    "OL9702651M"
+   ],
+   "isbn": [
+    "0072948620",
+    "9780072948622"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL9702651M",
+    "0072948620",
+    "9780072948622",
+    "Gary Chartrand",
+    "Zhang, Ping",
+    "OL829641A",
+    "OL295462A",
+    "Introduction to Graph Theory",
+    "Graphic Methods",
+    "Mathematics",
+    "Mathematics / Advanced",
+    "Advanced",
+    "General",
+    "/works/OL9702651M",
+    "McGraw-Hill Science/Engineering/Math"
+   ],
+   "author_name": [
+    "Gary Chartrand",
+    "Zhang, Ping"
+   ],
+   "seed": [
+    "/books/OL9702651M",
+    "/works/OL9702651M",
+    "/subjects/mathematics",
+    "/subjects/advanced",
+    "/subjects/general",
+    "/subjects/graphic_methods",
+    "/subjects/mathematics_/_advanced",
+    "/authors/OL829641A",
+    "/authors/OL295462A"
+   ],
+   "author_key": [
+    "OL829641A",
+    "OL295462A"
+   ],
+   "subject": [
+    "Graphic Methods",
+    "Mathematics",
+    "Mathematics / Advanced",
+    "Advanced",
+    "General"
+   ],
+   "title": "Introduction to Graph Theory",
+   "publish_date": [
+    "April 9, 2004"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "edition_count": 1,
+   "key": "/works/OL9702651M",
+   "publisher": [
+    "McGraw-Hill Science/Engineering/Math"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1419575382,
+   "id_librarything": [
+    "667803"
+   ],
+   "cover_edition_key": "OL9702651M",
+   "publish_year": [
+    2004
+   ],
+   "first_publish_year": 2004
+  },
+  {
+   "title_suggest": "Introduction to graph theory",
+   "edition_key": [
+    "OL24124187M"
+   ],
+   "isbn": [
+    "9780273728894",
+    "027372889X"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL24124187M",
+    "9780273728894",
+    "027372889X",
+    "Robin J. Wilson",
+    "OL1009477A",
+    "Introduction to graph theory",
+    "Robin J. Wilson.",
+    "Graph theory",
+    "/works/OL24124187M",
+    "Longman",
+    "2010009905"
+   ],
+   "author_name": [
+    "Robin J. Wilson"
+   ],
+   "seed": [
+    "/books/OL24124187M",
+    "/works/OL24124187M",
+    "/subjects/graph_theory",
+    "/authors/OL1009477A"
+   ],
+   "author_key": [
+    "OL1009477A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Introduction to graph theory",
+   "publish_date": [
+    "2010"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Harlow, England",
+    "New York"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL24124187M",
+   "publisher": [
+    "Longman"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "2010009905"
+   ],
+   "last_modified_i": 1419575541,
+   "publish_year": [
+    2010
+   ],
+   "first_publish_year": 2010
+  },
+  {
+   "title_suggest": "Graph Theory (Journal)",
+   "publisher": [
+    "John Wiley & Sons Inc"
+   ],
+   "isbn": [
+    "9780471803959",
+    "0471803952"
+   ],
+   "has_fulltext": false,
+   "edition_count": 1,
+   "edition_key": [
+    "OL10336535M"
+   ],
+   "last_modified_i": 1419575468,
+   "title": "Graph Theory (Journal)",
+   "seed": [
+    "/books/OL10336535M",
+    "/works/OL10336535M"
+   ],
+   "key": "/works/OL10336535M",
+   "text": [
+    "OL10336535M",
+    "9780471803959",
+    "0471803952",
+    "Graph Theory (Journal)",
+    "/works/OL10336535M",
+    "John Wiley & Sons Inc"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Introduction to Graph Theory",
+   "edition_key": [
+    "OL9198048M"
+   ],
+   "isbn": [
+    "9789812703866",
+    "9812703861"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL9198048M",
+    "9789812703866",
+    "9812703861",
+    "Koh Khee Meng",
+    "Dong Fengming",
+    "Tay Eng Guan",
+    "OL3228144A",
+    "OL3228204A",
+    "OL3228145A",
+    "H3 Mathematics",
+    "Introduction to Graph Theory",
+    "Graphic Methods",
+    "Graph theory",
+    "Combinatorics",
+    "Science / Mathematics",
+    "Discrete Mathematics",
+    "Mathematics",
+    "Science/Mathematics",
+    "Combinatorics & graph theory",
+    "/works/OL9198048M",
+    "World Scientific Publishing Company"
+   ],
+   "author_name": [
+    "Koh Khee Meng",
+    "Dong Fengming",
+    "Tay Eng Guan"
+   ],
+   "seed": [
+    "/books/OL9198048M",
+    "/works/OL9198048M",
+    "/subjects/combinatorics_&_graph_theory",
+    "/subjects/mathematics",
+    "/subjects/science/mathematics",
+    "/subjects/discrete_mathematics",
+    "/subjects/graphic_methods",
+    "/subjects/science_/_mathematics",
+    "/subjects/combinatorics",
+    "/subjects/graph_theory",
+    "/authors/OL3228144A",
+    "/authors/OL3228204A",
+    "/authors/OL3228145A"
+   ],
+   "author_key": [
+    "OL3228144A",
+    "OL3228204A",
+    "OL3228145A"
+   ],
+   "subject": [
+    "Graphic Methods",
+    "Graph theory",
+    "Combinatorics",
+    "Science / Mathematics",
+    "Discrete Mathematics",
+    "Mathematics",
+    "Science/Mathematics",
+    "Combinatorics & graph theory"
+   ],
+   "title": "Introduction to Graph Theory",
+   "publish_date": [
+    "March 15, 2007"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "edition_count": 1,
+   "key": "/works/OL9198048M",
+   "id_goodreads": [
+    "632830"
+   ],
+   "publisher": [
+    "World Scientific Publishing Company"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1419575541,
+   "cover_edition_key": "OL9198048M",
+   "publish_year": [
+    2007
+   ],
+   "first_publish_year": 2007
+  },
+  {
+   "title_suggest": "Applied graph theory bibliography",
+   "publish_place": [
+    "Waterloo"
+   ],
+   "edition_key": [
+    "OL4286139M"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "lccn": [
+    "78312873"
+   ],
+   "last_modified_i": 1419577735,
+   "title": "Applied graph theory bibliography",
+   "publisher": [
+    "Computer Lab, Dept. of Combinatorics and Optimization, University of Waterloo"
+   ],
+   "seed": [
+    "/books/OL4286139M",
+    "/works/OL4286139M",
+    "/subjects/graph_theory_--_bibliography."
+   ],
+   "first_publish_year": 1978,
+   "publish_year": [
+    1978
+   ],
+   "key": "/works/OL4286139M",
+   "text": [
+    "OL4286139M",
+    "Berman, Gerald.",
+    "University of Waterloo. Dept. of Combinatorics and Optimization.",
+    "with forward citations",
+    "Applied graph theory bibliography",
+    "editor, Gerald Berman.",
+    "Graph theory -- Bibliography.",
+    "/works/OL4286139M",
+    "Computer Lab, Dept. of Combinatorics and Optimization, University of Waterloo",
+    "78312873"
+   ],
+   "contributor": [
+    "Berman, Gerald.",
+    "University of Waterloo. Dept. of Combinatorics and Optimization."
+   ],
+   "publish_date": [
+    "1978"
+   ],
+   "subject": [
+    "Graph theory -- Bibliography."
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Chromatic graph theory",
+   "edition_key": [
+    "OL22653271M"
+   ],
+   "isbn": [
+    "1584888008",
+    "9781584888000"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL22653271M",
+    "1584888008",
+    "9781584888000",
+    "Gary Chartrand",
+    "Zhang, Ping, 1957-",
+    "chromaticgraphth00char",
+    "OL829641A",
+    "Chromatic graph theory",
+    "Graph coloring",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "/works/OL4278829W",
+    "Gary Chartrand, Ping Zhang.",
+    "Chapman & Hall/CRC",
+    "2008044200"
+   ],
+   "author_name": [
+    "Gary Chartrand"
+   ],
+   "contributor": [
+    "Zhang, Ping, 1957-"
+   ],
+   "seed": [
+    "/books/OL22653271M",
+    "/works/OL4278829W",
+    "/subjects/graph_coloring",
+    "/subjects/graph_theory",
+    "/authors/OL829641A"
+   ],
+   "ia": [
+    "chromaticgraphth00char"
+   ],
+   "author_key": [
+    "OL829641A"
+   ],
+   "subject": [
+    "Graph coloring",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY"
+   ],
+   "title": "Chromatic graph theory",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "first_publish_year": 2009,
+   "type": "work",
+   "ebook_count_i": 1,
+   "publish_place": [
+    "Boca Raton"
+   ],
+   "printdisabled_s": "OL22653271M",
+   "edition_count": 1,
+   "key": "/works/OL4278829W",
+   "id_goodreads": [
+    "1675959"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "Chapman & Hall/CRC"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "2008044200"
+   ],
+   "last_modified_i": 1406541731,
+   "id_librarything": [
+    "8318899"
+   ],
+   "publish_year": [
+    2009
+   ],
+   "publish_date": [
+    "2009"
+   ]
+  },
+  {
+   "title_suggest": "Introduction to graph theory",
+   "edition_key": [
+    "OL15611595M"
+   ],
+   "isbn": [
+    "0073204161",
+    "0072948620",
+    "9780073204161",
+    "9780072948622"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL15611595M",
+    "0073204161",
+    "0072948620",
+    "9780073204161",
+    "9780072948622",
+    "Gary Chartrand",
+    "Zhang, Ping, 1957-",
+    "55985874",
+    "OL829641A",
+    "Introduction to graph theory",
+    "Gary Chartrand, Ping Zhang.",
+    "Graph theory",
+    "/works/OL4278831W",
+    "McGraw-Hill Higher Education",
+    "2004104286"
+   ],
+   "author_name": [
+    "Gary Chartrand"
+   ],
+   "seed": [
+    "/books/OL15611595M",
+    "/works/OL4278831W",
+    "/subjects/graph_theory",
+    "/authors/OL829641A"
+   ],
+   "oclc": [
+    "55985874"
+   ],
+   "contributor": [
+    "Zhang, Ping, 1957-"
+   ],
+   "author_key": [
+    "OL829641A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Introduction to graph theory",
+   "publish_date": [
+    "2005"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Boston"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL4278831W",
+   "id_goodreads": [
+    "292083"
+   ],
+   "publisher": [
+    "McGraw-Hill Higher Education"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "2004104286"
+   ],
+   "last_modified_i": 1291387308,
+   "id_librarything": [
+    "667803"
+   ],
+   "publish_year": [
+    2005
+   ],
+   "first_publish_year": 2005
+  },
+  {
+   "title_suggest": "Introductory graph theory",
+   "edition_key": [
+    "OL2856266M"
+   ],
+   "cover_i": 309993,
+   "isbn": [
+    "0486247759",
+    "9780486247755"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL2856266M",
+    "0486247759",
+    "9780486247755",
+    "Gary Chartrand",
+    "OL829641A",
+    "Introductory graph theory",
+    "Gary Chartrand.",
+    "Graph theory",
+    "/works/OL4278832W",
+    "Dover",
+    "84018801"
+   ],
+   "author_name": [
+    "Gary Chartrand"
+   ],
+   "seed": [
+    "/books/OL2856266M",
+    "/works/OL4278832W",
+    "/subjects/graph_theory",
+    "/authors/OL829641A"
+   ],
+   "author_key": [
+    "OL829641A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Introductory graph theory",
+   "publish_date": [
+    "1985"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL4278832W",
+   "id_goodreads": [
+    "388047"
+   ],
+   "publisher": [
+    "Dover"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "84018801"
+   ],
+   "last_modified_i": 1291500145,
+   "id_librarything": [
+    "57832"
+   ],
+   "cover_edition_key": "OL2856266M",
+   "publish_year": [
+    1985
+   ],
+   "first_publish_year": 1985
+  },
+  {
+   "title_suggest": "Graph theory and applications",
+   "edition_key": [
+    "OL4261238M"
+   ],
+   "isbn": [
+    "9780853122524",
+    "0470272961",
+    "0853122520",
+    "9780470272961"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL4261238M",
+    "9780853122524",
+    "0470272961",
+    "0853122520",
+    "9780470272961",
+    "H. N. V. Temperley",
+    "OL1707481A",
+    "Graph theory and applications",
+    "H.N.V. Temperley.",
+    "Graph theory",
+    "/works/OL6440945W",
+    "Ellis Horwood",
+    "Halsted Press",
+    "81006933"
+   ],
+   "author_name": [
+    "H. N. V. Temperley"
+   ],
+   "seed": [
+    "/books/OL4261238M",
+    "/works/OL6440945W",
+    "/subjects/graph_theory",
+    "/authors/OL1707481A"
+   ],
+   "author_key": [
+    "OL1707481A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Graph theory and applications",
+   "publish_date": [
+    "1981"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Chichester [West Sussex]",
+    "New York"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL6440945W",
+   "id_goodreads": [
+    "3497401",
+    "5766636"
+   ],
+   "publisher": [
+    "Ellis Horwood",
+    "Halsted Press"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "81006933"
+   ],
+   "last_modified_i": 1291526357,
+   "id_librarything": [
+    "1132923"
+   ],
+   "publish_year": [
+    1981
+   ],
+   "first_publish_year": 1981
+  },
+  {
+   "title_suggest": "Graph Theory and Applications",
+   "publisher": [
+    "Prentice Hall Europe (a Pearson Education company)"
+   ],
+   "isbn": [
+    "0130261475",
+    "9780130261472"
+   ],
+   "has_fulltext": false,
+   "edition_count": 1,
+   "edition_key": [
+    "OL9718539M"
+   ],
+   "last_modified_i": 1294213867,
+   "title": "Graph Theory and Applications",
+   "author_name": [
+    "H. N. V. Temperley"
+   ],
+   "seed": [
+    "/books/OL9718539M",
+    "/works/OL6440946W",
+    "/authors/OL1707481A"
+   ],
+   "first_publish_year": 1984,
+   "publish_year": [
+    1984
+   ],
+   "key": "/works/OL6440946W",
+   "text": [
+    "OL9718539M",
+    "0130261475",
+    "9780130261472",
+    "H. N. V. Temperley",
+    "OL1707481A",
+    "Graph Theory and Applications",
+    "/works/OL6440946W",
+    "Prentice Hall Europe (a Pearson Education company)"
+   ],
+   "id_goodreads": [
+    "5092194"
+   ],
+   "publish_date": [
+    "January 1, 1984"
+   ],
+   "author_key": [
+    "OL1707481A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Introduction to graph theory",
+   "edition_key": [
+    "OL1422588M"
+   ],
+   "cover_i": 315179,
+   "isbn": [
+    "9780486678702",
+    "0486678709"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL1422588M",
+    "9780486678702",
+    "0486678709",
+    "Richard J. Trudeau",
+    "Trudeau, Richard J.",
+    "OL718782A",
+    "Introduction to graph theory",
+    "Richard J. Trudeau.",
+    "Graph theory",
+    "/works/OL3942797W",
+    "Dover Pub.",
+    "93032996"
+   ],
+   "author_name": [
+    "Richard J. Trudeau"
+   ],
+   "seed": [
+    "/books/OL1422588M",
+    "/works/OL3942797W",
+    "/subjects/graph_theory",
+    "/authors/OL718782A"
+   ],
+   "contributor": [
+    "Trudeau, Richard J."
+   ],
+   "author_key": [
+    "OL718782A"
+   ],
+   "subject": [
+    "Graph theory"
+   ],
+   "title": "Introduction to graph theory",
+   "publish_date": [
+    "1993"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL3942797W",
+   "id_goodreads": [
+    "388049"
+   ],
+   "publisher": [
+    "Dover Pub."
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "93032996"
+   ],
+   "last_modified_i": 1291462565,
+   "id_librarything": [
+    "1041239"
+   ],
+   "cover_edition_key": "OL1422588M",
+   "publish_year": [
+    1993
+   ],
+   "first_publish_year": 1993
+  },
+  {
+   "title_suggest": "Graph theory and applications",
+   "publisher": [
+    "Springer-Verlag"
+   ],
+   "isbn": [
+    "9780387060965",
+    "0387060960"
+   ],
+   "has_fulltext": false,
+   "id_goodreads": [
+    "87854"
+   ],
+   "edition_count": 1,
+   "edition_key": [
+    "OL7442412M"
+   ],
+   "last_modified_i": 1325051567,
+   "title": "Graph theory and applications",
+   "cover_edition_key": "OL7442412M",
+   "language": [
+    "eng"
+   ],
+   "seed": [
+    "/books/OL7442412M",
+    "/works/OL16346337W",
+    "/subjects/graph_theory",
+    "/subjects/congresses"
+   ],
+   "first_publish_year": 1978,
+   "publish_year": [
+    1978
+   ],
+   "key": "/works/OL16346337W",
+   "text": [
+    "OL7442412M",
+    "9780387060965",
+    "0387060960",
+    "Y. Alavi (Editor)",
+    "Don R. Lick (Editor)",
+    "Western Michigan University (Corporate Author)",
+    "Proceedings (Lecture Notes in Mathematics (Springer-Verlag), 303.)",
+    "Graph theory and applications",
+    "Graph theory",
+    "Congresses",
+    "/works/OL16346337W",
+    "Springer-Verlag",
+    "Graph Theory and Applications"
+   ],
+   "contributor": [
+    "Y. Alavi (Editor)",
+    "Don R. Lick (Editor)",
+    "Western Michigan University (Corporate Author)"
+   ],
+   "publish_date": [
+    "June 1978"
+   ],
+   "subject": [
+    "Graph theory",
+    "Congresses"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Algebraic graph theory",
+   "edition_key": [
+    "OL7448807M"
+   ],
+   "isbn": [
+    "0387952411",
+    "9780387952413"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL7448807M",
+    "0387952411",
+    "9780387952413",
+    "algebraicgraphth00gods",
+    "Algebraic graph theory",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "/works/OL16964363W",
+    "Springer",
+    "Algebraic Graph Theory (Graduate Texts in Mathematics)",
+    "A graph X consists of a vertex set V(X) and an edge set E(X), where an edge is an unordered pair of distinct vertices of X."
+   ],
+   "seed": [
+    "/books/OL7448807M",
+    "/works/OL16964363W",
+    "/subjects/graph_theory"
+   ],
+   "ia": [
+    "algebraicgraphth00gods"
+   ],
+   "subject": [
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY"
+   ],
+   "title": "Algebraic graph theory",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "first_publish_year": 2001,
+   "type": "work",
+   "ebook_count_i": 1,
+   "printdisabled_s": "OL7448807M",
+   "edition_count": 1,
+   "key": "/works/OL16964363W",
+   "id_goodreads": [
+    "5661119"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "Springer"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1406639571,
+   "id_librarything": [
+    "1063684"
+   ],
+   "cover_edition_key": "OL7448807M",
+   "first_sentence": [
+    "A graph X consists of a vertex set V(X) and an edge set E(X), where an edge is an unordered pair of distinct vertices of X."
+   ],
+   "publish_year": [
+    2001
+   ],
+   "publish_date": [
+    "April 20, 2001"
+   ]
+  },
+  {
+   "title_suggest": "Algebraic graph theory",
+   "edition_key": [
+    "OL7448791M"
+   ],
+   "isbn": [
+    "0387952209",
+    "9780387952208"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL7448791M",
+    "0387952209",
+    "9780387952208",
+    "collectedworksvo00gods",
+    "Algebraic graph theory",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "/works/OL16921920W",
+    "Springer",
+    "Algebraic Graph Theory",
+    "A graph X consists of a vertex set V(X) and an edge set E(X), where an edge is an unordered pair of distinct vertices of X."
+   ],
+   "seed": [
+    "/books/OL7448791M",
+    "/works/OL16921920W",
+    "/subjects/graph_theory"
+   ],
+   "ia": [
+    "collectedworksvo00gods"
+   ],
+   "subject": [
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY"
+   ],
+   "title": "Algebraic graph theory",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "first_publish_year": 2001,
+   "type": "work",
+   "ebook_count_i": 1,
+   "printdisabled_s": "OL7448791M",
+   "edition_count": 1,
+   "key": "/works/OL16921920W",
+   "id_goodreads": [
+    "632832"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "Springer"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1406546050,
+   "id_librarything": [
+    "1063684"
+   ],
+   "cover_edition_key": "OL7448791M",
+   "first_sentence": [
+    "A graph X consists of a vertex set V(X) and an edge set E(X), where an edge is an unordered pair of distinct vertices of X."
+   ],
+   "publish_year": [
+    2001
+   ],
+   "publish_date": [
+    "April 20, 2001"
+   ]
+  },
+  {
+   "title_suggest": "Quo vadis, graph theory?",
+   "edition_key": [
+    "OL7533850M"
+   ],
+   "isbn": [
+    "0444894411",
+    "9780444894410"
+   ],
+   "has_fulltext": true,
+   "text": [
+    "OL7533850M",
+    "0444894411",
+    "9780444894410",
+    "Louis V. Quintas (Editor)",
+    "quovadisgraphthe00gimb_773",
+    "A Source Book for Challenges and Directions (Annals of Discrete Mathematics)",
+    "Quo vadis, graph theory?",
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY",
+    "/works/OL16950729W",
+    "North-Holland",
+    "Quo Vadis, Graph Theory?"
+   ],
+   "ia": [
+    "quovadisgraphthe00gimb_773"
+   ],
+   "seed": [
+    "/books/OL7533850M",
+    "/works/OL16950729W",
+    "/subjects/graph_theory"
+   ],
+   "contributor": [
+    "Louis V. Quintas (Editor)"
+   ],
+   "subject": [
+    "Accessible book",
+    "Graph theory",
+    "Protected DAISY"
+   ],
+   "title": "Quo vadis, graph theory?",
+   "ia_collection_s": "printdisabled;librarygenesis",
+   "first_publish_year": 1993,
+   "type": "work",
+   "ebook_count_i": 1,
+   "printdisabled_s": "OL7533850M",
+   "edition_count": 1,
+   "key": "/works/OL16950729W",
+   "id_goodreads": [
+    "6034881"
+   ],
+   "public_scan_b": false,
+   "publisher": [
+    "North-Holland"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1406622798,
+   "id_librarything": [
+    "1879873"
+   ],
+   "cover_edition_key": "OL7533850M",
+   "publish_year": [
+    1993
+   ],
+   "publish_date": [
+    "March 1993"
+   ]
+  },
+  {
+   "title_suggest": "Topological graph theory",
+   "edition_key": [
+    "OL2377808M"
+   ],
+   "isbn": [
+    "0471049263",
+    "9780471049265"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL2377808M",
+    "0471049263",
+    "9780471049265",
+    "Jonathan L. Gross",
+    "Tucker, Thomas W.",
+    "OL234957A",
+    "Topological graph theory",
+    "Jonathan L. Gross, Thomas W. Tucker.",
+    "Topological graph theory",
+    "Topology",
+    "/works/OL1957734W",
+    "Wiley",
+    "87006221"
+   ],
+   "author_name": [
+    "Jonathan L. Gross"
+   ],
+   "seed": [
+    "/books/OL2377808M",
+    "/works/OL1957734W",
+    "/subjects/topological_graph_theory",
+    "/subjects/topology",
+    "/authors/OL234957A"
+   ],
+   "contributor": [
+    "Tucker, Thomas W."
+   ],
+   "author_key": [
+    "OL234957A"
+   ],
+   "subject": [
+    "Topological graph theory",
+    "Topology"
+   ],
+   "title": "Topological graph theory",
+   "publish_date": [
+    "1987"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "New York"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL1957734W",
+   "id_goodreads": [
+    "1149786"
+   ],
+   "publisher": [
+    "Wiley"
+   ],
+   "language": [
+    "eng"
+   ],
+   "lccn": [
+    "87006221"
+   ],
+   "last_modified_i": 1271391826,
+   "publish_year": [
+    1987
+   ],
+   "first_publish_year": 1987
+  },
+  {
+   "title_suggest": "Theory of graphs",
+   "publish_place": [
+    "Providence, R.I"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "edition_key": [
+    "OL20235119M"
+   ],
+   "last_modified_i": 1260859948,
+   "title": "Theory of graphs",
+   "publisher": [
+    "American Mathematical Society"
+   ],
+   "author_name": [
+    "Oystein Ore"
+   ],
+   "seed": [
+    "/books/OL20235119M",
+    "/works/OL10497653W",
+    "/authors/OL4356308A"
+   ],
+   "first_publish_year": 1962,
+   "publish_year": [
+    1962
+   ],
+   "key": "/works/OL10497653W",
+   "text": [
+    "OL20235119M",
+    "Oystein Ore",
+    "American Mathematical Society.",
+    "OL4356308A",
+    "Theory of graphs",
+    "/works/OL10497653W",
+    "American Mathematical Society",
+    "Theory of graphs."
+   ],
+   "contributor": [
+    "American Mathematical Society."
+   ],
+   "publish_date": [
+    "1962"
+   ],
+   "author_key": [
+    "OL4356308A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Graph Theory and Combinatorics",
+   "publisher": [
+    "World Scientific Pub Co Inc"
+   ],
+   "edition_key": [
+    "OL13167502M"
+   ],
+   "isbn": [
+    "9789810205881",
+    "9810205880"
+   ],
+   "has_fulltext": false,
+   "edition_count": 1,
+   "oclc": [
+    "437061773"
+   ],
+   "last_modified_i": 1304155535,
+   "title": "Graph Theory and Combinatorics",
+   "author_name": [
+    "J. Akiyama"
+   ],
+   "seed": [
+    "/books/OL13167502M",
+    "/works/OL10243239W",
+    "/authors/OL4202972A"
+   ],
+   "first_publish_year": 1991,
+   "publish_year": [
+    1991
+   ],
+   "key": "/works/OL10243239W",
+   "text": [
+    "OL13167502M",
+    "9789810205881",
+    "9810205880",
+    "J. Akiyama",
+    "437061773",
+    "OL4202972A",
+    "Graph Theory and Combinatorics",
+    "/works/OL10243239W",
+    "World Scientific Pub Co Inc"
+   ],
+   "publish_date": [
+    "August 1991"
+   ],
+   "author_key": [
+    "OL4202972A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Chemical graph theory",
+   "publish_place": [
+    "Boca Raton, Florida"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "edition_key": [
+    "OL13957621M"
+   ],
+   "last_modified_i": 1260842064,
+   "title": "Chemical graph theory",
+   "publisher": [
+    "CRC Press"
+   ],
+   "author_name": [
+    "Nenad Trinajstic "
+   ],
+   "seed": [
+    "/books/OL13957621M",
+    "/works/OL10685253W",
+    "/authors/OL4460367A"
+   ],
+   "first_publish_year": 1983,
+   "publish_year": [
+    1983
+   ],
+   "key": "/works/OL10685253W",
+   "text": [
+    "OL13957621M",
+    "Nenad Trinajstic ",
+    "OL4460367A",
+    "Chemical graph theory",
+    "/works/OL10685253W",
+    "CRC Press",
+    "Chemical graph theory."
+   ],
+   "publish_date": [
+    "1983"
+   ],
+   "author_key": [
+    "OL4460367A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Chemical graph theory",
+   "publish_place": [
+    "Boca Raton, Florida"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "edition_key": [
+    "OL13957656M"
+   ],
+   "last_modified_i": 1260842064,
+   "title": "Chemical graph theory",
+   "publisher": [
+    "CRC Press"
+   ],
+   "author_name": [
+    "Nenad Trinajstic "
+   ],
+   "seed": [
+    "/books/OL13957656M",
+    "/works/OL10685267W",
+    "/authors/OL4460379A"
+   ],
+   "first_publish_year": 1983,
+   "publish_year": [
+    1983
+   ],
+   "key": "/works/OL10685267W",
+   "text": [
+    "OL13957656M",
+    "Nenad Trinajstic ",
+    "OL4460379A",
+    "Chemical graph theory",
+    "/works/OL10685267W",
+    "CRC Press",
+    "Chemical graph theory."
+   ],
+   "publish_date": [
+    "1983"
+   ],
+   "author_key": [
+    "OL4460379A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  },
+  {
+   "title_suggest": "Applied graph theory",
+   "edition_key": [
+    "OL15185137M"
+   ],
+   "cover_i": 5299470,
+   "isbn": [
+    "0720428351",
+    "9780720428353"
+   ],
+   "has_fulltext": false,
+   "text": [
+    "OL15185137M",
+    "0720428351",
+    "9780720428353",
+    "Geir T\u00f3masson Zo\u00ebga",
+    "OL4810946A",
+    "graphs and electrical networks.",
+    "Applied graph theory",
+    "/works/OL11440109W",
+    "North-Holland"
+   ],
+   "author_name": [
+    "Geir T\u00f3masson Zo\u00ebga"
+   ],
+   "seed": [
+    "/books/OL15185137M",
+    "/works/OL11440109W",
+    "/authors/OL4810946A"
+   ],
+   "author_key": [
+    "OL4810946A"
+   ],
+   "title": "Applied graph theory",
+   "publish_date": [
+    "1976"
+   ],
+   "type": "work",
+   "ebook_count_i": 0,
+   "publish_place": [
+    "Amsterdam [etc.]",
+    "Oxford"
+   ],
+   "edition_count": 1,
+   "key": "/works/OL11440109W",
+   "publisher": [
+    "North-Holland"
+   ],
+   "language": [
+    "eng"
+   ],
+   "last_modified_i": 1272439275,
+   "cover_edition_key": "OL15185137M",
+   "publish_year": [
+    1976
+   ],
+   "first_publish_year": 1976
+  }
+ ]
+}

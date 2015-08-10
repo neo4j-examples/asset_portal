@@ -2,6 +2,7 @@ class Category
   include Neo4j::ActiveNode
 
   property :name
+  property :standardized_name, constraint: :unique
 
   property :created_at
   property :updated_at

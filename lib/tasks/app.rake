@@ -50,26 +50,46 @@ task load_sample_data: :environment do
 
   admin_group.sub_groups = [user_group, power_user_group]
 
-  puts
-  puts 'Creating assets'
-  load_from_json(Asset) do |asset|
-    asset.allowed_groups << user_group if rand < 0.5
-    asset.allowed_groups << power_user_group if rand < 0.2
-  end
+  # Data from https://openlibrary.org/search.json?title=graphs+theory
+  book_search_data = JSON.parse(Rails.root.join('db', 'book_search.json').read)
+
 
   puts
-  puts 'Creating categories'
-  load_from_json(Category) do |category|
-    category.assets = random_nodes(Asset, 50)
+  puts 'Creating assets'
+  book_search_data['docs'].each do |book_data|
+    asset = Asset.create(
+       title: book_data['title'],
+       public: (rand > 0.2)
+    )
+
+    (book_data['subject'] || []).each do |subject_name|
+      category = Category.find_or_create({standardized_name: subject_name.downcase}, {name: subject_name})
+      asset.categories << category
+    end
+    putc '.'
   end
+
+  # puts
+  # puts 'Creating assets'
+  # load_from_json(Asset) do |asset|
+  #   asset.allowed_groups << user_group if rand < 0.5
+  #   asset.allowed_groups << power_user_group if rand < 0.2
+  # end
+
+  # puts
+  # puts 'Creating categories'
+  # load_from_json(Category) do |category|
+  #   category.assets = random_nodes(Asset, 50)
+  # end
 
   puts
   puts 'Creating users'
+  asset_count = Asset.count
   load_from_json(User) do |user|
     user.created_assets = random_nodes(Asset, 5) if rand < 0.15
-    user.allowed_assets = random_nodes(Asset, 10) if rand < 0.15
-    user.viewed_assets  = random_nodes(Asset, 400) if rand < 0.7
-    user.groups << [user_group, power_user_group].sample if rand < 0.2
-    user.groups << [admin_group] if rand < 0.05
+    # user.allowed_assets = random_nodes(Asset, 10) if rand < 0.15
+    user.viewed_assets  = random_nodes(Asset, asset_count / 3) if rand < 0.7
+    #user.groups << [user_group, power_user_group].sample if rand < 0.2
+    #user.groups << [admin_group] if rand < 0.05
   end
 end
