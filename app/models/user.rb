@@ -7,5 +7,8 @@ class User
   property :updated_at
 
   has_many :out, :created_assets, type: :CREATED, model_class: :Asset
-  has_many :out, :viewed_assets, type: :VIEWED, model_class: :Asset
+  has_many :out, :viewed_assets, rel_class: :View, model_class: :Asset
+  has_many :out, :viewed_users,  rel_class: :View, model_class: :User
+
+  has_many :in, :viewers, rel_class: :View, model_class: :User
 end

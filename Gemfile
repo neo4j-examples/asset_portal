@@ -32,6 +32,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'neo4j', '~> 5.0.0'
 
+gem 'validator'
+
 gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
 
 group :development, :test do
