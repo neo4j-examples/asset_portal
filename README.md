@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/neo4j-examples/asset_portal.png?branch=master)](http://travis-ci.org/neo4j-examples/asset_portal) 
+
 # README
 
 This is repo to go along with the `neo4j` gem screencast series by Brian Underwood.  
