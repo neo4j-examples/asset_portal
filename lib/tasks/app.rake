@@ -58,12 +58,12 @@ task load_sample_data: :environment do
   puts 'Creating assets'
   book_search_data['docs'].each do |book_data|
     asset = Asset.create(
-       title: book_data['title'],
-       public: (rand > 0.2)
+      title: book_data['title'],
+      public: (rand > 0.2)
     )
 
     (book_data['subject'] || []).each do |subject_name|
-      category = Category.find_or_create({standardized_name: subject_name.downcase}, {name: subject_name})
+      category = Category.find_or_create({standardized_name: subject_name.downcase}, name: subject_name)
       asset.categories << category
     end
     putc '.'
@@ -89,7 +89,7 @@ task load_sample_data: :environment do
     user.created_assets = random_nodes(Asset, 5) if rand < 0.15
     # user.allowed_assets = random_nodes(Asset, 10) if rand < 0.15
     user.viewed_assets  = random_nodes(Asset, asset_count / 3) if rand < 0.7
-    #user.groups << [user_group, power_user_group].sample if rand < 0.2
-    #user.groups << [admin_group] if rand < 0.05
+    # user.groups << [user_group, power_user_group].sample if rand < 0.2
+    # user.groups << [admin_group] if rand < 0.05
   end
 end

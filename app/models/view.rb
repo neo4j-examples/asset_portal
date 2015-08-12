@@ -19,7 +19,7 @@ class View
   end
 
   after_create :increment_destination_view_count
-  
+
   def increment_destination_view_count
     to_node.view_count ||= 0
     to_node.view_count += 1

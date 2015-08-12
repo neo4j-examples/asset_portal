@@ -14,5 +14,4 @@ class Category
   def self.most_recently_updated
     all.order(:updated_at).last
   end
-
 end

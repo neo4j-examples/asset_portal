@@ -1,7 +1,6 @@
+inherit_from: .rubocop_todo.yml
 
-# Couldn't find a good way to tighten Asset#secret_sauce_recommendations
-Metrics/LineLength:
-  Max: 91
+
 
 #---------------------------
 # Style configuration
@@ -13,14 +12,13 @@ Style/HashSyntax:
   Enabled: true
   EnforcedStyle: ruby19
 
+AllCops:
+  RunRailsCops: true
+
 # Cop supports --auto-correct.
 Style/SpaceInsideHashLiteralBraces:
   Enabled: true
   EnforcedStyle: no_space
-
-# I think this one is broken...
-Style/FileName:
-  Enabled: false
 
 #---------------------------
 # Don't intend to fix these:
