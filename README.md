@@ -1,22 +1,32 @@
-## README
+# README
 
-This Ruby on Rails app is currently in progress, but it will eventually be a fully functional asset management portal app using Neo4j.
-
-This app also goes along with the `neo4j` gem screencast series by Brian Underwood.
+This is repo to go along with the `neo4j` gem screencast series by Brian Underwood.  
 
 Each episode has a git tag to refer to the final code result so that you can check out and play with the code.
 
-## Welcome SitePoint readers!
-
-This `sitepoint` branch of the repository has been left for you to examine as a suppliment to the article.  A rake task has been provided for you to load sample data.  A basic UI has also been build so that you can browse the data.  Here is a rundown on how you might get started (refer to the `neo4j` [gem documentation](http://neo4jrb.readthedocs.org/en/latest/) for anything that you might be missing):
+## Setting up the app
 
  1. Clone this repository
  2. Checkout this branch: `git checkout sitepoint`
- 3. Run `bundle install`
- 4. Install Neo4j: `rake neo4j:install[community-latest]`
- 5. Start Neo4j: `rake neo4j:start`
- 6. Load the sample data: `rake load_sample_data`
- 7. Run a server with `rails server` and visit [http://localhost:3000/assets](http://localhost:3000/assets)
- 8. Load a rails console with `rails console` to try out making your own queries
- 9. Visit the Neo4j web console if you want to browse the data with Cypher [http://localhost:7474](http://localhost:7474)
+ 3. Install Neo4j: `rake neo4j:install[community-latest]
+ 4. Start Neo4j: `rake neo4j:start`
+ 5. Load the sample data: `rake load_sample_data`
+ 6. Visit [http://localhost:3000/assets](http://localhost:3000/assets)
+ 7. Load a rails console with `rails c` to try out making your own queries
+ 8. Visit the Neo4j web console if you want to browse the data with Cypher [http://localhost:7474](http://localhost:7474)
 
+## Neo4j gem Screencasts
+
+Part of the reason for creating this application was to serve as a demonstration application for a screencast series on the `neo4j` and `neo4j-core` gems.  You can find the episodes here:
+
+### Episode 1 - Create a Neo4j Rails Application
+
+https://www.youtube.com/watch?v=n0P0pOP34Mw
+
+### Episode 2 - Properties
+
+https://www.youtube.com/watch?v=2pCSQkHkPC8
+
+### Episode 3 - Associations
+
+https://www.youtube.com/watch?v=veqIfIqtoNc
