@@ -8,7 +8,7 @@ Each episode has a git tag to refer to the final code result so that you can che
 
  1. Clone this repository
  2. Checkout this branch: `git checkout sitepoint`
- 3. Install Neo4j: `rake neo4j:install[community-latest]
+ 3. Install Neo4j: `rake neo4j:install[community-latest]`
  4. Start Neo4j: `rake neo4j:start`
  5. Load the sample data: `rake load_sample_data`
  6. Visit [http://localhost:3000/assets](http://localhost:3000/assets)
