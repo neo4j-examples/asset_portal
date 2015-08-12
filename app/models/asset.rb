@@ -5,6 +5,8 @@ class Asset
   property :title
   property :public, default: true
 
+  property :view_count, type: Integer
+
   property :created_at
   property :updated_at
 

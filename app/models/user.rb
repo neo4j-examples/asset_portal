@@ -3,6 +3,8 @@ class User
   property :name, type: String
   property :email, type: String
 
+  property :view_count, type: Integer
+
   property :created_at
   property :updated_at
 
