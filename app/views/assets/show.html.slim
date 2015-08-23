@@ -1,0 +1,31 @@
+h1 Details
+
+.ui.grid
+  .three.wide.column
+    .ui.label Title
+  .thirteen.wide.column = @asset.title
+  .three.wide.column
+    .ui.label Last created
+  .thirteen.wide.column = @asset.created_at
+  .three.wide.column
+    .ui.label Last updated
+  .thirteen.wide.column = @asset.updated_at
+  .three.wide.column
+    .ui.label Categories
+  .thirteen.wide.column
+    ul.ui.relaxed.divided.list
+      - @asset.categories.each do |category|
+        li.item = link_to category.name, category
+
+h1 Recommendations
+
+table.ui.celled.table
+  thead
+    tr
+      th Title
+      th Score
+  tbody
+    - @asset.secret_sauce_recommendations.each do |recommendation|
+      tr
+        td = link_to recommendation.asset.title, recommendation.asset
+        td = recommendation.score
