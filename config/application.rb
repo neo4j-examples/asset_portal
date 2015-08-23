@@ -44,5 +44,18 @@ module AssetPortal
     # config.i18n.default_locale = :de
 
     config.neo4j._active_record_destroyed_behavior = true
+
+    if (neo4j_port = ENV['NEO4J_PORT']).blank?
+      puts <<-MESSAGE
+The NEO4J_PORT environment variable is required.
+The dotenv gem is installed, so you can create a
+.env or .env.#{Rails.env} file to specify this.
+
+See: https://github.com/bkeepers/dotenv
+MESSAGE
+      exit
+    end
+    config.neo4j.session_type = :server_db
+    config.neo4j.session_path = "http://localhost:#{neo4j_port}"
   end
 end

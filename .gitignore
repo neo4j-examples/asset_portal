@@ -13,3 +13,5 @@
 /tmp
 
 /db/neo4j
+
+.env*

@@ -53,4 +53,6 @@ group :development, :test do
   gem 'rubocop'
 
   gem 'meta_request'
+
+  gem 'dotenv-rails'
 end
