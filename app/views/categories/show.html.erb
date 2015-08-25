@@ -1,7 +1,0 @@
-<p id="notice"><%= notice %></p>
-
-<%= link_to 'Return to asset list', assets_path %>
-
-<h1>Assets for category: <%= @category.name %></h1>
-
-<%= render partial: 'assets/table', locals: {assets: @category.assets} %>

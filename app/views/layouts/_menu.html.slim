@@ -1,0 +1,6 @@
+.ui.secondary.pointing.menu
+  - Asset.descendants.each do |model_class|
+    a.item = link_to model_class.name.pluralize.humanize, assets_path(model_slug: model_class.model_slug)
+
+  .right.menu
+  a.ui.item Logout

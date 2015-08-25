@@ -1,0 +1,20 @@
+
+= form_for @asset, url: url_for(action: :update), html: {class: 'ui form'} do |f|
+  .field
+    label Title
+
+    = f.text_field :title
+
+  = image_tag @asset.image.url, class: 'ui medium image'
+  .field
+    label Image
+
+    = f.file_field :image
+
+  - @asset.class.properties.each do |property|
+    .field
+      label = property.humanize
+
+      = f.text_field property
+
+  = f.submit 'Update', class: 'ui button'

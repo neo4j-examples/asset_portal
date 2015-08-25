@@ -5,6 +5,14 @@ GIT
     semantic-ui-sass (2.0.4.0)
       sass (>= 3.2)
 
+GIT
+  remote: git://github.com/subvertallchris/neo4jrb-paperclip.git
+  revision: e70f1f9ea9433a9d103420bdfbdb639197e719a0
+  specs:
+    neo4jrb-paperclip (0.0.3)
+      neo4j (> 3.0.0.alpha.8)
+      paperclip (~> 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -51,12 +59,24 @@ GEM
     astrolabe (1.3.0)
       parser (>= 2.2.0.pre.3, < 3.0)
     awesome_print (1.6.1)
+    aws-sdk (1.65.0)
+      aws-sdk-v1 (= 1.65.0)
+    aws-sdk-v1 (1.65.0)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
+    bcrypt (3.1.10)
+    bcrypt-ruby (3.1.5)
+      bcrypt (>= 3.1.3)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
     byebug (5.0.0)
       columnize (= 0.9.0)
     callsite (0.0.11)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.7)
+      climate_control (>= 0.0.3, < 1.0)
     coderay (1.1.0)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
@@ -68,6 +88,20 @@ GEM
     colored (1.2)
     columnize (0.9.0)
     debug_inspector (0.0.2)
+    devise (3.5.1)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      responders
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
+    devise-neo4j (2.0.0)
+      bcrypt-ruby (~> 3.0)
+      devise (~> 3.0)
+      neo4j (>= 3.0.0.alpha.6)
+      orm_adapter (~> 0.5.0)
+      railties (>= 3.1)
+      warden (~> 1.2.1)
     diff-lcs (1.2.5)
     dotenv (2.0.2)
     dotenv-rails (2.0.2)
@@ -144,6 +178,11 @@ GEM
       mini_portile (~> 0.6.0)
     orm_adapter (0.5.0)
     os (0.9.6)
+    paperclip (4.2.4)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      cocaine (~> 0.5.5)
+      mime-types
     parser (2.2.2.5)
       ast (>= 1.1, < 3.0)
     powerpack (0.1.1)
@@ -184,6 +223,8 @@ GEM
     rainbow (2.0.0)
     rake (10.4.2)
     rdoc (4.2.0)
+    responders (2.1.0)
+      railties (>= 4.2.0, < 5)
     rspec-core (3.3.1)
       rspec-support (~> 3.3.0)
     rspec-expectations (3.3.0)
@@ -248,6 +289,8 @@ GEM
     validator (0.1.1)
       activemodel (>= 3.0.0)
       ipaddress
+    warden (1.2.3)
+      rack (>= 1.0)
     web-console (2.1.3)
       activemodel (>= 4.0)
       binding_of_caller (>= 0.7.2)
@@ -260,13 +303,17 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
+  aws-sdk (< 2.0)
   byebug
   coffee-rails (~> 4.1.0)
+  devise-neo4j
   dotenv-rails
   jbuilder (~> 2.0)
   jquery-rails
   meta_request
   neo4j (~> 5.1.0)
+  neo4jrb-paperclip!
+  paperclip (~> 4.2.0)
   pry
   rails (= 4.2.3)
   rspec-rails

@@ -1,3 +1,4 @@
+require 'open-uri'
 
 task wipe_neo4j_database: :environment do
   puts 'Are you SURE you want to wipe your Neo4j database?'
@@ -38,6 +39,45 @@ def random_nodes(model_class, max)
   model_class.limit(rand(max) + 1).order('rand()').to_a
 end
 
+def cover_url(cover_i, size)
+  "https://covers.openlibrary.org/w/id/#{cover_i}-#{size}.jpg"
+end
+
+CACHE = ActiveSupport::Cache::FileStore.new(Rails.root.join('cache'))
+
+def uncached_cover_data(cover_i)
+  data = nil
+  %w(L M S).detect do |size|
+    begin
+      data = open(cover_url(cover_i, size))
+    rescue Errno::ECONNRESET
+      nil
+    end
+  end
+  data.read if data
+end
+
+def cover_data(cover_i)
+  return nil if cover_i.blank?
+
+  CACHE.fetch(cover_i, expires_in: 1.month) do
+    uncached_cover_data(cover_i)
+  end || uncached_cover_data(cover_i)
+end
+
+CATEGORY_ICON_CLASSES = {"Graph theory"=>"share alternate",
+ "Accessible book"=>"child",
+ "Protected DAISY"=>"child",
+ "Data processing"=>"database",
+ "Mathematics"=>"calculator",
+ "Science/Mathematics"=>"doctor",
+ "Chemistry"=>"fire",
+ "Graph theory -- Data processing"=>"database",
+ "Topological graph theory"=>"share alternate",
+ "Discrete Mathematics"=>"signal",
+ "Topology"=>"share alternate"
+}
+
 task load_sample_data: :environment do
   puts 'Creating sample data.'
   puts 'To wipe your database first use the `wipe_neo4j_database` rake task.'
@@ -53,17 +93,26 @@ task load_sample_data: :environment do
   # Data from https://openlibrary.org/search.json?title=graphs+theory
   book_search_data = JSON.parse(Rails.root.join('db', 'book_search.json').read)
 
+  Book.delete_all
 
   puts
   puts 'Creating assets'
   book_search_data['docs'].each do |book_data|
-    asset = Asset.create(
+    cover_data_string = cover_data(book_data['cover_i'])
+    isbn13 = Array(book_data['isbn']).detect {|isbn| isbn.size == 13 }
+
+    asset = Book.create(
       title: book_data['title'],
-      public: (rand > 0.2)
+      public: (rand > 0.2),
+      image: cover_data_string && StringIO.new(cover_data_string),
+      isbn13: isbn13,
+      authors: book_data['author_name'],
+      contributors: book_data['contributor'],
+      publish_date: book_data['publish_date'] && book_data['publish_date'][0]
     )
 
     (book_data['subject'] || []).each do |subject_name|
-      category = Category.find_or_create({standardized_name: subject_name.downcase}, name: subject_name)
+      category = Category.find_or_create({standardized_name: subject_name.downcase}, name: subject_name, icon_class: CATEGORY_ICON_CLASSES[subject_name])
       asset.categories << category
     end
     putc '.'

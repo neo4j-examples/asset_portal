@@ -1,9 +1,18 @@
-h1 Details
+a.ui.labeled.icon.button.right.floated href="#{edit_asset_path(id: @asset)}"
+  i.edit.icon
+  | Edit
+
+.ui.header
+  = image_tag @asset.image.url, class: 'ui image tiny rounded'
+  .content
+    = @asset.title
 
 .ui.grid
-  .three.wide.column
-    .ui.label Title
-  .thirteen.wide.column = @asset.title
+  - @asset.class.properties.each do |property|
+    .three.wide.column
+      .ui.label = property.humanize
+    .thirteen.wide.column = @asset.read_attribute(property)
+
   .three.wide.column
     .ui.label Last created
   .thirteen.wide.column = @asset.created_at
@@ -27,5 +36,5 @@ table.ui.celled.table
   tbody
     - @asset.secret_sauce_recommendations.each do |recommendation|
       tr
-        td = link_to recommendation.asset.title, recommendation.asset
+        td = link_to recommendation.asset.title, asset_path(id: recommendation.asset)
         td = recommendation.score

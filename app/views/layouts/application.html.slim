@@ -10,6 +10,17 @@ head
 
 body
 
+  = render partial: 'layouts/menu'
+
+  - if notice.present?
+    p.ui.green.message
+      i.close.icon
+      = notice
+  - if alert.present?
+    p.ui.yellow.message
+      i.close.icon
+      = alert
+
   .ui.container
 
     = yield

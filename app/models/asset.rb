@@ -1,9 +1,14 @@
 
 class Asset
   include Neo4j::ActiveNode
+  include Neo4jrb::Paperclip
+
 
   property :title
   property :public, default: true
+
+  has_neo4jrb_attached_file :image
+  validates_attachment_content_type :image, content_type: ["image/jpg", "image/jpeg", "image/png", "image/gif"]
 
   property :view_count, type: Integer
 
@@ -49,5 +54,19 @@ asset-[:VIEWABLE_BY]->(:Group)<-[:HAS_SUBGROUP*0..5]-(:Group)<-[:BELONGS_TO]-use
 ")
       .pluck(:asset)
     # proxy_as(Asset, :asset)
-  end  
+  end
+
+
+  def self.descendants
+    Rails.application.eager_load! if Rails.env == 'development'
+    Neo4j::ActiveNode::Labels._wrapped_classes.select { |klass| klass < self }
+  end
+
+  def self.model_slug
+    name.tableize
+  end
+
+  def self.properties
+    attributes.keys - Asset.attributes.keys
+  end
 end

@@ -4,6 +4,8 @@ class Category
   property :name
   property :standardized_name, constraint: :unique
 
+  property :icon_class, type: String
+
   property :created_at
   property :updated_at
 
