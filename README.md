@@ -32,3 +32,15 @@ https://www.youtube.com/watch?v=2pCSQkHkPC8
 ### Episode 3 - Associations
 
 https://www.youtube.com/watch?v=veqIfIqtoNc
+
+### Episode 4 - Association Chaining
+
+https://www.youtube.com/watch?v=pUAl9ov22j4
+
+### Episode 5 - ActiveRel
+
+https://www.youtube.com/watch?v=f7NNGIWZ1pE
+
+### Episode 6 - Deeper Querying
+
+https://www.youtube.com/watch?v=UFiWqPdH7io
