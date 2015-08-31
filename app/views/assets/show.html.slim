@@ -1,3 +1,7 @@
+a.ui.labeled.icon.button.right.floated href="javascript:launch_modal(#{@asset.to_json})"
+  i.edit.icon
+  | Edit Permissions
+
 a.ui.labeled.icon.button.right.floated href="#{edit_asset_path(id: @asset)}"
   i.edit.icon
   | Edit
@@ -8,7 +12,7 @@ a.ui.labeled.icon.button.right.floated href="#{edit_asset_path(id: @asset)}"
     = @asset.title
 
 .ui.grid
-  - @asset.class.properties.each do |property|
+  - @asset.class.authorized_properties(current_user).each do |property|
     .three.wide.column
       .ui.label = property.humanize
     .thirteen.wide.column = @asset.read_attribute(property)

@@ -1,22 +1,141 @@
 #= require jquery
 #= require jquery_ujs
 #= require turbolinks
+#= require underscore
+#= require ember
+#= require ember-template-compiler
 #= require semantic-ui
-#= require_tree .
+
+
+window.App = Ember.Application.create
+  rootElement: '#change-object-permissions'
+  LOG_ACTIVE_GENERATION: true
+
+window.App.Router = Ember.Router.extend
+  location: 'none'
+
+window.App.ApplicationController = Ember.Controller.extend
+  object: null
+  user_and_group_search: null
+
+  user_permissions: (->
+    @get('object.user_permissions')
+  ).property('object', 'object.user_permissions.[]')
+
+  group_permissions: (->
+    @get('object.group_permissions')
+  ).property('object', 'object.group_permissions.[]')
+
+  actions:
+    set_object: (object) ->
+      @set('object', object)
+
+    update_permissions: ->
+      object = @get('object')
+      $.ajax
+        url: "/authorizables/#{object.model_slug}/#{object.id}.json"
+        method: 'PUT'
+        contentType: 'application/json'
+        data: JSON.stringify(object)
+      .done (result) =>
+        @send 'set_object', result
+
+    add_user: (user, level) ->
+      @get('user_permissions').pushObject(user: user, level: level)
+      @set('user_and_group_search', null)
+
+    remove_user_permission: (user_permission) ->
+      @get('object.user_permissions').removeObject(user_permission)
+
+    add_group: (group, level) ->
+      @get('group_permissions').pushObject(group: group, level: level)
+      @set('user_and_group_search', null)
+
+    remove_group_permission: (group_permission) ->
+      @get('object.group_permissions').removeObject(group_permission)
+
+
+  user_and_group_results_present: (->
+    @get('user_results').length || @get('group_results').length
+  ).property('user_and_group_results')
+
+  user_and_group_results: {users: [], groups: []}
+
+  user_results: (->
+    user_ids = _(@get('user_permissions')).chain().pluck('user').pluck('id').value()
+
+    _(@get('user_and_group_results').users).reject((user) ->
+      user.id in user_ids
+    ).slice(0, 5)
+  ).property('user_and_group_results', 'user_permissions.[]')
+
+  group_results: (->
+    group_ids = _(@get('group_permissions')).chain().pluck('group').pluck('id').value()
+
+    _(@get('user_and_group_results').groups).reject((group) ->
+      group.id in group_ids
+    ).slice(0, 5)
+  ).property('user_and_group_results', 'group_permissions.[]')
+
+  debounced_query: ((controller, key) ->
+    Ember.run.debounce @, @query, 400
+  ).observes('user_and_group_search')
+
+  query: (controller, key) ->
+    query_string = @get('user_and_group_search')
+
+    $.getJSON "/authorizables/user_and_group_search.json?query=#{query_string}", (result) =>
+      @set('user_and_group_results', result)
+
+  radio_button_name_for_user: (user) ->
+    'user_level_' + user.id
+
+
+
+window.App.ApplicationRoute = Ember.Route.extend
+  setupController: (controller, model) ->
+    Ember.Instrumentation.subscribe 'set_object',
+      before: (name, timestamp, payload) ->
+        controller.send 'set_object', payload
+
+      after: ->
+
+window.App.RadioButtonComponent = Ember.Component.extend
+  tagName: 'input'
+  type: 'radio'
+  attributeBindings: [ 'checked', 'name', 'type', 'value' ]
+
+  checked: Em.computed 'value', 'groupValue', ->
+    @get('value') == @get('groupValue')
+
+  change: ->
+    @set('groupValue', @get('value'))
+
+window.launch_modal = (object) ->
+
+  object.allowed_users = [{user: {name: 'Foo Person'}, level: 'read'}]
+  $.get "/authorizables/#{object.model_slug}/#{object.id}.json"
+    .done (object) ->
+      Ember.Instrumentation.instrument('set_object', object)
+
+  $('.ui.modal').modal(detachable: false)
+  $('.ui.modal').modal('show')
+
+# ready
 
 ready = ->
   $("img").error ->
     console.log 'imgError!!!!'
 
-    img = $(this)
+    img = $(@)
 
     img.attr('src', <%= asset_path("missing.png").to_json %>)
     img.css('padding', '40px')
     img.insertBefore("")
     img.unbind('error')
 
-  $('.message .close').on 'click', ->
-    $(this).closest('.message').transition('fade')
+  $('.message > .close').on 'click', ->
+    $(@).closest('.message').transition('fade')
 
 $(document).ready ready
 $(document).on 'page:load', ready

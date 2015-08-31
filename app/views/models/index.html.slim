@@ -1,0 +1,10 @@
+
+.ui.list
+  - @models.each do |model|
+    .item
+      = model.name
+      .content
+        .list
+          = model.authorized_properties(current_user).each do |property|
+            i.tag.icon
+            = property.name

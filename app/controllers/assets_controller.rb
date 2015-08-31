@@ -20,11 +20,4 @@ class AssetsController < ApplicationController
 
     redirect_to action: :edit
   end
-
-  private
-
-  def model_class
-    @model_slug = params[:model_slug]
-    @model_slug.classify.constantize
-  end
 end

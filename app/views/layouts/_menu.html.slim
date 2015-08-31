@@ -3,4 +3,8 @@
     a.item = link_to model_class.name.pluralize.humanize, assets_path(model_slug: model_class.model_slug)
 
   .right.menu
-  a.ui.item Logout
+  - if user_signed_in?
+    a.ui.item = link_to 'Sign out', destroy_user_session_path, method: 'delete'
+  - else
+    a.ui.item = link_to 'Sign in', new_user_session_path
+    a.ui.item = link_to 'Sign up', new_user_registration_path

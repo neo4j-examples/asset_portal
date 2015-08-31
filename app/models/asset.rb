@@ -3,9 +3,9 @@ class Asset
   include Neo4j::ActiveNode
   include Neo4jrb::Paperclip
 
+  include Authorizable
 
   property :title
-  property :public, default: true
 
   has_neo4jrb_attached_file :image
   validates_attachment_content_type :image, content_type: ["image/jpg", "image/jpeg", "image/png", "image/gif"]
@@ -16,9 +16,6 @@ class Asset
   property :updated_at
 
   has_many :out, :categories, type: :HAS_CATEGORY
-
-  has_many :out, :allowed_users, type: :VIEWABLE_BY, model_class: :User
-  has_many :out, :allowed_groups, type: :VIEWABLE_BY, model_class: :Group
 
   has_many :in, :creators, type: :CREATED, model_class: :User
 
@@ -44,18 +41,12 @@ class Asset
     end
   end
 
-  def self.visible_to(user)
-    query_as(:asset)
-      .match_nodes(user: user)
-      .where("
-asset.public OR
-asset<-[:CREATED]-user OR asset-[:VIEWABLE_BY]->user OR
-asset-[:VIEWABLE_BY]->(:Group)<-[:HAS_SUBGROUP*0..5]-(:Group)<-[:BELONGS_TO]-user
-")
-      .pluck(:asset)
-    # proxy_as(Asset, :asset)
+  def as_json(options = {})
+    {id: id,
+     title: title,
+     image_url: image.url,
+     model_slug: self.class.model_slug}
   end
-
 
   def self.descendants
     Rails.application.eager_load! if Rails.env == 'development'
@@ -68,5 +59,23 @@ asset-[:VIEWABLE_BY]->(:Group)<-[:HAS_SUBGROUP*0..5]-(:Group)<-[:BELONGS_TO]-use
 
   def self.properties
     attributes.keys - Asset.attributes.keys
+  end
+
+  def self.authorized_properties(user)
+    query = Neo4j::Session.current.query
+      .with("{property_names} AS property_names")
+      .unwind(property_name: :property_names)
+      .break
+      .merge(model: {Model: {name: name}})
+      .on_create_set(model: {public: true})
+      .break
+      .merge('model-[:HAS_PROPERTY]->(property:Property {name: property_name})')
+      .on_create_set(property: {public: true})
+      .params(property_names: properties)
+
+    require './lib/query_authorizer'
+    query_authorizer = QueryAuthorizer.new(query)
+
+    query_authorizer.authorized_query(:property, user).pluck('property.name')
   end
 end

@@ -22,6 +22,32 @@ def delete_db
   Neo4j::Session.current.query('MATCH (n) OPTIONAL MATCH (n)-[r]-() DELETE n,r')
 end
 
+require 'factory_girl'
+
+# Introduces `let_context` helper method
+# This allows us to simplify the case where we want to
+# have a context which contains one or more `let` statements
+module LetContextHelpers
+  # Supports giving either a Hash or a String and a Hash as arguments
+  # In both cases the Hash will be used to define `let` statements
+  # When a String is specified that becomes the context description
+  # If String isn't specified, Hash#inspect becomes the context description
+  def let_context(*args, &block)
+    classes = args.map(&:class)
+    context_string, hash =
+      case classes
+      when [String, Hash] then ["#{args[0]} #{args[1]}", args[1]]
+      when [Hash] then args + args
+      end
+
+    context(context_string) do
+      hash.each { |var, value| let(var) { value } }
+
+      instance_eval(&block)
+    end
+  end
+end
+
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
@@ -93,4 +119,8 @@ RSpec.configure do |config|
   #   # test failures related to randomization by passing the same `--seed`
   #   # value as the one that triggered the failure.
   #   Kernel.srand config.seed
+
+  config.include FactoryGirl::Syntax::Methods
+
+  config.extend LetContextHelpers
 end

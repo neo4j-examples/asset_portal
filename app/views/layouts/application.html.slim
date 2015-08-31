@@ -24,3 +24,6 @@ body
   .ui.container
 
     = yield
+
+  - if current_user.can_change_permissions?
+    = render partial: 'layouts/change_permissions_modal', locals: {asset: @asset}

@@ -22,4 +22,15 @@ require 'rspec/rails'
 #
 # Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 
+module DeleteDbHelpers
+  def delete_dbs
+    Neo4j::Session.current.query('MATCH n OPTIONAL MATCH n-[r]-() DELETE n, r')
+    User.delete_all
+  end
+end
+
 RSpec.configure(&:infer_spec_type_from_file_location!)
+
+RSpec.configure do |config|
+  config.include DeleteDbHelpers
+end
