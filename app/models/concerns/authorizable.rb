@@ -23,6 +23,5 @@ module Authorizable
   end
 
   module ClassMethods
-
   end
 end

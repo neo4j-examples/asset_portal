@@ -1,5 +1,4 @@
 class QueryAuthorizer
-
   # Can take:
   #  * a Query
   #  * a Proxy object

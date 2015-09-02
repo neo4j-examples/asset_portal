@@ -16,10 +16,10 @@ RSpec.describe QueryAuthorizer do
     subject { query_authorizer.authorized_pluck(:a, user).to_a }
 
     let_context query: nil do
-      it { expect { subject }.to raise_error(ArgumentError, /Expected query_object to be queryish/)}
+      it { expect { subject }.to raise_error(ArgumentError, /Expected query_object to be queryish/) }
     end
     let_context query: 'test' do
-      it { expect { subject }.to raise_error(ArgumentError, /Expected query_object to be queryish/)}
+      it { expect { subject }.to raise_error(ArgumentError, /Expected query_object to be queryish/) }
     end
 
     it { should match_array([asset]) }
@@ -84,11 +84,6 @@ RSpec.describe QueryAuthorizer do
           end
         end
       end
-
-
-
-
-
     end
   end
 end

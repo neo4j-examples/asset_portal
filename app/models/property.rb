@@ -1,5 +1,5 @@
 class Property
-  include Neo4j::ActiveNode  
+  include Neo4j::ActiveNode
 
   include Authorizable
 

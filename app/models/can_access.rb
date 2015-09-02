@@ -7,5 +7,5 @@ class CanAccess
   creates_unique
 
   property :level, default: 'read'
-  validates :level, inclusion: {in: ['read', 'write']}
+  validates :level, inclusion: {in: %w(read write)}
 end

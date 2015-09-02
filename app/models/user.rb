@@ -7,20 +7,20 @@ class User
   property :encrypted_password, type: String # REPLACE WITH DEVISE
 
   ## Rememberable
-  property :remember_created_at, :type => DateTime
+  property :remember_created_at, type: DateTime
   index :remember_token
 
   ## Recoverable
   property :reset_password_token
   index :reset_password_token
-  property :reset_password_sent_at, :type =>   DateTime
+  property :reset_password_sent_at, type: DateTime
 
   ## Trackable
-  property :sign_in_count, :type => Integer, :default => 0
-  property :current_sign_in_at, :type => DateTime
-  property :last_sign_in_at, :type => DateTime
-  property :current_sign_in_ip, :type =>  String
-  property :last_sign_in_ip, :type => String
+  property :sign_in_count, type: Integer, default: 0
+  property :current_sign_in_at, type: DateTime
+  property :last_sign_in_at, type: DateTime
+  property :current_sign_in_ip, type: String
+  property :last_sign_in_ip, type: String
 
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable

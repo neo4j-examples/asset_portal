@@ -38,7 +38,7 @@ gem 'validator'
 gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
 gem 'slim-rails'
 
-gem "neo4jrb-paperclip", github: 'subvertallchris/neo4jrb-paperclip', require: "neo4jrb_paperclip"
+gem 'neo4jrb-paperclip', github: 'subvertallchris/neo4jrb-paperclip', require: 'neo4jrb_paperclip'
 gem 'paperclip', '~> 4.2.0'
 gem 'aws-sdk', '< 2.0'
 

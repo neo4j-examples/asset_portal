@@ -1,6 +1,6 @@
 
 
-json.(@object, :id, :title, :created_at, :updated_at)
+json.call(@object, :id, :title, :created_at, :updated_at)
 json.model_slug @object.class.model_slug
 
 json.public @object.public?

@@ -8,7 +8,7 @@ class Asset
   property :title
 
   has_neo4jrb_attached_file :image
-  validates_attachment_content_type :image, content_type: ["image/jpg", "image/jpeg", "image/png", "image/gif"]
+  validates_attachment_content_type :image, content_type: ['image/jpg', 'image/jpeg', 'image/png', 'image/gif']
 
   property :view_count, type: Integer
 
@@ -41,7 +41,7 @@ class Asset
     end
   end
 
-  def as_json(options = {})
+  def as_json(_options = {})
     {id: id,
      title: title,
      image_url: image.url,
@@ -63,19 +63,19 @@ class Asset
 
   def self.authorized_properties(user)
     query = Neo4j::Session.current.query
-      .with("{property_names} AS property_names")
-      .unwind(property_name: :property_names)
-      .break
-      .merge(model: {Model: {name: name}})
-      .on_create_set(model: {public: true})
-      .break
-      .merge('model-[:HAS_PROPERTY]->(property:Property {name: property_name})')
-      .on_create_set(property: {public: true})
-      .params(property_names: properties)
+            .with('{property_names} AS property_names')
+            .unwind(property_name: :property_names)
+            .break
+            .merge(model: {Model: {name: name}})
+            .on_create_set(model: {public: true})
+            .break
+            .merge('model-[:HAS_PROPERTY]->(property:Property {name: property_name})')
+            .on_create_set(property: {public: true})
+            .params(property_names: properties)
 
     require './lib/query_authorizer'
     query_authorizer = QueryAuthorizer.new(query)
 
-    query_authorizer.authorized_query(:property, user).pluck('property.name')
+    query_authorizer.authorized_pluck(:property, user)
   end
 end

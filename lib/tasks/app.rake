@@ -65,17 +65,17 @@ def cover_data(cover_i)
   end || uncached_cover_data(cover_i)
 end
 
-CATEGORY_ICON_CLASSES = {"Graph theory"=>"share alternate",
- "Accessible book"=>"child",
- "Protected DAISY"=>"child",
- "Data processing"=>"database",
- "Mathematics"=>"calculator",
- "Science/Mathematics"=>"doctor",
- "Chemistry"=>"fire",
- "Graph theory -- Data processing"=>"database",
- "Topological graph theory"=>"share alternate",
- "Discrete Mathematics"=>"signal",
- "Topology"=>"share alternate"
+CATEGORY_ICON_CLASSES = {'Graph theory' => 'share alternate',
+                         'Accessible book' => 'child',
+                         'Protected DAISY' => 'child',
+                         'Data processing' => 'database',
+                         'Mathematics' => 'calculator',
+                         'Science/Mathematics' => 'doctor',
+                         'Chemistry' => 'fire',
+                         'Graph theory -- Data processing' => 'database',
+                         'Topological graph theory' => 'share alternate',
+                         'Discrete Mathematics' => 'signal',
+                         'Topology' => 'share alternate'
 }
 
 task load_sample_data: :environment do
@@ -99,7 +99,7 @@ task load_sample_data: :environment do
   puts 'Creating assets'
   book_search_data['docs'].each do |book_data|
     cover_data_string = cover_data(book_data['cover_i'])
-    isbn13 = Array(book_data['isbn']).detect {|isbn| isbn.size == 13 }
+    isbn13 = Array(book_data['isbn']).detect { |isbn| isbn.size == 13 }
 
     asset = Book.create(
       title: book_data['title'],
