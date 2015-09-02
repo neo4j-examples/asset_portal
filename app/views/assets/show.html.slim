@@ -11,24 +11,26 @@ a.ui.labeled.icon.button.right.floated href="#{edit_asset_path(id: @asset)}"
   .content
     = @asset.title
 
-.ui.grid
+table.ui.table.celled.very.padded.rounded
   - @asset.class.authorized_properties(current_user).each do |property|
-    .three.wide.column
-      .ui.label = property.humanize
-    .thirteen.wide.column = @asset.read_attribute(property)
+    tr
+      th data-authorizable="#{property.to_json}" = property.name.humanize
+      td = @asset.read_attribute(property.name)
 
-  .three.wide.column
-    .ui.label Last created
-  .thirteen.wide.column = @asset.created_at
-  .three.wide.column
-    .ui.label Last updated
-  .thirteen.wide.column = @asset.updated_at
-  .three.wide.column
-    .ui.label Categories
-  .thirteen.wide.column
-    ul.ui.relaxed.divided.list
-      - @asset.categories.each do |category|
-        li.item = link_to category.name, category
+  tr
+    th Last created
+    td = @asset.created_at
+
+  tr
+    th Last updated
+    td = @asset.updated_at
+
+  tr
+    th Categories
+    td
+      ul.ui.relaxed.divided.list
+        - @asset.categories.each do |category|
+          li.item = link_to category.name, category
 
 h1 Recommendations
 

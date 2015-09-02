@@ -17,8 +17,8 @@ class QueryAuthorizer
     query.with(variable)
       .match_nodes(user: user)
       .where("#{variable}.public OR
-  #{variable}<-[:CREATED]-user OR #{variable}-[:VIEWABLE_BY]->user OR
-  #{variable}-[:VIEWABLE_BY]->(:Group)<-[:HAS_SUBGROUP*0..5]-(:Group)<-[:BELONGS_TO]-user")
+  #{variable}<-[:CREATED]-user OR #{variable}<-[:CAN_ACCESS]-user OR
+  #{variable}<-[:CAN_ACCESS]-(:Group)<-[:HAS_SUBGROUP*0..5]-(:Group)<-[:BELONGS_TO]-user")
   end
 
   private
