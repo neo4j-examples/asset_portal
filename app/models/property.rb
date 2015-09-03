@@ -4,4 +4,6 @@ class Property
   include Authorizable
 
   property :name
+  property :created_at
+  property :updated_at
 end

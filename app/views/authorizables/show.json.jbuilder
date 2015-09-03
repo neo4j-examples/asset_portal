@@ -1,7 +1,7 @@
 
 
-json.call(@object, :id, :title, :created_at, :updated_at)
-json.model_slug @object.class.model_slug
+json.call(@object, :id, :name, :created_at, :updated_at)
+json.model_slug @object.class.name.tableize
 
 json.public @object.public?
 

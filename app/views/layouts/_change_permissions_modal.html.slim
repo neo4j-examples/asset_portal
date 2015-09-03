@@ -4,14 +4,16 @@ script type="text/x-handlebars"
   .ui.modal
     i.close.icon
 
-    .header Change permissions for {{object.title}}
+    .header Change permissions for {{object.name}}
     .image.content
+      | {{#if object.image_url}}
       .ui.medium.image
         img src="{{object.image_url}}"
+      | {{/if}}
 
       .description
 
-        .ui.search
+        <div class="ui search {{if searching 'loading' ''}}">
           .ui.icon.input
             | {{input type="text" placeholder="User or group" class="prompt" value=user_and_group_search}}
             i.add.circle.icon
@@ -40,33 +42,38 @@ script type="text/x-handlebars"
                 | {{/if}}
 
           </div>
+        </div>
 
-        - %w(user group).each do |entity_type|
-          | {{#if #{entity_type}_permissions}}
-          .ui.form
-            .ui.header #{entity_type.humanize.pluralize} allowed access
-            table.ui.definition.table
-              | {{#each object.#{entity_type}_permissions as |#{entity_type}_permission|}}
-              tr
-                td
-                  label
-                    | {{#{entity_type}_permission.#{entity_type}.name}}
-                td
-                  .field
-                    .ui.radio.checkbox
-                      | {{ radio-button name=#{entity_type}_permission.#{entity_type}.id value='read' groupValue=#{entity_type}_permission.level }}
-                      label Read
-                td
-                  .field
-                    .ui.radio.checkbox
-                      | {{ radio-button name=#{entity_type}_permission.#{entity_type}.id value='write' groupValue=#{entity_type}_permission.level }}
-                      label Write
-                td
-                  <button {{action "remove_#{entity_type}_permission" #{entity_type}_permission}} class="ui circular red button"><i class="remove user icon"/></button>
-              | {{/each}}
+          - %w(user group).each do |entity_type|
+            | {{#if #{entity_type}_permissions}}
+            .ui.segment.padded
+              .ui.form
+                .ui.header
+                  i class="#{entity_type == 'user' ? 'user' : 'users'} icon"
+                  | #{entity_type.humanize.pluralize} allowed access
+                table.ui.definition.table
+                  | {{#each object.#{entity_type}_permissions as |#{entity_type}_permission|}}
+                  tr
+                    td
+                      label
+                        | {{#{entity_type}_permission.#{entity_type}.name}}
+                    td
+                      .field
+                        .ui.radio.checkbox
+                          | {{ radio-button name=#{entity_type}_permission.#{entity_type}.id value='read' groupValue=#{entity_type}_permission.level }}
+                          label Read
+                    td
+                      .field
+                        .ui.radio.checkbox
+                          | {{ radio-button name=#{entity_type}_permission.#{entity_type}.id value='write' groupValue=#{entity_type}_permission.level }}
+                          label Write
+                    td
+                      <button {{action "remove_#{entity_type}_permission" #{entity_type}_permission}} class="ui circular red button"><i class="remove user icon"/></button>
+                  | {{/each}}
 
-          | {{/if}}
-        <button {{action "update_permissions" target="controller"}} class="ui button positive icon"><i class="write icon"/>Update Permissions</button>
+            | {{/if}}
+
+          <button {{action "update_permissions" target="controller"}} class="ui button positive icon {{if saving 'loading' ''}}"><i class="write icon"/>Update Permissions</button>
 
     .actions
       .ui.positive.right.labeled.icon.button.done

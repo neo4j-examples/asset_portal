@@ -41,11 +41,18 @@ class Asset
     end
   end
 
+  def name
+    title
+  end
+
   def as_json(_options = {})
-    {id: id,
-     title: title,
-     image_url: image.url,
-     model_slug: self.class.model_slug}
+    {self.class.model_slug =>
+      {id: id,
+       title: title,
+       name: title,
+       image_url: image.url,
+       model_slug: self.class.model_slug}
+     }
   end
 
   def self.descendants
@@ -62,20 +69,27 @@ class Asset
   end
 
   def self.authorized_properties(user)
+    properties_and_uuids = properties.map do |property|
+      [property, SecureRandom.uuid]
+    end
+
     query = Neo4j::Session.current.query
-            .with('{property_names} AS property_names')
-            .unwind(property_name: :property_names)
+            .with('{properties_and_uuids} AS properties_and_uuids')
+            .unwind('properties_and_uuids AS property_and_uuid')
+            .with('property_and_uuid[0] AS property_name, property_and_uuid[1] AS uuid')
             .break
             .merge(model: {Model: {name: name}})
             .on_create_set(model: {public: true})
             .break
             .merge('model-[:HAS_PROPERTY]->(property:Property {name: property_name})')
             .on_create_set(property: {public: true})
-            .params(property_names: properties)
+            .on_create_set('property.uuid = uuid')
+            .params(properties_and_uuids: properties_and_uuids)
 
     require './lib/query_authorizer'
     query_authorizer = QueryAuthorizer.new(query)
 
+    ::Property
     query_authorizer.authorized_pluck(:property, user)
   end
 end

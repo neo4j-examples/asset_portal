@@ -17,6 +17,8 @@ window.App.Router = Ember.Router.extend
 window.App.ApplicationController = Ember.Controller.extend
   object: null
   user_and_group_search: null
+  searching: false
+  saving: false
 
   user_permissions: (->
     @get('object.user_permissions')
@@ -31,6 +33,7 @@ window.App.ApplicationController = Ember.Controller.extend
       @set('object', object)
 
     update_permissions: ->
+      @set('saving', true)
       object = @get('object')
       $.ajax
         url: "/authorizables/#{object.model_slug}/#{object.id}.json"
@@ -39,6 +42,7 @@ window.App.ApplicationController = Ember.Controller.extend
         data: JSON.stringify(object)
       .done (result) =>
         @send 'set_object', result
+        @set('saving', false)
 
     add_user: (user, level) ->
       @get('user_permissions').pushObject(user: user, level: level)
@@ -78,6 +82,7 @@ window.App.ApplicationController = Ember.Controller.extend
   ).property('user_and_group_results', 'group_permissions.[]')
 
   debounced_query: ((controller, key) ->
+    @set('searching', true)
     Ember.run.debounce @, @query, 400
   ).observes('user_and_group_search')
 
@@ -86,6 +91,7 @@ window.App.ApplicationController = Ember.Controller.extend
 
     $.getJSON "/authorizables/user_and_group_search.json?query=#{query_string}", (result) =>
       @set('user_and_group_results', result)
+      @set('searching', false)
 
   radio_button_name_for_user: (user) ->
     'user_level_' + user.id
@@ -111,12 +117,10 @@ window.App.RadioButtonComponent = Ember.Component.extend
   change: ->
     @set('groupValue', @get('value'))
 
-window.launch_modal = (object) ->
-
 
 # ready
 
-$(document).on 'click', '[data-authorizable] i', (event) ->
+$(document).on 'click', '[data-authorizable]', (event) ->
   object = $(event.target).closest('[data-authorizable]').data('authorizable')
 
   keys = Object.keys(object)

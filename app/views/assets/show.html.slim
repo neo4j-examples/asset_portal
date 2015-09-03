@@ -1,5 +1,4 @@
-a.ui.labeled.icon.button.right.floated href="javascript:launch_modal(#{@asset.to_json})"
-  i.edit.icon
+a.ui.labeled.icon.button.right.floated data-authorizable="#{@asset.to_json}"
   | Edit Permissions
 
 a.ui.labeled.icon.button.right.floated href="#{edit_asset_path(id: @asset)}"
