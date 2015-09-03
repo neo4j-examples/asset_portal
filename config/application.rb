@@ -47,7 +47,7 @@ module AssetPortal
 
     neo4j_port = ENV['NEO4J_PORT']
     neo4j_url = ENV['NEO4J_URL']
-    if neo4j_port.blank? || neo4j_url.blank?
+    if neo4j_port.blank? && neo4j_url.blank?
       puts <<-MESSAGE
 The NEO4J_PORT or NEO4J_URL environment variables are required.
 The dotenv gem is installed, so you can create a
