@@ -45,9 +45,11 @@ module AssetPortal
 
     config.neo4j._active_record_destroyed_behavior = true
 
-    if (neo4j_port = ENV['NEO4J_PORT']).blank?
+    neo4j_port = ENV['NEO4J_PORT']
+    neo4j_url = ENV['NEO4J_URL']
+    if neo4j_port.blank? || neo4j_url.blank?
       puts <<-MESSAGE
-The NEO4J_PORT environment variable is required.
+The NEO4J_PORT or NEO4J_URL environment variables are required.
 The dotenv gem is installed, so you can create a
 .env or .env.#{Rails.env} file to specify this.
 
@@ -56,7 +58,7 @@ MESSAGE
       exit
     end
     config.neo4j.session_type = :server_db
-    config.neo4j.session_path = "http://localhost:#{neo4j_port}"
+    config.neo4j.session_path = ENV['NEO4J_URL'] || "http://localhost:#{neo4j_port}"
     config.neo4j.pretty_logged_cypher_queries = true
 
     config.paperclip_defaults = {
