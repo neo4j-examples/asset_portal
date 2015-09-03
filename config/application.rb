@@ -58,7 +58,7 @@ MESSAGE
       exit
     end
     config.neo4j.session_type = :server_db
-    config.neo4j.session_path = ENV['NEO4J_URL'] || "http://localhost:#{neo4j_port}"
+    config.neo4j.session_path = neo4j_url || "http://localhost:#{neo4j_port}"
     config.neo4j.pretty_logged_cypher_queries = true
 
     config.paperclip_defaults = {
