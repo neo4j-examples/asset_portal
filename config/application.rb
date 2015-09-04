@@ -61,6 +61,8 @@ MESSAGE
     config.neo4j.session_path = neo4j_url || "http://localhost:#{neo4j_port}"
     config.neo4j.pretty_logged_cypher_queries = true
 
+    config.neo4j.record_timestamps = true
+
     config.paperclip_defaults = {
       storage: :s3,
       s3_credentials: {

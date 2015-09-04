@@ -11,10 +11,6 @@ class Asset
 
   property :view_count, type: Integer
 
-  # TODO: Switch these to the module
-  property :created_at
-  property :updated_at
-
   has_many :out, :categories, type: :HAS_CATEGORY
 
   has_many :in, :creators, type: :CREATED, model_class: :User
