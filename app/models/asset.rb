@@ -65,7 +65,7 @@ class Asset
   end
 
   def self.authorized_properties(user)
-    property_name_and_uuid_query
+    query = property_name_and_uuid_query
       .merge(model: {Model: {name: name}})
       .on_create_set(model: {public: true})
       .break
