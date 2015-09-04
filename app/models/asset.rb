@@ -1,4 +1,3 @@
-
 class Asset
   include Neo4j::ActiveNode
   include Neo4jrb::Paperclip
@@ -12,6 +11,7 @@ class Asset
 
   property :view_count, type: Integer
 
+  # TODO: Switch these to the module
   property :created_at
   property :updated_at
 
@@ -69,27 +69,29 @@ class Asset
   end
 
   def self.authorized_properties(user)
-    properties_and_uuids = properties.map do |property|
-      [property, SecureRandom.uuid]
-    end
-
-    query = Neo4j::Session.current.query
-            .with('{properties_and_uuids} AS properties_and_uuids')
-            .unwind('properties_and_uuids AS property_and_uuid')
-            .with('property_and_uuid[0] AS property_name, property_and_uuid[1] AS uuid')
-            .break
-            .merge(model: {Model: {name: name}})
-            .on_create_set(model: {public: true})
-            .break
-            .merge('model-[:HAS_PROPERTY]->(property:Property {name: property_name})')
-            .on_create_set(property: {public: true})
-            .on_create_set('property.uuid = uuid')
-            .params(properties_and_uuids: properties_and_uuids)
+    property_name_and_uuid_query
+      .merge(model: {Model: {name: name}})
+      .on_create_set(model: {public: true})
+      .break
+      .merge('model-[:HAS_PROPERTY]->(property:Property {name: property_name})')
+      .on_create_set(property: {public: true})
+      .on_create_set('property.uuid = uuid')
 
     require './lib/query_authorizer'
     query_authorizer = QueryAuthorizer.new(query)
 
-    ::Property
     query_authorizer.authorized_pluck(:property, user)
+  end
+
+  def self.property_name_and_uuid_query
+    properties_and_uuids = properties.map do |property|
+      [property, SecureRandom.uuid]
+    end
+
+    Neo4j::Session.current.query
+      .with('{properties_and_uuids} AS properties_and_uuids')
+      .unwind('properties_and_uuids AS property_and_uuid')
+      .params(properties_and_uuids: properties_and_uuids)
+      .with('property_and_uuid[0] AS property_name, property_and_uuid[1] AS uuid')
   end
 end
