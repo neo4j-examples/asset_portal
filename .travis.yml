@@ -1,7 +1,0 @@
-script:
-  - "bundle exec rubocop"
-language: ruby
-cache: bundler
-sudo: false
-rvm:
-  - 2.2.2
