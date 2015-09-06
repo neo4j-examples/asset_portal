@@ -8,4 +8,8 @@ FactoryGirl.define do
   factory :asset do
     sequence(:title) { |i| "Asset ##{i}" }
   end
+
+  factory :category do
+    sequence(:name) { |i| "Category ##{i}" }
+  end
 end

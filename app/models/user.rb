@@ -27,6 +27,8 @@ class User
 
   property :view_count, type: Integer
 
+  property :admin, type: Boolean
+
   property :created_at, type: DateTime
   property :updated_at, type: DateTime
 
@@ -40,7 +42,7 @@ class User
   has_many :in, :viewers, rel_class: :View, model_class: :User
 
   def self.for_query(query_string)
-    query_regex = Regexp.new('.*' + query_string.gsub(/[\s\*]+/, '.*') + '.*')
+    query_regex = Regexp.new('.*' + query_string.gsub(/[\s\*]+/, '.*') + '.*', 'i')
 
     as(:user)
       .where('user.name =~ {query} OR user.username =~ {query} OR user.email =~ {query}')

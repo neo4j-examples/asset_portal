@@ -5,7 +5,18 @@ html
 head
   title AssetPortal
   = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+
+
+  javascript:
+    var current_user = #{current_user.to_json.html_safe}.user;
+
   = javascript_include_tag 'application', 'data-turbolinks-track' => true
+
+  - controller = params[:controller].to_sym
+
+  - if ![:users, :groups].include?(controller)
+    = javascript_include_tag 'ember_apps/permissions_modal', 'data-turbolinks-track' => true
+
   = csrf_meta_tags
 
 body

@@ -1,6 +1,8 @@
 class Category
   include Neo4j::ActiveNode
 
+  include Authorizable
+
   property :name
   property :standardized_name, constraint: :unique
 

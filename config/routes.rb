@@ -1,9 +1,16 @@
 Rails.application.routes.draw do
+  resources :groups
   root 'assets#home'
 
   devise_for :users
 
   resources :categories
+  resources :groups do
+    member do
+      get :users_to_add
+    end
+  end
+  resources :users
 
   get 'models' => 'models#index', as: :models
   get 'models/:name' => 'models#show', as: :model

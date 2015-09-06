@@ -11,6 +11,8 @@ class Asset
 
   property :view_count, type: Integer
 
+  property :private, type: Boolean
+
   has_many :out, :categories, type: :HAS_CATEGORY
 
   has_many :in, :creators, type: :CREATED, model_class: :User
@@ -64,6 +66,13 @@ class Asset
     attributes.keys - Asset.attributes.keys
   end
 
+  def self.authorized_for(user)
+    require './lib/query_authorizer'
+    QueryAuthorizer.new(all(:asset).categories(:category, nil, optional: true))
+      .authorized_query([:asset, :category], user)
+      .proxy_as(self, :asset)
+  end
+
   def self.authorized_properties(user)
     query = property_name_and_uuid_query
             .merge(model: {Model: {name: name}})
@@ -72,10 +81,12 @@ class Asset
             .merge('model-[:HAS_PROPERTY]->(property:Property {name: property_name})')
             .on_create_set(property: {public: true})
             .on_create_set('property.uuid = uuid')
+            .with(:property)
 
     require './lib/query_authorizer'
     query_authorizer = QueryAuthorizer.new(query)
 
+    ::Property
     query_authorizer.authorized_pluck(:property, user)
   end
 

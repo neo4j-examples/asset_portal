@@ -1,4 +1,6 @@
 class AuthorizablesController < ApplicationController
+  before_action :require_admin
+
   def show
     @object = model_class.find(params[:id])
   end

@@ -18,7 +18,7 @@ script type="text/x-handlebars"
             | {{input type="text" placeholder="User or group" class="prompt" value=user_and_group_search}}
             i.add.circle.icon
 
-          <div foo="bar" class="results transition {{if user_and_group_results_present 'visible' ''}}">
+          <div id="modal-search-results" class="results transition {{if user_and_group_results_present 'visible' ''}}">
             .ui.two.column.grid
               - %w(user group).each do |result_type|
                 | {{#if #{result_type}_results.length}}
@@ -79,4 +79,10 @@ script type="text/x-handlebars"
       .ui.positive.right.labeled.icon.button.done
         | Done
         i.checkmark.icon
+
+  scss:
+    .ui.search > #modal-search-results {
+      width: 600px;
+      padding: 1em;
+    }
 

@@ -22,6 +22,11 @@ module AssetPortal
       g.orm :neo4j
     end
 
+    config.assets.precompile += %w(
+      ember_apps/permissions_modal.js
+      ember_apps/user_list_dropdown.js
+    )
+
     # Configure where the embedded neo4j database should exist
     # Notice embedded db is only available for JRuby
     # config.neo4j.session_type = :embedded_db  # default #server_db
@@ -59,7 +64,7 @@ MESSAGE
     end
     config.neo4j.session_type = :server_db
     config.neo4j.session_path = neo4j_url || "http://localhost:#{neo4j_port}"
-    config.neo4j.pretty_logged_cypher_queries = true
+    # config.neo4j.pretty_logged_cypher_queries = true
 
     config.neo4j.record_timestamps = true
 

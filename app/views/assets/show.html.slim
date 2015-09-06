@@ -1,5 +1,6 @@
-a.ui.labeled.icon.button.right.floated data-authorizable="#{@asset.to_json}"
-  | Edit Permissions
+- if @current_user_is_admin
+  a.ui.labeled.icon.button.right.floated data-authorizable="#{@asset.to_json}"
+    | Edit Permissions
 
 a.ui.labeled.icon.button.right.floated href="#{edit_asset_path(id: @asset)}"
   i.edit.icon

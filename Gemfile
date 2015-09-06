@@ -65,6 +65,9 @@ group :development, :test do
   gem 'meta_request'
 
   gem 'dotenv-rails'
+
+  gem 'guard-rspec'
+  gem 'guard-rubocop'
 end
 
 group :test do

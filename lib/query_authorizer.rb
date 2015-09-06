@@ -13,12 +13,26 @@ class QueryAuthorizer
     authorized_query(variable, user).pluck(variable)
   end
 
-  def authorized_query(variable, user)
-    query.with(variable)
-      .match_nodes(user: user)
-      .where("#{variable}.public OR
-  #{variable}<-[:CREATED]-user OR #{variable}<-[:CAN_ACCESS]-user OR
-  #{variable}<-[:CAN_ACCESS]-(:Group)<-[:HAS_SUBGROUP*0..5]-(:Group)<-[:BELONGS_TO]-user")
+  def authorized_query(variables, user)
+    variables = Array(variables)
+
+
+    result_query = query.with(*variables)
+
+    where_clause = variables.map do |variable|
+      "#{variable}.public"
+    end.join(' OR ')
+
+    if user
+      where_clause = where_clause + ' OR ' + variables.map do |variable|
+        "#{variable}<-[:CREATED]-user OR #{variable}<-[:CAN_ACCESS]-user OR
+    #{variable}<-[:CAN_ACCESS]-(:Group)<-[:HAS_SUBGROUP*0..5]-(:Group)<-[:BELONGS_TO]-user"
+      end.join(' OR ')
+
+      result_query = result_query.match_nodes(user: user)
+    end
+
+    result_query.where(where_clause)
   end
 
   private

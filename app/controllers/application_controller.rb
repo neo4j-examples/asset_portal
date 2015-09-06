@@ -3,6 +3,14 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
+  def require_admin
+    @current_user_is_admin = current_user && current_user.admin?
+
+    unless @current_user_is_admin
+      return render text: 'Unauthorized', status: :unauthorized
+    end
+  end
+
   protected
 
   def model_class

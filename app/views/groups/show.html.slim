@@ -1,0 +1,16 @@
+p#notice = notice
+
+h1 Viewing group:
+
+h2 = @group.name
+
+h3 Members
+
+.ui.segments
+  - @group.members.each do |member|
+    .ui.segment
+      = link_to member.name, member
+
+= link_to 'Edit', edit_group_path(@group)
+'|
+= link_to 'Back', groups_path
