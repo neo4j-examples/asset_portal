@@ -86,7 +86,7 @@ class Asset
     require './lib/query_authorizer'
     query_authorizer = QueryAuthorizer.new(query)
 
-    ::Property
+    ::Property # rubocop:disable Lint/Void
     query_authorizer.authorized_pluck(:property, user)
   end
 

@@ -6,9 +6,9 @@ class ApplicationController < ActionController::Base
   def require_admin
     @current_user_is_admin = current_user && current_user.admin?
 
-    unless @current_user_is_admin
-      return render text: 'Unauthorized', status: :unauthorized
-    end
+    return if @current_user_is_admin
+
+    render text: 'Unauthorized', status: :unauthorized
   end
 
   protected
