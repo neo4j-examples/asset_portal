@@ -38,12 +38,12 @@ class QueryAuthorizer
   private
 
   def validate_query_object!(query_object)
-    return if self.class.is_queryish?(query_object)
+    return if self.class.queryish?(query_object)
 
     fail ArgumentError, "Expected query_object to be queryish.  Was: #{query_object.inspect}"
   end
 
-  def self.is_queryish?(query_object)
+  def self.queryish?(query_object)
     query_object.is_a?(::Neo4j::Core::Query) ||
       # Working around these two classes for new.  They should return `true`
       # for `respond_to(:query)`
