@@ -2,7 +2,7 @@ module Authorizable
   extend ActiveSupport::Concern
 
   included do
-    property :public, type: ActiveAttr::Typecasting::Boolean, default: true
+    property :private, type: ActiveAttr::Typecasting::Boolean, default: false
 
     has_many :in, :allowed_users, rel_class: :CanAccess, model_class: :User
     has_many :in, :allowed_groups, rel_class: :CanAccess, model_class: :Group

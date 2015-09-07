@@ -1,5 +1,3 @@
-#change-object-permissions
-
 script type="text/x-handlebars"
   .ui.modal
     i.close.icon
@@ -44,6 +42,10 @@ script type="text/x-handlebars"
           </div>
         </div>
 
+          .inline.field
+            .ui.checkbox
+              | {{input type="checkbox" name="private" checked=object.private}}
+              label Private?
           - %w(user group).each do |entity_type|
             | {{#if #{entity_type}_permissions}}
             .ui.segment.padded

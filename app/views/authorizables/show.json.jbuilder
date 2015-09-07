@@ -3,7 +3,7 @@
 json.call(@object, :id, :name, :created_at, :updated_at)
 json.model_slug @object.class.name.tableize
 
-json.public @object.public?
+json.private @object.private?
 
 json.user_permissions @object.allowed_users.each_with_rel do |user, viewable_by|
   json.user do

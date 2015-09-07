@@ -70,16 +70,15 @@ class Asset
     require './lib/query_authorizer'
     QueryAuthorizer.new(all(:asset).categories(:category, nil, optional: true))
       .authorized_query([:asset, :category], user)
+      .with('DISTINCT asset AS asset')
       .proxy_as(self, :asset)
   end
 
   def self.authorized_properties(user)
     query = property_name_and_uuid_query
             .merge(model: {Model: {name: name}})
-            .on_create_set(model: {public: true})
             .break
             .merge('model-[:HAS_PROPERTY]->(property:Property {name: property_name})')
-            .on_create_set(property: {public: true})
             .on_create_set('property.uuid = uuid')
             .with(:property)
 

@@ -1,8 +1,9 @@
 class Model
   include Neo4j::ActiveNode
 
+  include Authorizable
+
   id_property :name
-  property :public, type: Boolean
 
   has_many :out, :properties, type: :HAS_PROPERTY
 

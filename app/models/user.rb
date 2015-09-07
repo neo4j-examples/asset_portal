@@ -52,8 +52,4 @@ class User
   def viewable_assets
     Asset.visible_to(self)
   end
-
-  def can_change_permissions?
-    true
-  end
 end

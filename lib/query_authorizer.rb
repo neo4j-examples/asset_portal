@@ -20,7 +20,7 @@ class QueryAuthorizer
     result_query = query.with(*variables)
 
     where_clause = variables.map do |variable|
-      "#{variable}.public"
+      "NOT(#{variable}.private) OR user.admin"
     end.join(' OR ')
 
     if user

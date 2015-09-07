@@ -19,11 +19,11 @@
         .content
 
         - categories = asset.categories.sort_by(&:name)
-        - categories[0,3].each do |category|
+        - categories[0,2].each do |category|
           .extra.content
             i class="#{category.icon_class || 'folder'} icon"
             = link_to category.name, category
-        - if categories.size > 3
+        - if categories.size > 2
           .extra.content
             i.ellipsis.horizontal.icon
             | more categories

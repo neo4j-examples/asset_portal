@@ -6,7 +6,7 @@
         - @group.errors.full_messages.each do |message|
           li = message
 
-  = f.hidden_field :parent_id, value: params[:parent_id]
+  = f.hidden_field :parent_id, value: params[:parent_id] || @group.parent_id
 
   .field
     label Name

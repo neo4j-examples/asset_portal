@@ -103,7 +103,7 @@ task load_sample_data: :environment do
 
     asset = Book.create(
       title: book_data['title'],
-      public: (rand > 0.2),
+      private: (rand < 0.2),
       image: cover_data_string && StringIO.new(cover_data_string),
       isbn13: isbn13,
       authors: book_data['author_name'],

@@ -8,6 +8,8 @@ class AuthorizablesController < ApplicationController
   def update
     @object = model_class.find(params[:id])
 
+    @object.update_attribute(:private, params[:private]) unless params[:private].nil?
+
     user_access_levels = access_levels_from_permissions(params[:user_permissions], :user)
     @object.set_access_levels(User, user_access_levels)
 

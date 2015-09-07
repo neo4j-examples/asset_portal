@@ -36,5 +36,8 @@ body
 
     = yield
 
-  - if !request.env['HTTP_X_XHR_REFERER'] && current_user && current_user.can_change_permissions?
-    = render partial: 'layouts/change_permissions_modal', locals: {asset: @asset}
+  - if @current_user_is_admin
+    #change-object-permissions
+
+    - if !request.env['HTTP_X_XHR_REFERER']
+      = render partial: 'layouts/change_permissions_modal', locals: {asset: @asset}
