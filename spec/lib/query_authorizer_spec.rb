@@ -8,8 +8,8 @@ RSpec.describe QueryAuthorizer do
   let(:query_authorizer) { QueryAuthorizer.new(query) }
 
   describe '#authorized_pluck' do
-    let(:asset_is_public) { true }
-    let!(:asset) { create(:asset, public: asset_is_public) }
+    let(:asset_is_private) { false }
+    let!(:asset) { create(:asset, private: asset_is_private) }
     let(:user) { create(:user) }
 
     let(:query) { Asset.as(:a) }
@@ -24,7 +24,7 @@ RSpec.describe QueryAuthorizer do
 
     it { should match_array([asset]) }
 
-    let_context asset_is_public: false do
+    let_context asset_is_private: true do
       it { should match_array([]) }
 
       context 'user is creator of assets' do

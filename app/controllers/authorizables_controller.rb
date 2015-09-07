@@ -1,20 +1,19 @@
 class AuthorizablesController < ApplicationController
   before_action :require_admin
 
+  before_action :set_object, only: [:show, :update]
+
   def show
-    @object = model_class.find(params[:id])
   end
 
   def update
-    @object = model_class.find(params[:id])
+    @object.update_attribute(:private, params[:private])
 
-    @object.update_attribute(:private, params[:private]) unless params[:private].nil?
+    @object.set_access_levels User,
+                              access_levels_from_permissions(params[:user_permissions], :user)
 
-    user_access_levels = access_levels_from_permissions(params[:user_permissions], :user)
-    @object.set_access_levels(User, user_access_levels)
-
-    group_access_levels = access_levels_from_permissions(params[:group_permissions], :group)
-    @object.set_access_levels(Group, group_access_levels)
+    @object.set_access_levels Group,
+                              access_levels_from_permissions(params[:group_permissions], :group)
 
     render :show
   end
@@ -36,5 +35,11 @@ class AuthorizablesController < ApplicationController
 
   def change_permissions_modal
     render layout: false
+  end
+
+  private
+
+  def set_object
+    @object = model_class.find(params[:id])
   end
 end

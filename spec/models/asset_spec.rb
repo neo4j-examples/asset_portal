@@ -5,8 +5,8 @@ RSpec.describe Asset, type: :model do
 
   describe '.authorized_for' do
     let(:user) { create(:user) }
-    let(:asset_is_public) { true }
-    let(:asset_properties) { {public: asset_is_public} }
+    let(:asset_is_private) { false }
+    let(:asset_properties) { {private: asset_is_private} }
     let!(:asset) { create(:asset, asset_properties) }
     subject { Asset.authorized_for(user) }
 
@@ -16,7 +16,7 @@ RSpec.describe Asset, type: :model do
       it { should match_array([asset]) }
     end
 
-    let_context asset_is_public: false do
+    let_context asset_is_private: true do
       it { should match_array([]) }
 
       context 'user has access to asset' do

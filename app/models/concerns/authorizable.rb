@@ -3,6 +3,7 @@ module Authorizable
 
   included do
     property :private, type: ActiveAttr::Typecasting::Boolean, default: false
+    validates :private, inclusion: {in: [true, false]}
 
     has_many :in, :allowed_users, rel_class: :CanAccess, model_class: :User
     has_many :in, :allowed_groups, rel_class: :CanAccess, model_class: :Group
