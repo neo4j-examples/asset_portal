@@ -43,8 +43,6 @@ gem 'neo4jrb-paperclip', github: 'subvertallchris/neo4jrb-paperclip', require: '
 gem 'paperclip', '~> 4.2.0'
 gem 'aws-sdk', '< 2.0'
 
-gem 'react-rails', '~> 1.0'
-
 gem 'rails_12factor'
 
 group :development, :test do
