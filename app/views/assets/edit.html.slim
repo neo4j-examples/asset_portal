@@ -11,10 +11,10 @@
 
     = f.file_field :image
 
-  - @asset.class.properties.each do |property|
+  - @asset.class.authorized_properties(current_user).each do |property|
     .field
-      label = property.humanize
+      label = property.name.humanize
 
-      = f.text_field property
+      = f.text_field property.name
 
   = f.submit 'Update', class: 'ui button'

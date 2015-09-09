@@ -5,7 +5,8 @@
   .right.menu
     a.ui.item = link_to 'Groups', groups_path if @current_user_is_admin
   - if user_signed_in?
-    a.ui.item = link_to 'Sign out', destroy_user_session_path, method: 'delete'
+    .ui.item Logged in as #{current_user.name}
+    .ui.item = link_to 'Sign out', destroy_user_session_path, method: 'delete'
   - else
-    a.ui.item = link_to 'Sign in', new_user_session_path
-    a.ui.item = link_to 'Sign up', new_user_registration_path
+    .ui.item = link_to 'Sign in', new_user_session_path
+    .ui.item = link_to 'Sign up', new_user_registration_path

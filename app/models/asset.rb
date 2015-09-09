@@ -75,18 +75,27 @@ class Asset
   end
 
   def self.authorized_properties(user)
-    query = property_name_and_uuid_query
-            .merge(model: {Model: {name: name}})
-            .break
-            .merge('model-[:HAS_PROPERTY]->(property:Property {name: property_name})')
-            .on_create_set('property.uuid = uuid')
-            .with(:property)
+    query = properties_query
 
     require './lib/query_authorizer'
     query_authorizer = QueryAuthorizer.new(query)
 
     ::Property # rubocop:disable Lint/Void
     query_authorizer.authorized_pluck(:property, user)
+  end
+
+  def self.authorized_properties_and_levels(_user)
+  end
+
+  def self.properties_query
+    property_name_and_uuid_query
+      .merge(model: {Model: {name: name}})
+      .on_create_set(model: {private: false})
+      .break
+      .merge('model-[:HAS_PROPERTY]->(property:Property {name: property_name})')
+      .on_create_set(property: {private: false})
+      .on_create_set('property.uuid = uuid')
+      .with(:property)
   end
 
   def self.property_name_and_uuid_query

@@ -20,7 +20,7 @@ RSpec.describe Asset, type: :model do
       it { should match_array([]) }
 
       context 'user has access to asset' do
-        before { asset.allowed_users << user }
+        before { asset.allowed_users.create(user, level: 'read') }
 
         it { should match_array([asset]) }
       end
@@ -30,7 +30,7 @@ RSpec.describe Asset, type: :model do
         before { asset.categories << category }
 
         context 'user has access to category' do
-          before { category.allowed_users << user }
+          before { category.allowed_users.create(user, level: 'read') }
 
           it { should match_array([asset]) }
         end
