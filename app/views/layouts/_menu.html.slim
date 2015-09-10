@@ -3,7 +3,7 @@
     a.item = link_to model_class.name.pluralize.humanize, assets_path(model_slug: model_class.model_slug)
 
   .right.menu
-    a.ui.item = link_to 'Groups', groups_path if @current_user_is_admin
+    .ui.item = link_to 'Groups', groups_path if @current_user_is_admin
   - if user_signed_in?
     .ui.item Logged in as #{current_user.name}
     .ui.item = link_to 'Sign out', destroy_user_session_path, method: 'delete'
