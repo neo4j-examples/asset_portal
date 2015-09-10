@@ -7,18 +7,26 @@ class AssetsController < ApplicationController
   end
 
   def show
-    @asset = model_class_scope.find(params[:id])
+    @asset = get_asset
+
+    render file: 'public/404.html', status: :not_found, layout: false if !@asset
   end
 
   def edit
-    @asset = model_class_scope.find(params[:id])
+    @asset = get_asset
+
+    render file: 'public/404.html', status: :not_found, layout: false if !@asset
   end
 
   def update
-    @asset = model_class_scope.find(params[:id])
+    @asset = get_asset
     @asset.update(params[:book])
 
     redirect_to action: :edit
+  end
+
+  def get_asset
+    model_class_scope.where(id: params[:id]).first
   end
 
   def model_class_scope
