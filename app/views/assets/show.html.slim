@@ -25,6 +25,19 @@ table.ui.table.celled.very.padded.rounded
     th Last updated
     td = @asset.updated_at
 
+  - @asset.class.authorized_associations.each do |name, association|
+    tr
+      th = name.to_s.humanize
+      td
+        - case association.type
+        - when :has_one
+          - object = @asset.send(name)
+          = link_to object.title, asset_path(object)
+        - when :has_many
+          ul
+            - @asset.send(name).each do |object|
+              li = link_to object.title, asset_path(object)
+
   tr
     th Categories
     td
@@ -42,5 +55,5 @@ table.ui.celled.table
   tbody
     - @asset.secret_sauce_recommendations.each do |recommendation|
       tr
-        td = link_to recommendation.asset.title, asset_path(id: recommendation.asset)
+        td = link_to recommendation.asset.title, asset_path(recommendation.asset)
         td = recommendation.score

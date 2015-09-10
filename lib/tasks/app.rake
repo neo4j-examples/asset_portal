@@ -101,13 +101,20 @@ task load_sample_data: :environment do
     cover_data_string = cover_data(book_data['cover_i'])
     isbn13 = Array(book_data['isbn']).detect { |isbn| isbn.size == 13 }
 
+    authors = Array(book_data['author_name']).map do |author_name|
+      Person.merge(name: author_name, private: false)
+    end.uniq
+    contributors = Array(book_data['contributor']).map do |contributor_name|
+      Person.merge(name: contributor_name, private: false)
+    end.uniq
+
     asset = Book.create(
       title: book_data['title'],
       private: (rand < 0.2),
       image: cover_data_string && StringIO.new(cover_data_string),
       isbn13: isbn13,
-      authors: book_data['author_name'],
-      contributors: book_data['contributor'],
+      authors: authors,
+      contributors: contributors,
       publish_date: book_data['publish_date'] && book_data['publish_date'][0]
     )
 

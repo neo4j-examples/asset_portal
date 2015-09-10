@@ -11,10 +11,14 @@
 
     = f.file_field :image
 
-  - @asset.class.authorized_properties(current_user).each do |property|
+  - @asset.class.authorized_properties_and_levels(current_user).each do |property, level|
     .field
       label = property.name.humanize
 
-      = f.text_field property.name
+      - if level == 'write'
+        = f.text_field property.name
+      - else
+        = @asset.read_attribute(property.name)
+
 
   = f.submit 'Update', class: 'ui button'

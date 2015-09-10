@@ -8,11 +8,6 @@ h2 Sign up
     = f.text_field :name, autofocus: true
 
   .field
-    = f.label :username
-    br
-    = f.text_field :username
-
-  .field
     = f.label :email
     br
     = f.email_field :email
@@ -31,10 +26,7 @@ h2 Sign up
       br
       = f.password_field :password_confirmation, autocomplete: "off"
 
-  .field
+  .ui.buttons
     input.ui.primary.button type="submit" value="Sign up"
 
-br
-br
-
-= render 'devise/shared/links'
+    = render 'devise/shared/links'

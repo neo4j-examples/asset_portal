@@ -14,7 +14,7 @@
           - if asset.private?
             .right.floated.meta
               i.hide.large.red.icon
-          .header = link_to asset.title, asset_path(id: asset, model_slug: model_class.model_slug)
+          .header = link_to asset.title, asset_path(asset)
         .image = image_tag asset.image.url if image_tag asset.image.url.present?
         .content
 

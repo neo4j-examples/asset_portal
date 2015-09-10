@@ -1,3 +1,5 @@
+require './lib/query_authorizer'
+
 class Asset
   include Neo4j::ActiveNode
   include Neo4jrb::Paperclip
@@ -75,27 +77,25 @@ class Asset
   end
 
   def self.authorized_properties(user)
-    query = properties_query
+    authorized_properties_query(user).pluck(:property)
+  end
 
-    require './lib/query_authorizer'
-    query_authorizer = QueryAuthorizer.new(query)
+  def self.authorized_properties_and_levels(user)
+    authorized_properties_query(user).pluck(:property, :level)
+  end
+
+  def self.authorized_properties_query(user)
+    query = property_name_and_uuid_query
+            .merge(model: {Model: {name: name}})
+            .on_create_set(model: {private: false})
+            .break
+            .merge('model-[:HAS_PROPERTY]->(property:Property {name: property_name})')
+            .on_create_set(property: {private: false})
+            .on_create_set('property.uuid = uuid')
+            .with(:property)
 
     ::Property # rubocop:disable Lint/Void
-    query_authorizer.authorized_pluck(:property, user)
-  end
-
-  def self.authorized_properties_and_levels(_user)
-  end
-
-  def self.properties_query
-    property_name_and_uuid_query
-      .merge(model: {Model: {name: name}})
-      .on_create_set(model: {private: false})
-      .break
-      .merge('model-[:HAS_PROPERTY]->(property:Property {name: property_name})')
-      .on_create_set(property: {private: false})
-      .on_create_set('property.uuid = uuid')
-      .with(:property)
+    QueryAuthorizer.new(query).authorized_query(:property, user)
   end
 
   def self.property_name_and_uuid_query
@@ -108,5 +108,9 @@ class Asset
       .unwind('properties_and_uuids AS property_and_uuid')
       .params(properties_and_uuids: properties_and_uuids)
       .with('property_and_uuid[0] AS property_name, property_and_uuid[1] AS uuid')
+  end
+
+  def self.authorized_associations
+    associations.except(*Asset.associations.keys)
   end
 end

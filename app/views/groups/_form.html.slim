@@ -1,10 +1,13 @@
 = form_for @group, html: {class: 'ui form'} do |f|
   - if @group.errors.any?
-    #error_explanation
-      h2 = "#{pluralize(@group.errors.count, "error")} prohibited this group from being saved:"
-      ul
+    #error_explanation.ui.warning.message
+      i.close.icon
+      .header
+        = "#{pluralize(@group.errors.count, "error")} prohibited this group from being saved:"
+      .ui.segments
         - @group.errors.full_messages.each do |message|
-          li = message
+          .ui.segment
+            p = message
 
   = f.hidden_field :parent_id, value: params[:parent_id] || @group.parent_id
 

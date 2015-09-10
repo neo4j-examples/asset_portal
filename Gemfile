@@ -43,7 +43,7 @@ gem 'neo4jrb-paperclip', github: 'subvertallchris/neo4jrb-paperclip', require: '
 gem 'paperclip', '~> 4.2.0'
 gem 'aws-sdk', '< 2.0'
 
-gem 'rails_12factor'
+gem 'unicorn-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -70,4 +70,8 @@ end
 
 group :test do
   gem 'factory_girl_rails'
+end
+
+group :production do
+  gem 'rails_12factor'
 end

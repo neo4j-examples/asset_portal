@@ -1,10 +1,11 @@
 class Book < Asset
   property :isbn13, type: String
-  property :authors
-  property :contributors
   property :publish_date, type: String
 
   property :first_year_sales, type: Integer
+
+  has_many :in, :authors, type: :WROTE, model_class: :Person
+  has_many :in, :contributors, type: :CONTRIBUTED_TO, model_class: :Person
 
   # has_neo4jrb_attached_file :back_cover_image
 
