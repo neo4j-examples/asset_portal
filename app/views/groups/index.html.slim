@@ -1,0 +1,18 @@
+h1 Listing groups
+
+table.ui.padded.table
+  thead
+    tr
+      th Name
+      th
+      th
+      th
+      th
+
+  tbody
+    = render partial: 'list', locals: {groups: @groups, indentation: 1}
+
+
+br
+
+= link_to 'New Group', new_group_path

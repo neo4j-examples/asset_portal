@@ -1,6 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails'
+require 'logger'
 # Pick the frameworks you want:
 require 'active_model/railtie'
 require 'active_job/railtie'
@@ -18,9 +19,18 @@ Bundler.require(*Rails.groups)
 
 module AssetPortal
   class Application < Rails::Application
+    if ENV["LOG_LEVEL"].in?(%w(debug info warn error fatal unknown))
+      config.log_level = ENV["LOG_LEVEL"].to_sym
+    end
+
     config.generators do |g|
       g.orm :neo4j
     end
+
+    config.assets.precompile += %w(
+      ember_apps/permissions_modal.js
+      ember_apps/user_list_dropdown.js
+    )
 
     # Configure where the embedded neo4j database should exist
     # Notice embedded db is only available for JRuby
@@ -45,9 +55,11 @@ module AssetPortal
 
     config.neo4j._active_record_destroyed_behavior = true
 
-    if (neo4j_port = ENV['NEO4J_PORT']).blank?
-      puts <<-MESSAGE
-The NEO4J_PORT environment variable is required.
+    neo4j_port = ENV['NEO4J_PORT']
+    neo4j_url = ENV['NEO4J_URL']
+    if neo4j_port.blank? && neo4j_url.blank?
+      Rails.logger.info <<-MESSAGE
+The NEO4J_PORT or NEO4J_URL environment variables are required.
 The dotenv gem is installed, so you can create a
 .env or .env.#{Rails.env} file to specify this.
 
@@ -56,6 +68,18 @@ MESSAGE
       exit
     end
     config.neo4j.session_type = :server_db
-    config.neo4j.session_path = "http://localhost:#{neo4j_port}"
+    config.neo4j.session_path = neo4j_url || "http://localhost:#{neo4j_port}"
+    config.neo4j.pretty_logged_cypher_queries = true
+
+    config.neo4j.record_timestamps = true
+
+    config.paperclip_defaults = {
+      storage: :s3,
+      s3_credentials: {
+        bucket: ENV['S3_BUCKET_NAME'],
+        access_key_id: ENV['AWS_ACCESS_KEY_ID'],
+        secret_access_key: ENV['AWS_SECRET_ACCESS_KEY']
+      }
+    }
   end
 end

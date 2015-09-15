@@ -1,0 +1,9 @@
+p#notice = notice
+
+= link_to 'Return to home', root_path
+
+h1
+  Assets for category:
+  = @category.name
+
+= render partial: 'assets/cards', locals: {assets: @category.assets.to_a}

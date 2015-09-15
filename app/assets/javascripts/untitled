@@ -1,0 +1,19 @@
+App = Ember.Application.create
+  rootElement: '#change-object-permissions'
+
+window.launch_modal = (object) ->
+  #object_model = new PermissionableObjectModel(object)
+  #new ChangeObjectPermissionsView(object: object).render()
+
+  #App.Router = Ember.Router.extend
+  #  location: 'none'
+
+  App.ApplicationRoute = Ember.Route.extend
+    setupController: (controller) ->
+      # `controller` is the instance of ApplicationController
+      controller.set('title', "Hello world!");
+
+  #App.ApplicationController = Ember.Controller.extend
+  #  title: 'FOOO!!!'
+
+  $('.ui.modal').modal('show')

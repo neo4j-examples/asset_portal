@@ -1,0 +1,24 @@
+
+= form_for @asset, url: url_for(action: :update), html: {class: 'ui form'} do |f|
+  .field
+    label Title
+
+    = f.text_field :title
+
+  = image_tag @asset.image.url, class: 'ui medium image'
+  .field
+    label Image
+
+    = f.file_field :image
+
+  - @asset.class.authorized_properties_and_levels(current_user).each do |property, level|
+    .field
+      label = property.name.humanize
+
+      - if level == 'write'
+        = f.text_field property.name
+      - else
+        = @asset.read_attribute(property.name)
+
+
+  = f.submit 'Update', class: 'ui button'

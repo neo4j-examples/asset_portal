@@ -1,0 +1,90 @@
+script type="text/x-handlebars"
+  .ui.modal
+    i.close.icon
+
+    .header Change permissions for {{object.name}}
+    .image.content
+      | {{#if object.image_url}}
+      .ui.medium.image
+        img src="{{object.image_url}}"
+      | {{/if}}
+
+      .description
+
+        <div class="ui search {{if searching 'loading' ''}}">
+          .ui.icon.input
+            | {{input type="text" placeholder="User or group" class="prompt" value=user_and_group_search}}
+            i.add.circle.icon
+
+          <div id="modal-search-results" class="results transition {{if user_and_group_results_present 'visible' ''}}">
+            .ui.two.column.grid
+              - %w(user group).each do |result_type|
+                | {{#if #{result_type}_results.length}}
+                .eight.wide.column
+                  table.ui.celled.striped.table
+                    tr
+                      th colspan="3"
+                        h2
+                          i class="#{result_type == 'user' ? 'user' : 'users'} icon"
+                          = result_type.humanize.pluralize                         
+                    | {{#each #{result_type}_results as |result|}}
+                    tr
+                      td
+                        | {{result.name}}
+                      td
+                        .ui.large.buttons
+                          <button {{action "add_#{result_type}" result 'read'}} class="ui button green icon">Read</button>
+                          .or
+                          <button {{action "add_#{result_type}" result 'write'}} class="ui button red icon">Write</button>
+                    | {{/each}}
+                | {{/if}}
+
+          </div>
+        </div>
+
+          .inline.field
+            .ui.checkbox
+              | {{input type="checkbox" name="private" checked=object.private}}
+              label Private?
+          - %w(user group).each do |entity_type|
+            | {{#if #{entity_type}_permissions}}
+            .ui.segment.padded
+              .ui.form
+                .ui.header
+                  i class="#{entity_type == 'user' ? 'user' : 'users'} icon"
+                  | #{entity_type.humanize.pluralize} allowed access
+                table.ui.definition.table
+                  | {{#each object.#{entity_type}_permissions as |#{entity_type}_permission|}}
+                  tr
+                    td
+                      label
+                        | {{#{entity_type}_permission.#{entity_type}.name}}
+                    td
+                      .field
+                        .ui.radio.checkbox
+                          | {{ radio-button name=#{entity_type}_permission.#{entity_type}.id value='read' groupValue=#{entity_type}_permission.level }}
+                          label Read
+                    td
+                      .field
+                        .ui.radio.checkbox
+                          | {{ radio-button name=#{entity_type}_permission.#{entity_type}.id value='write' groupValue=#{entity_type}_permission.level }}
+                          label Write
+                    td
+                      <button {{action "remove_#{entity_type}_permission" #{entity_type}_permission}} class="ui circular red button"><i class="remove user icon"/></button>
+                  | {{/each}}
+
+            | {{/if}}
+
+          <button {{action "update_permissions" target="controller"}} class="ui button positive icon {{if saving 'loading' ''}}"><i class="write icon"/>Update Permissions</button>
+
+    .actions
+      .ui.positive.right.labeled.icon.button.done
+        | Done
+        i.checkmark.icon
+
+  scss:
+    .ui.search > #modal-search-results {
+      width: 600px;
+      padding: 1em;
+    }
+

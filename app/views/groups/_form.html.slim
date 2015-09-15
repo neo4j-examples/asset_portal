@@ -1,0 +1,30 @@
+= form_for @group, html: {class: 'ui form'} do |f|
+  - if @group.errors.any?
+    #error_explanation.ui.warning.message
+      i.close.icon
+      .header
+        = "#{pluralize(@group.errors.count, "error")} prohibited this group from being saved:"
+      .ui.segments
+        - @group.errors.full_messages.each do |message|
+          .ui.segment
+            p = message
+
+  = f.hidden_field :parent_id, value: params[:parent_id] || @group.parent_id
+
+  .field
+    label Name
+    = f.text_field :name
+
+  .field
+    label Users
+    = f.select :member_ids, options_from_collection_for_select(User.order(:name), :id, :name, @group.member_ids), {}, multiple: '', id: 'user-list-dropdown', class: 'ui dropdown'
+
+    coffee:
+      $('select.ui.dropdown').dropdown()
+
+
+
+  .actions = f.submit class: 'ui primary button'
+
+/= javascript_include_tag 'ember_apps/user_list_dropdown', 'data-turbolinks-track' => true
+

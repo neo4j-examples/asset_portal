@@ -1,19 +1,25 @@
 #= require jquery
 #= require jquery_ujs
 #= require turbolinks
+#= require underscore
+#= require ember
+#= require ember-template-compiler
 #= require semantic-ui
-#= require_tree .
+
 
 ready = ->
   $("img").error ->
     console.log 'imgError!!!!'
 
-    img = $(this)
+    img = $(@)
 
     img.attr('src', <%= asset_path("missing.png").to_json %>)
     img.css('padding', '40px')
     img.insertBefore("")
     img.unbind('error')
+
+  $('.message > .close').on 'click', ->
+    $(@).closest('.message').transition('fade')
 
 $(document).ready ready
 $(document).on 'page:load', ready

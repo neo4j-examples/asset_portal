@@ -1,19 +1,21 @@
+require './lib/query_authorizer'
 
 class Asset
   include Neo4j::ActiveNode
+  include Neo4jrb::Paperclip
+
+  include Authorizable
 
   property :title
-  property :public, default: true
+
+  has_neo4jrb_attached_file :image
+  validates_attachment_content_type :image, content_type: ['image/jpg', 'image/jpeg', 'image/png', 'image/gif']
 
   property :view_count, type: Integer
 
-  property :created_at
-  property :updated_at
+  property :private, type: Boolean
 
   has_many :out, :categories, type: :HAS_CATEGORY
-
-  has_many :out, :allowed_users, type: :VIEWABLE_BY, model_class: :User
-  has_many :out, :allowed_groups, type: :VIEWABLE_BY, model_class: :Group
 
   has_many :in, :creators, type: :CREATED, model_class: :User
 
@@ -39,15 +41,76 @@ class Asset
     end
   end
 
-  def self.visible_to(user)
-    query_as(:asset)
-      .match_nodes(user: user)
-      .where("
-asset.public OR
-asset<-[:CREATED]-user OR asset-[:VIEWABLE_BY]->user OR
-asset-[:VIEWABLE_BY]->(:Group)<-[:HAS_SUBGROUP*0..5]-(:Group)<-[:BELONGS_TO]-user
-")
-      .pluck(:asset)
-    # proxy_as(Asset, :asset)
-  end  
+  def name
+    title
+  end
+
+  def as_json(_options = {})
+    {self.class.model_slug =>
+      {id: id,
+       title: title,
+       name: title,
+       image_url: image.url,
+       model_slug: self.class.model_slug}
+     }
+  end
+
+  def self.descendants
+    Rails.application.eager_load! if Rails.env == 'development'
+    Neo4j::ActiveNode::Labels._wrapped_classes.select { |klass| klass < self }
+  end
+
+  def self.model_slug
+    name.tableize
+  end
+
+  def self.properties
+    attributes.keys - Asset.attributes.keys
+  end
+
+  def self.authorized_for(user)
+    require './lib/query_authorizer'
+    QueryAuthorizer.new(all(:asset).categories(:category, nil, optional: true))
+      .authorized_query([:asset, :category], user)
+      .with('DISTINCT asset AS asset')
+      .proxy_as(self, :asset)
+  end
+
+  def self.authorized_properties(user)
+    authorized_properties_query(user).pluck(:property)
+  end
+
+  def self.authorized_properties_and_levels(user)
+    authorized_properties_query(user).pluck(:property, :level)
+  end
+
+  def self.authorized_properties_query(user)
+    query = property_name_and_uuid_query
+            .merge(model: {Model: {name: name}})
+            .on_create_set(model: {private: false})
+            .break
+            .merge('model-[:HAS_PROPERTY]->(property:Property {name: property_name})')
+            .on_create_set(property: {private: false})
+            .on_create_set('property.uuid = uuid')
+            .with(:property)
+
+    ::Property # rubocop:disable Lint/Void
+    QueryAuthorizer.new(query).authorized_query(:property, user)
+  end
+
+  def self.property_name_and_uuid_query
+    properties_and_uuids = properties.map do |property|
+      [property, SecureRandom.uuid]
+    end
+
+    Neo4j::Session.current.query
+      .with('{properties_and_uuids} AS properties_and_uuids')
+      .unwind('properties_and_uuids AS property_and_uuid')
+      .params(properties_and_uuids: properties_and_uuids)
+      .with('property_and_uuid[0] AS property_name, property_and_uuid[1] AS uuid')
+  end
+
+  def self.authorized_associations
+    associations.except(*Asset.associations.keys)
+  end
 end
