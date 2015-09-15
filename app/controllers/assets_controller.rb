@@ -7,13 +7,13 @@ class AssetsController < ApplicationController
   end
 
   def show
-    @asset = get_asset
+    @asset = asset
 
     render file: 'public/404.html', status: :not_found, layout: false if !@asset
   end
 
   def edit
-    @asset = get_asset
+    @asset = asset
 
     render file: 'public/404.html', status: :not_found, layout: false if !@asset
   end
@@ -25,8 +25,8 @@ class AssetsController < ApplicationController
     redirect_to action: :edit
   end
 
-  def get_asset
-    model_class_scope.where(id: params[:id]).first
+  def asset
+    model_class_scope.find(params[:id])
   end
 
   def model_class_scope

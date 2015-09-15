@@ -19,8 +19,8 @@ Bundler.require(*Rails.groups)
 
 module AssetPortal
   class Application < Rails::Application
-    if ENV["LOG_LEVEL"].in?(%w(debug info warn error fatal unknown))
-      config.log_level = ENV["LOG_LEVEL"].to_sym
+    if ENV['LOG_LEVEL'].in?(%w(debug info warn error fatal unknown))
+      config.log_level = ENV['LOG_LEVEL'].to_sym
     end
 
     config.generators do |g|
