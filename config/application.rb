@@ -1,6 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails'
+require 'logger'
 # Pick the frameworks you want:
 require 'active_model/railtie'
 require 'active_job/railtie'
@@ -18,6 +19,10 @@ Bundler.require(*Rails.groups)
 
 module AssetPortal
   class Application < Rails::Application
+    if ENV["LOG_LEVEL"].in?(%w(debug info warn error fatal unknown))
+      config.log_level = ENV["LOG_LEVEL"].to_sym
+    end
+
     config.generators do |g|
       g.orm :neo4j
     end
