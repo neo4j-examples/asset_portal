@@ -14,7 +14,11 @@ a.ui.labeled.icon.button.right.floated href="#{edit_asset_path(id: @asset)}"
 table.ui.table.celled.very.padded.rounded
   - @asset.class.authorized_properties(current_user).each do |property|
     tr
-      th data-authorizable="#{property.to_json}" = property.name.humanize
+      th data-authorizable="#{property.to_json}"
+        = property.name.humanize
+        | &nbsp;&nbsp;
+        - if property.private?
+          i.red.hide.icon
       td = @asset.read_attribute(property.name)
 
   tr
