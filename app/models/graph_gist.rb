@@ -12,7 +12,7 @@ class GraphGist < Asset
 
 
   def body=(asciidoc_text)
-    write_attribute(:asciidoc, asciidoc_text)
+    self[:asciidoc] = asciidoc_text
 
     render_html
   end
