@@ -19,7 +19,7 @@ table.ui.table.celled.very.padded.rounded
         | &nbsp;&nbsp;
         - if property.private?
           i.red.hide.icon
-      td = @asset.read_attribute(property.name)
+      td = render partial: 'properties/property', locals: {property: property, asset: @asset, level: 'read'}
 
   tr
     th Created

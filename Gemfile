@@ -43,7 +43,10 @@ gem 'neo4jrb-paperclip', github: 'subvertallchris/neo4jrb-paperclip', require: '
 gem 'paperclip', '~> 4.2.0'
 gem 'aws-sdk', '< 2.0'
 
-gem 'unicorn-rails'
+gem 'puma'
+
+# For GraphGist portal.  Remove from asset_portal engine?
+gem 'asciidoctor'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

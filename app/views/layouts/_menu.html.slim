@@ -3,6 +3,8 @@
     a.item = link_to model_class.name.pluralize.humanize, assets_path(model_slug: model_class.model_slug)
 
   .right.menu
+    .ui.item = link_to 'Submit GraphGist', graph_gists_submit_path
+
     .ui.item = link_to 'Groups', groups_path if @current_user_is_admin
   - if user_signed_in?
     .ui.item Logged in as #{current_user.name}

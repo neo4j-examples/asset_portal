@@ -30,6 +30,12 @@ module AssetPortal
     config.assets.precompile += %w(
       ember_apps/permissions_modal.js
       ember_apps/user_list_dropdown.js
+
+      jquery.datetimepicker.js
+      jquery.datetimepicker.css
+
+      graphgist-render.js
+      graphgist-render.css
     )
 
     # Configure where the embedded neo4j database should exist
@@ -72,6 +78,8 @@ MESSAGE
     config.neo4j.pretty_logged_cypher_queries = true
 
     config.neo4j.record_timestamps = true
+
+    config.eager_load_paths += ["#{Rails.root}/lib/graph_gist_converter.rb"]
 
     config.paperclip_defaults = {
       storage: :s3,

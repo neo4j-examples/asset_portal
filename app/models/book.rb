@@ -4,6 +4,9 @@ class Book < Asset
 
   property :first_year_sales, type: Integer
 
+  property :some_datetime, type: DateTime
+  property :some_date, type: Date
+
   has_many :in, :authors, type: :WROTE, model_class: :Person
   has_many :in, :contributors, type: :CONTRIBUTED_TO, model_class: :Person
 

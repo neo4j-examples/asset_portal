@@ -1,3 +1,6 @@
+= javascript_include_tag 'jquery.datetimepicker', 'data-turbolinks-track' => true
+= stylesheet_link_tag    'jquery.datetimepicker', media: 'all', 'data-turbolinks-track' => true
+
 
 = form_for @asset, url: url_for(action: :update), html: {class: 'ui form'} do |f|
   .field
@@ -15,10 +18,7 @@
     .field
       label = property.name.humanize
 
-      - if level == 'write'
-        = f.text_field property.name
-      - else
-        = @asset.read_attribute(property.name)
+      = render partial: 'properties/property', locals: {property: property, asset: @asset, level: level, form: f}
 
 
   = f.submit 'Update', class: 'ui button'

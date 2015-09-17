@@ -1,0 +1,11 @@
+
+h1 = @asset.title
+
+#gist-body
+  = @asset.html_body.html_safe
+
+
+= stylesheet_link_tag    'graphgist-render', media: 'all', 'data-turbolinks-track' => true
+
+= javascript_include_tag 'graphgist-render', 'data-turbolinks-track' => true
+

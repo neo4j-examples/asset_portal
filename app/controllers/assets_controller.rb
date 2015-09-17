@@ -10,6 +10,12 @@ class AssetsController < ApplicationController
     @asset = asset
 
     render file: 'public/404.html', status: :not_found, layout: false if !@asset
+
+    custom_view_path = "#{@asset.class.name.tableize}/show"
+    has_custom_view = Dir.glob(Rails.root.join("app/views/#{custom_view_path}.html.*")).present?
+    if has_custom_view
+      render custom_view_path
+    end
   end
 
   def edit
@@ -19,7 +25,7 @@ class AssetsController < ApplicationController
   end
 
   def update
-    @asset = get_asset
+    @asset = asset
     @asset.update(params[:book])
 
     redirect_to action: :edit

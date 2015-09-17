@@ -5,7 +5,11 @@ class Model
 
   id_property :name
 
-  has_many :out, :properties, type: :HAS_PROPERTY
+  has_many :out, :properties, origin: :model
+
+  def ruby_model
+    name.constantize
+  end
 
   def authorized_properties(user)
     require './lib/query_authorizer'
