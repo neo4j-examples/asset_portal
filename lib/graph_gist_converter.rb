@@ -14,14 +14,14 @@ class GraphGistConverter
 
     hide: '<span class="hide-query"></span>',
     setup: '<span class="setup"></span>',
-    output: '<span class="query-output"></span>',
+    output: '<span class="query-output"></span>'
   }
 
   def html
     COMMENT_REPLACEMENTS.each do |tag, replacement|
       @asciidoc_text.gsub!(Regexp.new(%r{^//\s*#{tag}}, 'gm'), "++++\n#{replacement}\n++++\n")
     end
- 
+
     Asciidoctor.convert(@asciidoc_text, attributes: ASCIIDOC_ATTRIBUTES)
   end
 end

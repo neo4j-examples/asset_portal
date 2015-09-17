@@ -24,5 +24,4 @@ class GraphGist < Asset
       create(body: asciidoc_text, private: false)
     end
   end
-
 end

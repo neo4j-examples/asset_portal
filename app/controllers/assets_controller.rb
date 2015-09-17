@@ -13,9 +13,7 @@ class AssetsController < ApplicationController
 
     custom_view_path = "#{@asset.class.name.tableize}/show"
     has_custom_view = Dir.glob(Rails.root.join("app/views/#{custom_view_path}.html.*")).present?
-    if has_custom_view
-      render custom_view_path
-    end
+    render custom_view_path if has_custom_view
   end
 
   def edit
