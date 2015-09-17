@@ -1,5 +1,11 @@
 class GraphGistsController < ApplicationController
   def preview
+    @asset = GraphGist.build_from_url(params[:url])
+
+    render 'graph_gists/show'
+  end
+
+  def preview2
     graph_gist = GraphGist.create_from_url(params[:url])
 
     if graph_gist

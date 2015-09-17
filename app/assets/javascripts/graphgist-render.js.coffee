@@ -25,6 +25,11 @@ MathJax.Hub.Config
 
 # Transform ASCIIdoc HTML output to match Semantic UI expectations
 $('.sect1').addClass('ui container')
+for code_element in $('code[class*="language-"]')
+  classes = _(code_element.classList).select (c) -> c.match(/^language-/)
+
+  $(code_element).parent('pre').addClass(c) for c in classes
+
 for element in $('div.paragraph')
   $(element).replaceWith($('<p>' + element.innerHTML + '</p>'));
 

@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   # Routes for GraphGist portal
   get 'graph_gists/submit' => 'graph_gists#submit'
-  post 'graph_gists/preview' => 'graph_gists#preview', as: :graph_gist_preview
+  get 'graph_gists/preview' => 'graph_gists#preview', as: :graph_gist_preview
 
   # Routes for asset_portal
   resources :groups

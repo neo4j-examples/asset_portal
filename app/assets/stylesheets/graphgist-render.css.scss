@@ -63,14 +63,14 @@ span.resize-vertical-handle {
     background: #f9f9f9;
     border: 1px solid rgba(0, 0, 0, 0.15);
     cursor: s-resize;
-}
 
-span.resize-vertical-handle span {
-    display: block;
-    margin: 4px auto;
-    height: 1px;
-    width: 30px;
-    background: #888888;
+    span {
+        display: block;
+        margin: 4px auto;
+        height: 1px;
+        width: 30px;
+        background: #888888;
+    }
 }
 
 #resize-overlay {
@@ -100,10 +100,10 @@ span.resize-vertical-handle span {
     top: 0;
     width: 99.7%;
     z-index: 1000;
-}
 
-#console-wrapper.fixed-console {
-    position: fixed;
+    &.fixed-console {
+        position: fixed;
+    }
 }
 
 #console-label {
@@ -126,14 +126,14 @@ p.console.fixed-console {
 p.console {
     margin-bottom: 48px;
     background: #eeeeee url('http://gist.neo4j.org/images/loading.gif') no-repeat center center;
-}
 
-p.console > span.loading {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    padding: 4em 0 0 0;
-    text-align: center;
+    > span.loading {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding: 4em 0 0 0;
+        text-align: center;
+    }
 }
 
 
@@ -191,17 +191,19 @@ div.visualization.fullscreen > a.visualization-download {
     top: 24px;
 }
 
-div.result-table .dataTables_filter input {
-  display: inline-block;
-}
+div.result-table {
+    .dataTables_filter input {
+        display: inline-block;
+    }
 
 
-div.result-table table {
-  clear: both;
-}
+    table {
+      clear: both;
+    }
 
-div.result-table table.dataTable td {
-  padding: 0.5em 0.8em;
+    table.dataTable td {
+      padding: 0.5em 0.8em;
+    }
 }
 
 div.visualization > svg {

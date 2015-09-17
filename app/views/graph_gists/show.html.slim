@@ -2,7 +2,7 @@
 h1 = @asset.title
 
 #gist-body
-  = @asset.html_body.html_safe
+  = @asset.html.html_safe
 
 
 = stylesheet_link_tag    'graphgist-render', media: 'all', 'data-turbolinks-track' => true
