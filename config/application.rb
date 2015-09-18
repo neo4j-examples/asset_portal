@@ -79,7 +79,7 @@ MESSAGE
 
     config.neo4j.record_timestamps = true
 
-    config.eager_load_paths += ["#{Rails.root}/lib/graph_gist_converter.rb"]
+    config.eager_load_paths += ["#{Rails.root}/lib/graph_gist_tools.rb"]
 
     config.paperclip_defaults = {
       storage: :s3,

@@ -1,8 +1,7 @@
-class GraphGistConverter
-  def initialize(asciidoc_text)
-    @asciidoc_text = asciidoc_text.dup
-  end
+require 'json'
+require 'open-uri'
 
+module GraphGistTools
   ASCIIDOC_ATTRIBUTES = ['showtitle', 'env-graphgist']
 
   COMMENT_REPLACEMENTS = {
@@ -17,11 +16,23 @@ class GraphGistConverter
     output: '<span class="query-output"></span>'
   }
 
-  def html
+  def self.adoc2html(asciidoc_text)
+    text = asciidoc_text.dup
     COMMENT_REPLACEMENTS.each do |tag, replacement|
-      @asciidoc_text.gsub!(Regexp.new(%r{^//\s*#{tag}}, 'gm'), "++++\n#{replacement}\n++++\n")
+      text.gsub!(Regexp.new(%r{^//\s*#{tag}}, 'gm'), "++++\n#{replacement}\n++++\n")
     end
 
-    Asciidoctor.convert(@asciidoc_text, attributes: ASCIIDOC_ATTRIBUTES)
+    Asciidoctor.convert(text, attributes: ASCIIDOC_ATTRIBUTES)
+  end
+
+  def self.raw_url_for(url)
+    case url
+    when %r{^https?://gist.github.com/([^/]+/)?(.+)$}
+      data = JSON.load(open("https://api.github.com/gists/#{$2}").read)
+
+      fail ArgumentError, "Gist has more than one file!" if data['files'].size > 1
+
+      data['files'].to_a[0][1]['raw_url']
+    end
   end
 end

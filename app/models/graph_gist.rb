@@ -4,14 +4,19 @@ require 'open-uri'
 class GraphGist < Asset
   # TODO: constraint should be on URL without params string or trailing slashes
   property :url, type: String, constraint: :unique
+  property :raw_url, type: String
 
   property :asciidoc, type: String
   validates :asciidoc, presence: true
   property :html, type: String
   validates :html, presence: true
 
+  property :status, type: String
+  validates :status, inclusion: {in: %w(live disabled candidate)}
+
   has_one :in, :author, type: :WROTE, model_class: :Person
 
+  property :legacy_db_id, type: String
 
   def body=(asciidoc_text)
     self[:asciidoc] = asciidoc_text
@@ -19,8 +24,14 @@ class GraphGist < Asset
     render_html
   end
 
+  def url=(new_url)
+    super
+
+    self.raw_url = GraphGistTools.raw_url_for(url)
+  end
+
   def render_html
-    self.html = GraphGistConverter.new(asciidoc).html
+    self.html = GraphGistTools.adoc2html(asciidoc)
   end
 
   class << self
