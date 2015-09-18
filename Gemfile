@@ -47,6 +47,7 @@ gem 'puma'
 
 # For GraphGist portal.  Remove from asset_portal engine?
 gem 'asciidoctor'
+gem 'mathjax-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

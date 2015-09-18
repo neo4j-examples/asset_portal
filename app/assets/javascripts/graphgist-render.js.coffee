@@ -1,7 +1,3 @@
-#= require MathJax/MathJax
-#= require MathJax/config/TeX-AMS-MML_HTMLorMML
-
-
 #= require jquery-ui.min
 #= require d3.min
 #= require jquery.dataTables.min
@@ -18,10 +14,6 @@
 #= require prism
 #= require prism-cypher
 
-
-MathJax.Hub.Config
-  tex2jax:
-    inlineMath: [['$','$'],['\\(','\\)']]
 
 # Transform ASCIIdoc HTML output to match Semantic UI expectations
 $('.sect1').addClass('ui container')

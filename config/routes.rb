@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  mathjax 'mathjax'
+
   # Routes for GraphGist portal
   get 'graph_gists/submit' => 'graph_gists#submit'
   get 'graph_gists/preview' => 'graph_gists#preview', as: :graph_gist_preview
