@@ -11,7 +11,7 @@ class GraphGistsController < ApplicationController
     data = graph_gists.map do |graph_gist|
       {
         title: graph_gist.title,
-        description: graph_gist.author.name,
+        description: graph_gist.author && graph_gist.author.name,
         url: asset_path(id: graph_gist.id, model_slug: :graph_gists)
       }
     end
