@@ -7,6 +7,9 @@ class Asset
   include Authorizable
 
   property :title
+  validates :title, presence: true
+
+  property :summary
 
   has_neo4jrb_attached_file :image
   validates_attachment_content_type :image, content_type: ['image/jpg', 'image/jpeg', 'image/png', 'image/gif']
@@ -22,6 +25,10 @@ class Asset
   has_many :in, :viewers, rel_class: :View, model_class: :User
 
   SecretSauceRecommendation = Struct.new(:asset, :score)
+
+  def self.for_query(query)
+    all.where(title: /.*#{query}.*/i)
+  end
 
   def secret_sauce_recommendations
     query_as(:source)

@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get 'graph_gists/submit' => 'graph_gists#submit'
   get 'graph_gists/preview' => 'graph_gists#preview', as: :graph_gist_preview
 
+  get 'graph_gists/search' => 'graph_gists#search'
+
   # Routes for asset_portal
   resources :groups
   root 'assets#home'

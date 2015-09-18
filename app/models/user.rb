@@ -6,6 +6,8 @@ class User
   validates :email, presence: true
   property :encrypted_password, type: String # REPLACE WITH DEVISE
 
+  property :twitter_username, type: String
+
   ## Rememberable
   property :remember_created_at, type: DateTime
   index :remember_token

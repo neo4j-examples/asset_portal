@@ -5,6 +5,20 @@ class GraphGistsController < ApplicationController
     render 'graph_gists/show'
   end
 
+  def search
+    graph_gists = GraphGist.for_query(params[:query])
+
+    data = graph_gists.map do |graph_gist|
+      {
+        title: graph_gist.title,
+        description: graph_gist.author.name,
+        url: asset_path(id: graph_gist.id, model_slug: :graph_gists)
+      }
+    end
+
+    render text: {results: data}.to_json
+  end
+
   def preview2
     graph_gist = GraphGist.create_from_url(params[:url])
 

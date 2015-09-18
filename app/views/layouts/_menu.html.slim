@@ -1,8 +1,28 @@
-.ui.secondary.pointing.menu
+#menu.ui.secondary.pointing.menu
   - Asset.descendants.each do |model_class|
-    a.item = link_to model_class.name.pluralize.humanize, assets_path(model_slug: model_class.model_slug)
+    - path = assets_path(model_slug: model_class.model_slug)
+    = link_to model_class.name.pluralize.humanize, path, class: "item #{'active' if request.path.match(/^#{path}/)}"
 
   .right.menu
+    .ui.item
+      #graph-gist-search.ui.search
+        .ui.icon.input
+          input.prompt type="text" placeholder="Search for a GraphGist..."
+          i.search.icon
+        .results
+
+        coffee:
+          $.fn.api.settings.api =
+            'search graph_gists' : '/graph_gists/search?query={query}'
+
+          #$('#graph-gist-search').api action: 'search graph_gists'
+
+          $('#graph-gist-search').search
+            apiSettings:
+              action: 'search graph_gists'
+            debug: true
+            verbose: true
+
     .ui.item = link_to 'Submit GraphGist', graph_gists_submit_path
 
     .ui.item = link_to 'Groups', groups_path if @current_user_is_admin
