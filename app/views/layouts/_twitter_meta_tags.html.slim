@@ -9,8 +9,7 @@ meta name="twitter:domain" content="http://neo4j.org"
   - if @asset.title
     meta name="twitter:title" content="#{@asset.title}"
 
-  - if @asset.summary.present?
-    meta name="twitter:description" content="#{@asset.summary}"
+  meta name="twitter:description" content="#{@asset.summary}"
 
   meta name="twitter:card" content="#{(@asset.image ? 'summary_large_image' : 'summary')}"
 

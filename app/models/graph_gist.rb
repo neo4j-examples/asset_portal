@@ -6,7 +6,9 @@ class GraphGist < Asset
   property :url, type: String, constraint: :unique
 
   property :asciidoc, type: String
+  validates :asciidoc, presence: true
   property :html, type: String
+  validates :html, presence: true
 
   has_one :in, :author, type: :WROTE, model_class: :Person
 
